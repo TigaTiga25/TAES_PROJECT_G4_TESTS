@@ -48,15 +48,10 @@ class SkipLogin {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I open the browser")
-	def I_open_the_browser() {
-		WebUI.openBrowser('http://localhost:5173/')
-		println "Given->I have the browser open"
-	}
 
 
 	//Object Repository/Page_Vite App/button_Entrar_inline-flex items-center just_5a503c
-	@And("I click on the (.*) button")
+	@Then("I click on the (.*) button")
 	def I_click_on_the_button(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}

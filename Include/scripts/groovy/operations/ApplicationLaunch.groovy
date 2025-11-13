@@ -1,4 +1,4 @@
-package common
+package operations
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,27 +44,13 @@ import cucumber.api.java.en.When
 
 
 
-class Common {
+class ApplicationLaunch {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I open the browser")
-	def I_open_the_browser() {
-		WebUI.openBrowser('http://localhost:5173/')
-		println "Given->I have the browser open"
-	}
-
-	@When("I navigate to the URL (.*)")
-	def I_navigate_to_the_URL(String name) {
-		//WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-		WebUI.navigateToUrl(name)
-
-		println "When->I navigate to the URL" + name
-	}
-
-	@And("I close the browser")
-	def I_close_the_browser() {
-		WebUI.closeBrowser()
-		println "And -> I close the browser"
+	@Then("I should see the login page")
+	def I_should_see_the_login_page() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/LoginPage/Title'), 0)
+		println "Then -> I should see the login page"
 	}
 }

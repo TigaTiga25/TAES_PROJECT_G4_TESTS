@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Practice Game_deck-label text-white mt-1_1</name>
+   <tag></tag>
+   <elementGuidId>032fb801-951e-433a-85e9-17d4e04faaf8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.trump-field.flex.flex-col.items-center > span.deck-label.text-white.mt-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3c84c2a6-63fd-4161-affd-ae0643bf0260</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>deck-label text-white mt-1</value>
+      <webElementGuid>09feb90a-f659-46fc-bf86-fdfd69e748f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Trump</value>
+      <webElementGuid>0dcce5af-3db0-4e4c-8db4-636520486838</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4&quot;]/div[@class=&quot;table-row flex items-center justify-between w-full max-w-5xl mb-8&quot;]/div[@class=&quot;deck-area flex items-center&quot;]/div[@class=&quot;deck-and-trump flex items-end gap-4&quot;]/div[@class=&quot;trump-field flex flex-col items-center&quot;]/span[@class=&quot;deck-label text-white mt-1&quot;]</value>
+      <webElementGuid>3ba91d3b-67dc-47f7-b331-bfdf79d051da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div/div[2]/span</value>
+      <webElementGuid>fc37cd33-aae5-4a16-89ff-2f2eda9373aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Practice Game'])[1]/following::span[2]</value>
+      <webElementGuid>204e1dc6-ea59-4ffa-8fea-73823aa77ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restart game'])[1]/preceding::span[1]</value>
+      <webElementGuid>6eb41da0-113b-44e8-8a6e-052fc8be09ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quit game'])[1]/preceding::span[1]</value>
+      <webElementGuid>d57abfa9-4513-4354-ac74-cf319f5b3af9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Trump']/parent::*</value>
+      <webElementGuid>65452188-543d-470c-8fb7-f3be939473dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>e26e95cd-2f4c-4c70-b7f6-0fe3df09b471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Trump' or . = 'Trump')]</value>
+      <webElementGuid>0f48d97f-6bfd-410e-8908-bf2dd731cd7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
