@@ -48,10 +48,9 @@ class Common {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I have the browser open")
-	def I_have_the_browser_open() {
-		//WebUI.openBrowser('')
-		WebUI.openBrowser('')
+	@Given("I open the browser")
+	def I_open_the_browser() {
+		WebUI.openBrowser('http://localhost:5173/')
 		println "Given->I have the browser open"
 	}
 
