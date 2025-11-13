@@ -6,7 +6,7 @@ Feature: PlayACard
 
   @tag1
   Scenario: PlayACard
-    Given I have the browser open
+    Given I open the browser
     And I navigate to the URL http://localhost:5173/
     And I enter as an annonymous user
     And I start a practice game

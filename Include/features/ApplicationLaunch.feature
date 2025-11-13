@@ -6,7 +6,7 @@ Feature: ApplicationLaunch
 
   @tag1
   Scenario: ApplicationLaunch
-    Given I have the browser open
+    Given I open the browser
     When I navigate to the URL http://localhost:5173/
     Then I should see the login page
 		And I close the browser
