@@ -1,3 +1,5 @@
+TAES_PROJECT_G4_TESTS.prj
+
 .gradle
 
 bin
@@ -16,5 +18,3 @@ build
 .project
 
 .cache
-
-TAES_PROJECT_G4_TESTS.prj
