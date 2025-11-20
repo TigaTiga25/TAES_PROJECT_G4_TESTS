@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PLAYER (Test mode)_flex justify-around _b8c36a</name>
+   <tag></tag>
+   <elementGuidId>9d6f2e16-7da0-462f-83d0-f8a8a2e982f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.justify-around.bg-gray-100.p-4.rounded-md.text-gray-700</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f503b3d4-82bf-4dca-b45d-dc0ef30f1c67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex justify-around bg-gray-100 p-4 rounded-md text-gray-700</value>
+      <webElementGuid>38819653-2763-476f-9cee-b3430ed53a17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Player11Bot0</value>
+      <webElementGuid>1c7c1ee5-9436-4d64-8621-74c4bce7927a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;fixed inset-0 bg-green-700 bg-opacity-90 flex items-center justify-center z-50&quot;]/div[@class=&quot;bg-white p-8 rounded-lg shadow-2xl text-center w-full max-w-2xl animate-fade-in border-4 border-yellow-400&quot;]/div[@class=&quot;flex justify-around bg-gray-100 p-4 rounded-md text-gray-700&quot;]</value>
+      <webElementGuid>23b5bb2c-9c2b-4503-9c19-7938d1828b36</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div</value>
+      <webElementGuid>f08acae2-cc2c-4d9f-83e6-79fa449cf224</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PLAYER (Test mode)'])[1]/following::div[1]</value>
+      <webElementGuid>1f7ed0be-1139-4e34-8177-9b00d673fbe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GAME OVER'])[1]/following::div[1]</value>
+      <webElementGuid>81c5a9bd-fbc8-45b3-a257-24faf8d0f450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div</value>
+      <webElementGuid>35880310-c0e7-43b8-a4cc-b7ee4a18642d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Player11Bot0' or . = 'Player11Bot0')]</value>
+      <webElementGuid>f2f04ca7-dbd5-4f5f-94e2-8a8cb6a11a83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

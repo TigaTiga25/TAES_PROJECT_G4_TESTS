@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_PLAYER (Test mode)_text-3xl font-bold mb_c52630</name>
+   <tag></tag>
+   <elementGuidId>a72e10c8-4c44-4cb2-a4d2-c13f93c01813</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.text-3xl.font-bold.mb-4.text-gray-800</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>bd6aaac4-e235-48f3-af9d-1717201a20d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-3xl font-bold mb-4 text-gray-800</value>
+      <webElementGuid>c1be6ed5-40cc-4d61-b8c3-c61b2b72c9c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GAME OVER</value>
+      <webElementGuid>463efa43-69b9-40a9-8d7c-77228eb91923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;fixed inset-0 bg-green-700 bg-opacity-90 flex items-center justify-center z-50&quot;]/div[@class=&quot;bg-white p-8 rounded-lg shadow-2xl text-center w-full max-w-2xl animate-fade-in border-4 border-yellow-400&quot;]/h2[@class=&quot;text-3xl font-bold mb-4 text-gray-800&quot;]</value>
+      <webElementGuid>c25f775b-5445-4466-8526-3117027fcdb3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/h2</value>
+      <webElementGuid>54c9793f-538c-4eaa-adfe-3bce24384827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PLAYER (Test mode)'])[1]/preceding::h2[1]</value>
+      <webElementGuid>49f75d5b-2791-4309-b974-ee804fcbde95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player'])[1]/preceding::h2[1]</value>
+      <webElementGuid>6beca9ed-8697-4b83-bd08-5edf4a54864a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GAME OVER']/parent::*</value>
+      <webElementGuid>29da83d7-aad1-4f32-b790-12c48111947c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>0c67f130-b854-404d-9616-c41d0cbdadeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'GAME OVER' or . = 'GAME OVER')]</value>
+      <webElementGuid>1b1df1b9-8902-403d-a500-2219d7cd6ed9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
