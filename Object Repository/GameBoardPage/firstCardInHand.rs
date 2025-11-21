@@ -3,15 +3,15 @@
    <description></description>
    <name>firstCardInHand</name>
    <tag></tag>
-   <elementGuidId>2a021605-b423-4889-bd91-a5eda630e0e8</elementGuidId>
+   <elementGuidId>5175b44c-8368-42c6-ab58-daddfa583863</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='app']/div/div[4]/div/div/div/img)[1]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>div.card-container > div.card > img.card-img</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//div[@id='app']/div/div[3]/div/div/div/img)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>8b0e9a3d-02c3-4f4f-94b2-60d40beaec45</webElementGuid>
+      <webElementGuid>d1d8e19a-c9c5-4954-9d47-75e460c19cf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/src/assets/cards/c7.png</value>
-      <webElementGuid>61d099b7-0eec-45ec-a174-fd882ce79429</webElementGuid>
+      <webElementGuid>b8dfb9a1-6a3c-4556-862a-aad7da6386c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>carta</value>
-      <webElementGuid>b71d3f3c-e7e6-47dd-b03b-438a155e9c67</webElementGuid>
+      <webElementGuid>f1edcb23-e1e3-4a31-a949-63fe9af6d527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-img</value>
-      <webElementGuid>2365c36c-4e19-4fbc-8872-6dd8f21a100c</webElementGuid>
+      <webElementGuid>55bcbc00-cd28-44e0-8756-7a959887841e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4&quot;]/div[@class=&quot;player-hand flex justify-center mb-8&quot;]/div[@class=&quot;player-hand w-28 h-40&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card&quot;]/img[@class=&quot;card-img&quot;]</value>
-      <webElementGuid>bc529fcb-fad2-4afe-bd47-fbcb9c54a112</webElementGuid>
+      <webElementGuid>6977b53f-6442-4b27-8189-34fc6cd51731</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div/div/div/img</value>
-      <webElementGuid>b447e6ea-2536-4616-a2cd-e491268415eb</webElementGuid>
+      <webElementGuid>19273266-1e68-4c2b-a9d9-aa4067bac230</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>(//img[@alt='carta'])[12]</value>
-      <webElementGuid>c194abb5-c290-41ad-b3fa-3705bbe5c6eb</webElementGuid>
+      <webElementGuid>c508f125-daa6-495a-a884-e28685656bee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/img</value>
-      <webElementGuid>89863851-ef7c-4a85-8efb-57f88c810f0b</webElementGuid>
+      <webElementGuid>aeeae45e-03f8-4dc3-a51a-0fdc921df931</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/src/assets/cards/c7.png' and @alt = 'carta']</value>
-      <webElementGuid>1048ff45-6122-40fe-b5c2-d827960bb0d5</webElementGuid>
+      <webElementGuid>6017b375-b008-4ac3-a98d-60fa37ba4cbc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,15 +3,15 @@
    <description></description>
    <name>playerCardInBoard</name>
    <tag></tag>
-   <elementGuidId>f0767a71-9f67-4b95-8203-d64a0dc1f184</elementGuidId>
+   <elementGuidId>4ecaec04-1563-4b8a-b54b-4bad08971e02</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/img</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>div.played.player > div.card.w-28.h-40 > img.card-img</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

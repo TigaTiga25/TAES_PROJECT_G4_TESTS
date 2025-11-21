@@ -51,12 +51,13 @@ class PlayACard {
 
 	@And("I start a practice game")
 	def I_start_a_practice_game() {
-		WebUI.click(findTestObject('Object Repository/HomePage/StartMatchButton'))
-		println "And->I start a game"
+		WebUI.click(findTestObject('Object Repository/HomePage/practiceMatchButton'))
+		println "And->I start a practice game"
 	}
 
 	@When("I play a card on my turn")
 	def I_play_a_card_on_my_turn() {
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/GameBoardPage/firstCardInHand'))
 		println "When->I play a card on my turn"
 	}
