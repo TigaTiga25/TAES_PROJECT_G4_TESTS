@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>noMatchesText</name>
+   <tag></tag>
+   <elementGuidId>608cc373-7c64-4715-aa51-f82b5e4f223f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mt-10.text-center.text-lg.text-gray-500</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;No matches found.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3c8f0c98-5bcd-4a96-9c6a-07ca821c6333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-10 text-center text-lg text-gray-500</value>
+      <webElementGuid>8168c928-4200-4c16-ac88-1b2b71bdac09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No matches found. </value>
+      <webElementGuid>999997f4-43b3-43d1-b715-4b459ad9a26a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/div[@class=&quot;flex flex-col justify-center items-center gap-5 mt-10 p-4&quot;]/div[@class=&quot;mt-10 text-center text-lg text-gray-500&quot;]</value>
+      <webElementGuid>ddeef542-5c96-4647-b8c5-c7115b57d9f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div</value>
+      <webElementGuid>4ce8a561-d30b-4fe7-ba27-191978cb6573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Game History'])[1]/following::div[1]</value>
+      <webElementGuid>192a6f4a-57f5-4aa4-87cd-4180ec9dc8c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rafael Afonso Vaz'])[1]/following::div[3]</value>
+      <webElementGuid>1370c76c-0f51-4417-9c5b-dec730296483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No matches found.']/parent::*</value>
+      <webElementGuid>20768af6-0b2c-44b1-a78e-dfd625a47b6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>9e7d6aa1-d280-452b-865a-11dbcc8b628b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' No matches found. ' or . = ' No matches found. ')]</value>
+      <webElementGuid>cda72b47-fee3-42d3-8457-fdd096d31abe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
