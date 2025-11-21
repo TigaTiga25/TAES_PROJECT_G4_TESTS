@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout</name>
+   <name>test</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>999ffa1c-4ddc-4c03-bdc6-d7c01e9869fd</testCaseGuid>
+   <testCaseGuid>96951820-6851-433b-987c-ced4a7012233</testCaseGuid>
 </TestCaseEntity>

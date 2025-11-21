@@ -55,7 +55,7 @@ class GameHistory {
 		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
 		println "And -> I enter as an user with no matches"
 	}
-	
+
 	@And("I enter as an user with matches")
 	def I_enter_as_an_user_with_matches() {
 		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'pa@mail.pt')
@@ -75,13 +75,13 @@ class GameHistory {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/loggedOutText'), 0)
 		println "Then -> I shouldn't see any history while logged out"
 	}
-	
+
 	@Then("I shouldn't see any games")
 	def I_shouldnt_see_any_games() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/noMatchesText'), 0)
 		println "Then -> I shouldn't see any games"
 	}
-	
+
 	@Then("I should see all my games")
 	def I_should_see_all_my_games() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/matchCards'), 0)

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>main_Orus_flex-grow flex flex-col items-cen_f97da7</name>
+   <tag></tag>
+   <elementGuidId>5aff0d0c-ab4a-4dd0-8ade-4e575e48c4f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main.flex-grow.flex.flex-col.items-center.justify-start.px-4.py-16.text-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>main</value>
+      <webElementGuid>f87ba1f5-e8e6-4055-a421-e02bcd12589e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-grow flex flex-col items-center justify-start px-4 py-16 text-center</value>
+      <webElementGuid>78f085f7-e4b5-41f2-87ed-faf7425db3ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> The Bisca Start a new match and test your skills!New MatchPractice GameUnfinished Matches No unfinished matches. </value>
+      <webElementGuid>a4f5d48e-a206-47a8-ab6a-268801cfe161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/main[@class=&quot;flex-grow flex flex-col items-center justify-start px-4 py-16 text-center&quot;]</value>
+      <webElementGuid>27cea9be-0a20-4bee-8bc6-60ef53031a43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main</value>
+      <webElementGuid>b46b538f-4b56-4f1f-a6fb-2a26494d0665</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orus'])[1]/following::main[1]</value>
+      <webElementGuid>e6e82752-8dab-44b4-9c30-ff22e9783613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main</value>
+      <webElementGuid>339115b4-e4cc-4ad0-8b14-ddd89760db0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//main[(text() = ' The Bisca Start a new match and test your skills!New MatchPractice GameUnfinished Matches No unfinished matches. ' or . = ' The Bisca Start a new match and test your skills!New MatchPractice GameUnfinished Matches No unfinished matches. ')]</value>
+      <webElementGuid>107cfd81-1ce0-428f-ba7c-08c85f2efd00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

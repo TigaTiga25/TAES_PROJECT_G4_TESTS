@@ -59,7 +59,7 @@ class Common {
 		WebUI.click(findTestObject('Object Repository/LoginPage/AnonymousButton'))
 		println "And->I enter as an annonymous user"
 	}
-	
+
 	@And("I start a practice game")
 	def I_start_a_practice_game() {
 		WebUI.click(findTestObject('Object Repository/HomePage/practiceMatchButton'))
@@ -79,14 +79,8 @@ class Common {
 		WebUI.closeBrowser()
 		println "And -> I close the browser"
 	}
-	@And("I insert (.*) in the password field")
-	def I_insert_in_the_password_field(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/'+string))
-	}
-	@When("I insert (.*) in the email field")
-	def I_insert_in_the_email_field(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/'+string))
-	}
+	
+
 	@Then("I click on the (.*) button to login")
 	def I_click_on_the_button_to_login(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))

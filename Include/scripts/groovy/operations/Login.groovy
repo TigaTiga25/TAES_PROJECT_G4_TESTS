@@ -48,4 +48,10 @@ class Login {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
+	@When("I insert (.*) in the email field")
+	def I_insert_in_the_email_field(String string) {
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'teste@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '12345678')
+	}
+	
 }

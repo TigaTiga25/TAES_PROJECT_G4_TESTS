@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c09e7105-9c3c-4f3b-a829-d6721a8ee8c9</webElementGuid>
+      <webElementGuid>b8869a36-6b0a-4a66-be66-e777b2b9276f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-trigger</value>
-      <webElementGuid>2a65a752-7357-44b3-8d85-d06673286c1a</webElementGuid>
+      <webElementGuid>015c31fc-0f87-4f90-9d30-4573e11ade72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>focus:outline-none flex items-center gap-3 group</value>
-      <webElementGuid>b8807765-eb35-4671-8e2b-8fc61ff19181</webElementGuid>
+      <webElementGuid>479b33d5-2c03-4a5b-832d-fa14da0f31c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>reka-dropdown-menu-trigger-v-4</value>
-      <webElementGuid>031902cd-eb7a-44a6-8e79-3e533fae41f8</webElementGuid>
+      <webElementGuid>f636ebfc-a992-4997-91d2-bde2d24b4fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c3bca8b2-6d66-4f5f-bdfa-d587b59e2308</webElementGuid>
+      <webElementGuid>c8035a8a-2fcf-4907-97b4-ef14af3b4548</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>menu</value>
-      <webElementGuid>50075d8c-7ddc-421e-9311-d81286231305</webElementGuid>
+      <webElementGuid>dd1c7358-c4ba-412b-bd56-122c31623444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>65d8798d-6c38-45c9-8076-99cfa739f7a2</webElementGuid>
+      <webElementGuid>f48c3811-9752-440f-8fe1-4e86c15f26b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,15 +79,15 @@
       <name>data-state</name>
       <type>Main</type>
       <value>closed</value>
-      <webElementGuid>055e1727-660b-4c8b-864c-eab0d71bb9db</webElementGuid>
+      <webElementGuid>3321912f-d197-4f04-8a5f-84eb4431183b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>user1</value>
-      <webElementGuid>7053f4f5-1367-4e20-a1f8-a6f9c759789f</webElementGuid>
+      <value>Orus</value>
+      <webElementGuid>6fc55ddc-2311-407e-81f9-2ad9c203670b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reka-dropdown-menu-trigger-v-4&quot;)</value>
-      <webElementGuid>e06b8a8a-f8c1-42fc-954b-1031c474ac76</webElementGuid>
+      <webElementGuid>06512967-bd68-45e0-8017-0acf02638709</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='reka-dropdown-menu-trigger-v-4']</value>
-      <webElementGuid>55ad0fe5-11b1-4c77-a50d-6c3f6f7d6a31</webElementGuid>
+      <webElementGuid>0883ef82-ab06-41aa-9cc9-e7cc179276a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/nav/div/div[2]/button</value>
-      <webElementGuid>7b8b9c41-e236-468c-aeb3-c60c2ec306b3</webElementGuid>
+      <webElementGuid>cd99f798-5732-475e-8c53-18d60869054e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Scoreboards'])[1]/following::button[1]</value>
-      <webElementGuid>f87d7637-e5eb-45f6-844b-679d8c8c89ef</webElementGuid>
+      <webElementGuid>d4107253-5e02-437e-9afb-86eec3f700fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Bisca'])[1]/preceding::button[1]</value>
+      <webElementGuid>f3c8029c-0d6d-42ee-8d06-bbdba472edab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +135,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>6961404d-ce91-425e-a17f-2611be8d5495</webElementGuid>
+      <webElementGuid>332eadc7-0c73-4ee4-94a7-ca9ca61c8812</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'reka-dropdown-menu-trigger-v-4' and @type = 'button' and (text() = 'Orus' or . = 'Orus')]</value>
+      <webElementGuid>4969dc57-5b29-42ad-a9db-1720bdaaae4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

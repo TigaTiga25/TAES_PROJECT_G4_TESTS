@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_BISCA_max-w-6xl mx-auto px-4 py-3 flex _10a935</name>
+   <tag></tag>
+   <elementGuidId>be01899b-87cd-4c3d-bf5f-e914f8daf91c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/nav/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.max-w-6xl.mx-auto.px-4.py-3.flex.items-center.justify-between</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c910194d-51cb-40c7-b608-7e691b200fa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>max-w-6xl mx-auto px-4 py-3 flex items-center justify-between</value>
+      <webElementGuid>5795f28a-3db1-4374-81ac-0a22e28f4af2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BISCASingle PlayerCustomizaçõesHistóricoScoreboards 🪙 0Orus</value>
+      <webElementGuid>b440ee76-5845-423a-a987-0d4f92442263</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/nav[@class=&quot;border-b bg-white/90 backdrop-blur-sm sticky top-0 z-50&quot;]/div[@class=&quot;max-w-6xl mx-auto px-4 py-3 flex items-center justify-between&quot;]</value>
+      <webElementGuid>074abbe4-c8bf-4afc-b317-bb1b980e8a6c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/nav/div</value>
+      <webElementGuid>f8a4a758-7ce3-47c9-8cea-58af8b5111ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div</value>
+      <webElementGuid>04c9c3ab-b98d-4b5b-9f6a-360fc772014b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'BISCASingle PlayerCustomizaçõesHistóricoScoreboards 🪙 0Orus' or . = 'BISCASingle PlayerCustomizaçõesHistóricoScoreboards 🪙 0Orus')]</value>
+      <webElementGuid>65f420e0-86ff-4d19-82d2-d3a757c07aa8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

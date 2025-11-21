@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'user1@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'teste@mail.pt')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/div_user1_flex flex-row justify-center item_bc848b'))
+WebUI.click(findTestObject('Object Repository/Page_Vite App/img_Orus_aspect-square size-full'))
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Customizaes (Decks e Avatares)_bg-re_3fd3bd'))
+WebUI.click(findTestObject('Object Repository/Page_Vite App/div_Perfil_focusbg-accent data-variantdestr_03e255'))
 

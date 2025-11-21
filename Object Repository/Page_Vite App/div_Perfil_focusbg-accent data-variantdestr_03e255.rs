@@ -6,12 +6,12 @@
    <elementGuidId>46d00f8f-8070-4f4a-94da-ffabb120d487</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='reka-dropdown-menu-content-v-5']/div[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='reka-dropdown-menu-content-v-5']/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3131abac-4dcb-4747-a4a8-519511f83aca</webElementGuid>
+      <webElementGuid>ce0c664d-9ac1-44dc-a5d5-381c483b024a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>96f5fd0f-0582-441d-a58d-a8d3c6890907</webElementGuid>
+      <webElementGuid>2ad3cf8c-eaa9-49d0-9673-a8990e7e10d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>16ed0f43-9929-4eba-993b-7bc75964c66b</webElementGuid>
+      <webElementGuid>3e67edf0-203f-46a6-876f-53b227217d52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-item</value>
-      <webElementGuid>e1c6c623-c3e4-4ef5-b1f7-0508592204f9</webElementGuid>
+      <webElementGuid>59aff924-3dd7-4319-a014-e5102cc17498</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>836aa582-3757-437b-9069-f4b4c21910cc</webElementGuid>
+      <webElementGuid>bdf0112f-bf51-4dc3-9740-38ed9c02892a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>class</name>
       <type>Main</type>
       <value>focus:bg-accent data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 cursor-pointer text-red-600 focus:text-red-600</value>
-      <webElementGuid>219c308c-6d86-4363-873b-1408b3ac1045</webElementGuid>
+      <webElementGuid>f94cf3b7-6650-422d-a795-b190a77cce91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value> 🚪 Logout </value>
-      <webElementGuid>a6528c30-9829-4777-8f03-12e90fd41cce</webElementGuid>
+      <webElementGuid>8e04dfa3-a057-41b3-bad1-9021ed71d282</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reka-dropdown-menu-content-v-5&quot;)/div[@class=&quot;focus:bg-accent data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 cursor-pointer text-red-600 focus:text-red-600&quot;]</value>
-      <webElementGuid>5598df47-4691-46ff-9496-3e3ab15e1c16</webElementGuid>
+      <webElementGuid>6028b5ad-ac69-4037-8da7-1f20515af2bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,39 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='reka-dropdown-menu-content-v-5']/div[3]</value>
-      <webElementGuid>610a2d9b-a510-4546-a3c9-a2e1bf865c66</webElementGuid>
+      <webElementGuid>408741c0-ebe1-4cc0-8995-fa1f8ef3262c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No unfinished matches.'])[1]/following::div[23]</value>
+      <webElementGuid>9a4a939d-c4dd-4cd0-a590-3be2082ec19a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='🚪 Logout']/parent::*</value>
+      <webElementGuid>0702b5e7-daf0-4a03-a7e3-d35db72dcbe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[3]</value>
+      <webElementGuid>b3121b53-bcb0-4edb-929a-9827dbbe6cc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 🚪 Logout ' or . = ' 🚪 Logout ')]</value>
+      <webElementGuid>f7b97b30-1560-4070-a7df-0e1bfba5ea4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,29 +128,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sair (Logout)'])[1]/following::div[23]</value>
       <webElementGuid>0a0ba8be-d81b-462a-9a10-f13508c95f7f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='🚪 Logout']/parent::*</value>
-      <webElementGuid>126862bb-0d71-48ce-851e-efe17cd788c5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/div[3]</value>
-      <webElementGuid>bd674ffd-2d0c-47b1-ba2f-ab0e6f115750</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = ' 🚪 Logout ' or . = ' 🚪 Logout ')]</value>
-      <webElementGuid>cf348b78-3097-45b5-89df-abd143ab2589</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

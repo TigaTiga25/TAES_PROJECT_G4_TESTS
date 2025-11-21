@@ -48,12 +48,13 @@ class Logout {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I see the dashboard")
-	def I_see_the_bot_nine_cards() {
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/div_user1_flex flex-row justify-center item_bc848b'))
+	@When("I insert (.*) on the email field")
+	def I_insert_on_the_email_field(String string) {
+		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'teste@mail.pt')
 	}
-	@And("I click on the (.*) button to logout")
-	def I_click_on_the_button_to_logout(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@And("I insert (.*) in the pass field")
+	def I_insert_in_the_pass_field(String string) {
+		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), '12345678')
 	}
+
 }

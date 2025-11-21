@@ -21,14 +21,12 @@ Feature: Logout
   I want to use this template for my feature file
 
   @tag1
-  Scenario Outline: Logout
+  Scenario: Logout
     Given I open the browser
     And I navigate to the URL http://localhost:5173/
-    When I insert input_Email_loginId in the email field
-    And I insert input_Password_password in the password field
-    Then I click on the button_Password_inline-flex items-center ju_b44d9a button to login
-    And I see the dashboard
-   	And I click on the button_Customizaes (Decks e Avatares)_bg-re_3fd3bd button to logout
-   
+    When I insert teste@mail.pt on the email field
+   	And I insert input_Password_password in the pass field
+    Then I click on the button_Password_inline-flex items-center ju_559f66 button to login
+  
 
    
