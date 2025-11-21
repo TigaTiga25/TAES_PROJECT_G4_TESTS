@@ -59,6 +59,12 @@ class Common {
 		WebUI.click(findTestObject('Object Repository/LoginPage/AnonymousButton'))
 		println "And->I enter as an annonymous user"
 	}
+	
+	@And("I start a practice game")
+	def I_start_a_practice_game() {
+		WebUI.click(findTestObject('Object Repository/HomePage/practiceMatchButton'))
+		println "And->I start a practice game"
+	}
 
 	@When("I navigate to the URL (.*)")
 	def I_navigate_to_the_URL(String name) {
