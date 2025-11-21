@@ -1,4 +1,4 @@
-package common
+package operations
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,45 +44,47 @@ import cucumber.api.java.en.When
 
 
 
-class Common {
+class GameHistory {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I open the browser")
-	def I_open_the_browser() {
-		WebUI.openBrowser('http://localhost:5173/')
-		println "Given->I have the browser open"
+	@And("I enter as an user with no matches")
+	def I_enter_as_an_user_with_no_matches() {
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'rafael.vaz@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
+		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
+		println "And -> I enter as an user with no matches"
+	}
+	
+	@And("I enter as an user with matches")
+	def I_enter_as_an_user_with_matches() {
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'pa@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
+		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
+		println "And -> I enter as an user with no matches"
 	}
 
-	@And("I enter as an annonymous user")
-	def I_enter_as_an_anonymous_user() {
-		WebUI.click(findTestObject('Object Repository/LoginPage/AnonymousButton'))
-		println "And->I enter as an annonymous user"
+	@When("I check my game history")
+	def I_check_my_game_history() {
+		WebUI.click(findTestObject('Object Repository/HomePage/historyNav'))
+		println "When -> I check my game history"
 	}
 
-	@When("I navigate to the URL (.*)")
-	def I_navigate_to_the_URL(String name) {
-		//WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-		WebUI.navigateToUrl(name)
-
-		println "When->I navigate to the URL" + name
+	@Then("I shouldn't see any history while logged out")
+	def I_shouldnt_see_any_history_while_logged_out() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/loggedOutText'), 0)
+		println "Then -> I shouldn't see any history while logged out"
 	}
-
-	@And("I close the browser")
-	def I_close_the_browser() {
-		WebUI.closeBrowser()
-		println "And -> I close the browser"
+	
+	@Then("I shouldn't see any games")
+	def I_shouldnt_see_any_games() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/noMatchesText'), 0)
+		println "Then -> I shouldn't see any games"
 	}
-	@And("I insert (.*) in the password field")
-	def I_insert_in_the_password_field(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/'+string))
-	}
-	@When("I insert (.*) in the email field")
-	def I_insert_in_the_email_field(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/'+string))
-	}
-	@Then("I click on the (.*) button to login")
-	def I_click_on_the_button_to_login(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	
+	@Then("I should see all my games")
+	def I_should_see_all_my_games() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/matchCards'), 0)
+		println "Then -> I should see all my games"
 	}
 }

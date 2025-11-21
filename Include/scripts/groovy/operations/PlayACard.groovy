@@ -48,11 +48,6 @@ class PlayACard {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I enter as an annonymous user")
-	def I_enter_as_an_anonymous_user() {
-		WebUI.click(findTestObject('Object Repository/LoginPage/AnonymousButton'))
-		println "And->I enter as an annonymous user"
-	}
 
 	@And("I start a practice game")
 	def I_start_a_practice_game() {

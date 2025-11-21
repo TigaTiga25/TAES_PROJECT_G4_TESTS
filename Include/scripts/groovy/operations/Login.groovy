@@ -48,5 +48,4 @@ class Login {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-
 }
