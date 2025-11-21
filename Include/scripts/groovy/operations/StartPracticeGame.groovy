@@ -52,12 +52,12 @@ class StartPracticeGame {
 	def I_click_on_the_button_to_enter_as_a_annonymous_user(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
-	
+
 	@When("I click on the (.*) button to start a game")
 	def I_click_on_the_button_to_start_a_game(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
-	
+
 	@Then("I see the bot nine cards")
 	def I_see_the_bot_nine_cards() {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img'))
@@ -69,9 +69,8 @@ class StartPracticeGame {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_6'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_7'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_8'))
-		
 	}
-	
+
 	@And("I see my nine cards")
 	def I_see_my_nine_cards() {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img'))
@@ -83,19 +82,17 @@ class StartPracticeGame {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_6'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_7'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_8'))
-		
 	}
-	
+
 	@And("I see the face down deck")
 	def I_see_the_face_down_deck(){
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_9'))
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/span_Practice Game_deck-label text-white mt-1'),'21 cards left')
 	}
-	
+
 	@And("I see the face up trump")
 	def I_see_the_face_up_trump(){
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_10'))
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/span_Practice Game_deck-label text-white mt-1_1'), 'Trump')
 	}
-
 }

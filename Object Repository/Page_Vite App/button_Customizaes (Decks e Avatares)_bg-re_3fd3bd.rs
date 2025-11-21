@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Customizaes (Decks e Avatares)_bg-re_3fd3bd</name>
+   <tag></tag>
+   <elementGuidId>1b8e8f4e-3031-4dae-9454-e30236e4f264</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div[2]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7fa36077-a6c2-469f-b0a7-887a88a30f90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded</value>
+      <webElementGuid>ee10e383-9dad-4479-a9d6-f47486ed846d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Sair (Logout) </value>
+      <webElementGuid>6c4b7992-38e4-4ff8-86a2-f5f1e3b35225</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;flex flex-row justify-center items-stretch gap-5 mt-10 p-4&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-md&quot;]/div[@class=&quot;px-6 space-y-4&quot;]/div[@class=&quot;grid grid-cols-2 gap-4&quot;]/div[@class=&quot;col-span-2 flex justify-center&quot;]/button[@class=&quot;bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded&quot;]</value>
+      <webElementGuid>5f4bf604-2df9-4673-a3cf-95fbd01f998d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/div[2]/div/button</value>
+      <webElementGuid>ad9c1058-2f32-46c5-a38d-86131ca5a343</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sair (Logout)']/parent::*</value>
+      <webElementGuid>6069838d-4db8-401b-97d0-3e881728947f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/button</value>
+      <webElementGuid>08c312a9-c9ea-4729-ae19-502c41a5cecf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Sair (Logout) ' or . = ' Sair (Logout) ')]</value>
+      <webElementGuid>2efd5a29-f5a2-4dbe-8c98-72c7f780e418</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

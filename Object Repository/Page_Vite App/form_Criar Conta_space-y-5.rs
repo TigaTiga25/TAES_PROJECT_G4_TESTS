@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Criar Conta_space-y-5</name>
+   <tag></tag>
+   <elementGuidId>f9e6dd35-2433-47e7-8298-a764b6b49a74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.space-y-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>aefedfb6-068e-4ed5-a839-8439eb7322b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>space-y-5</value>
+      <webElementGuid>5264e9b2-40e0-4624-9bb7-4533cfa108af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Email  Nickname  Password  Criar Conta </value>
+      <webElementGuid>f0934ab5-e409-4d51-9e12-25c8d0509b44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-100 flex items-center justify-center p-4&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 rounded-xl py-6 w-full max-w-md shadow-lg border border-slate-200&quot;]/div[@class=&quot;px-6 space-y-5&quot;]/form[@class=&quot;space-y-5&quot;]</value>
+      <webElementGuid>0b691350-d796-4823-9d73-177c07aae2dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/form</value>
+      <webElementGuid>e280dd4e-5255-48f5-9b01-8d476a93fec8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>441e3822-1691-45d5-a261-88a1d27cec49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = ' Email  Nickname  Password  Criar Conta ' or . = ' Email  Nickname  Password  Criar Conta ')]</value>
+      <webElementGuid>b4c49c6a-2db3-4c07-a7df-18e0932295d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -21,7 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Vite App/button_Entrar_inline-flex items-center just_5a503c'))
+WebUI.openBrowser('')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Vite App/button_Entrar_inline-flex items-center just_5a503c'))
+WebUI.navigateToUrl('http://localhost:5173/')
+
+WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Entrar_inline-flex items-center just_5a503c'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_filetext-foreground placeholder_5402ca'), 'user1@gmail.com')
+
+WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Nickname_filetext-foreground placehol_cc48e9'), 'user1')
+
+WebUI.click(findTestObject('Object Repository/Page_Vite App/form_Criar Conta_space-y-5'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_filetext-foreground placehol_5a2319'), 
+    'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_b44d9a'))
 

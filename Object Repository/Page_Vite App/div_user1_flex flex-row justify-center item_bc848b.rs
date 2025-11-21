@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_user1_flex flex-row justify-center item_bc848b</name>
+   <tag></tag>
+   <elementGuidId>b29c2b9a-1526-4237-8e92-a17eeee77e64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-row.justify-center.items-stretch.gap-5.mt-10.p-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cd3db533-42d1-48ab-bb56-a0f8fa1e4873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-row justify-center items-stretch gap-5 mt-10 p-4</value>
+      <webElementGuid>37785766-3161-4c1f-bfaf-373a9b4b069c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Jogo de Bisca (TAES)  Joga contra o Bot, vê o teu histórico e personaliza o teu jogo.  Começar Nova Partida (vs. Bot)  Histórico de Partidas  Scoreboards  Customizações (Decks e Avatares)  Sair (Logout) </value>
+      <webElementGuid>46f7340e-f8bc-4bd0-8408-267a61d87e93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;flex flex-row justify-center items-stretch gap-5 mt-10 p-4&quot;]</value>
+      <webElementGuid>eac5340c-dd53-40cc-aa78-5e1b9285ae22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div</value>
+      <webElementGuid>d76c85d3-f854-4b6c-9f11-894f95d8c952</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='user1'])[1]/following::div[1]</value>
+      <webElementGuid>5de7913d-1cb2-46ac-b2a7-9eeda9d1f7b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/div/div</value>
+      <webElementGuid>f5121934-65fe-479e-bd2d-912f36111f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Jogo de Bisca (TAES)  Joga contra o Bot, vê o teu histórico e personaliza o teu jogo.  Começar Nova Partida (vs. Bot)  Histórico de Partidas  Scoreboards  Customizações (Decks e Avatares)  Sair (Logout) ' or . = ' Jogo de Bisca (TAES)  Joga contra o Bot, vê o teu histórico e personaliza o teu jogo.  Começar Nova Partida (vs. Bot)  Histórico de Partidas  Scoreboards  Customizações (Decks e Avatares)  Sair (Logout) ')]</value>
+      <webElementGuid>ad9b615c-6da9-4d71-a323-932c3e803b1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

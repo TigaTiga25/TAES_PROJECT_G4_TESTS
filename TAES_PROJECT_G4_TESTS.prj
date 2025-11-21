@@ -6,12 +6,12 @@
    <UUID>7bf193db-d336-4628-a7de-99c968abdb2d</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.4.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.4.1</modifiedVersion>
+   <modifiedVersion>10.3.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Tiago Neto\Desktop\TAES-2025\Projeto\NEW-TESTES\TAES_PROJECT_G4_TESTS\TAES_PROJECT_G4_TESTS.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\fatim\Desktop\TAES\TAES_PROJECT_G4_TESTS\TAES_PROJECT_G4_TESTS.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
