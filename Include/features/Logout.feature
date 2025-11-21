@@ -24,9 +24,11 @@ Feature: Logout
   Scenario: Logout
     Given I open the browser
     And I navigate to the URL http://localhost:5173/
-    When I insert teste@mail.pt on the email field
-   	And I insert input_Password_password in the pass field
-    Then I click on the button_Password_inline-flex items-center ju_559f66 button to login
+    And I insert pa@mail.pt on the email field
+   	And I insert 123 in the pass field
+    And I click on the button_Password_inline-flex items-center ju_559f66 button to login
+    When I click on the img_Player A_aspect-square size-full button to login
+    Then I click on the div_Perfil_focusbg-accent data-variantdestr_03e255 button to login
   
 
    

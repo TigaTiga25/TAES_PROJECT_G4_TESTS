@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Player A_aspect-square size-full</name>
+   <tag></tag>
+   <elementGuidId>254b2f67-105c-470f-95a0-159024dc8df8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.aspect-square.size-full</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='reka-dropdown-menu-trigger-v-4']/span[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Player A&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>979c1c4e-9556-4b03-8bac-2ea5f26ff7bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>5c51ec4b-26b8-4aef-b180-004d6cf09df8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://api.dicebear.com/7.x/avataaars/svg?seed=Player A</value>
+      <webElementGuid>94b7b1a6-2630-4fc3-af0d-04b5c51b7280</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>avatar-image</value>
+      <webElementGuid>6bcb9dee-a599-413d-8446-891062bb8adb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>aspect-square size-full</value>
+      <webElementGuid>e0cbf08a-1a53-40ea-ac93-ea1855f0ba8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;reka-dropdown-menu-trigger-v-4&quot;)/span[@class=&quot;relative flex size-8 shrink-0 overflow-hidden rounded-full cursor-pointer bg-slate-100 group-hover:ring-2 group-hover:ring-slate-200 transition&quot;]/img[@class=&quot;aspect-square size-full&quot;]</value>
+      <webElementGuid>f20c8d76-9ddb-462d-a8cb-cf25f24cb232</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='reka-dropdown-menu-trigger-v-4']/span[2]/img</value>
+      <webElementGuid>9c08c11b-c31e-44a8-b1ac-e47063211c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>bcfe014d-298e-4bfe-9419-ffe579483b91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://api.dicebear.com/7.x/avataaars/svg?seed=Player A']</value>
+      <webElementGuid>d22b16e7-3139-4e61-ae19-4773279bf0b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

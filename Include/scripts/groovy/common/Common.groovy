@@ -79,7 +79,7 @@ class Common {
 		WebUI.closeBrowser()
 		println "And -> I close the browser"
 	}
-	
+
 
 	@Then("I click on the (.*) button to login")
 	def I_click_on_the_button_to_login(String string) {

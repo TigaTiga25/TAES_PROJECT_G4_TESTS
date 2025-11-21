@@ -53,5 +53,4 @@ class Login {
 		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'teste@mail.pt')
 		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '12345678')
 	}
-	
 }

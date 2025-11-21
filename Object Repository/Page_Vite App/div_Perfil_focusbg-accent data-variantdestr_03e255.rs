@@ -15,6 +15,12 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=menuitem[name=&quot;🚪 Logout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ce0c664d-9ac1-44dc-a5d5-381c483b024a</webElementGuid>
+      <webElementGuid>8a5660e9-b012-413a-b877-7157bc9f88f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>2ad3cf8c-eaa9-49d0-9673-a8990e7e10d8</webElementGuid>
+      <webElementGuid>de5a4772-2196-4560-818e-8ae285c24bf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +45,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>3e67edf0-203f-46a6-876f-53b227217d52</webElementGuid>
+      <webElementGuid>58388c5d-f141-43ac-9e75-8174a1c7602d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +53,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-item</value>
-      <webElementGuid>59aff924-3dd7-4319-a014-e5102cc17498</webElementGuid>
+      <webElementGuid>1680136d-90cf-4886-9c2f-e8a467ae9d2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +61,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>bdf0112f-bf51-4dc3-9740-38ed9c02892a</webElementGuid>
+      <webElementGuid>d71aef4d-7279-452d-97a1-e2bd137bf411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>focus:bg-accent data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 cursor-pointer text-red-600 focus:text-red-600</value>
-      <webElementGuid>f94cf3b7-6650-422d-a795-b190a77cce91</webElementGuid>
+      <webElementGuid>eb375bb6-9289-4491-bce3-67218b41268b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +77,7 @@
       <name>text</name>
       <type>Main</type>
       <value> 🚪 Logout </value>
-      <webElementGuid>8e04dfa3-a057-41b3-bad1-9021ed71d282</webElementGuid>
+      <webElementGuid>69fe49ee-3ea0-44ab-9e42-d8ecb7030861</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reka-dropdown-menu-content-v-5&quot;)/div[@class=&quot;focus:bg-accent data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 cursor-pointer text-red-600 focus:text-red-600&quot;]</value>
-      <webElementGuid>6028b5ad-ac69-4037-8da7-1f20515af2bb</webElementGuid>
+      <webElementGuid>5b140c5a-9a13-4e5f-b9a5-1100c365f78c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +93,39 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='reka-dropdown-menu-content-v-5']/div[3]</value>
-      <webElementGuid>408741c0-ebe1-4cc0-8995-fa1f8ef3262c</webElementGuid>
+      <webElementGuid>81a56ee7-1a61-465d-aae3-ddf80f896f3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
+      <webElementGuid>0da4583e-4a9b-44b6-9e81-04d9b97497aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='🚪 Logout']/parent::*</value>
+      <webElementGuid>4c3af518-819b-45f4-a306-52d4cfd65a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[3]</value>
+      <webElementGuid>a612e961-723c-410b-bb6a-4b49cbc8300f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 🚪 Logout ' or . = ' 🚪 Logout ')]</value>
+      <webElementGuid>4e13933f-39d5-4c5b-b1e7-d8a7e703d083</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,30 +134,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No unfinished matches.'])[1]/following::div[23]</value>
       <webElementGuid>9a4a939d-c4dd-4cd0-a590-3be2082ec19a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='🚪 Logout']/parent::*</value>
-      <webElementGuid>0702b5e7-daf0-4a03-a7e3-d35db72dcbe4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/div[3]</value>
-      <webElementGuid>b3121b53-bcb0-4edb-929a-9827dbbe6cc5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = ' 🚪 Logout ' or . = ' 🚪 Logout ')]</value>
-      <webElementGuid>f7b97b30-1560-4070-a7df-0e1bfba5ea4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
