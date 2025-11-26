@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_About_inline-flex items-center justify-_4ac8e6</name>
+   <tag></tag>
+   <elementGuidId>0dc69594-00ae-4fe5-bffe-fe22bb59cfa5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/nav/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8dda8a79-553e-477e-bbca-2200e714c7d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>badge</value>
+      <webElementGuid>b97f5ecb-0825-40c8-963d-7b7ac1249b65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center rounded-full border font-medium w-fit whitespace-nowrap shrink-0 [&amp;>svg]:size-3 gap-1 [&amp;>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&amp;]:hover:bg-secondary/90 px-3 py-1 text-sm cursor-pointer hover:bg-slate-200 transition select-none</value>
+      <webElementGuid>4337d3b5-de1e-474c-b7d4-60670adca39b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>variant</name>
+      <type>Main</type>
+      <value>secondary</value>
+      <webElementGuid>e810a7d0-d7fd-4dd4-a0e7-e4cf7fb95ca9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 🪙 11</value>
+      <webElementGuid>ad72875c-04f7-4476-8cb6-d82f3aa4bec6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/nav[@class=&quot;border-b bg-white/90 backdrop-blur-sm sticky top-0 z-50&quot;]/div[@class=&quot;max-w-6xl mx-auto px-4 py-3 flex items-center justify-between&quot;]/div[@class=&quot;flex items-center gap-4&quot;]/div[@class=&quot;inline-flex items-center justify-center rounded-full border font-medium w-fit whitespace-nowrap shrink-0 [&amp;>svg]:size-3 gap-1 [&amp;>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&amp;]:hover:bg-secondary/90 px-3 py-1 text-sm cursor-pointer hover:bg-slate-200 transition select-none&quot;]</value>
+      <webElementGuid>7c30e30d-4419-4740-ad9a-e46cf2e456ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/nav/div/div[2]/div</value>
+      <webElementGuid>e6ac3a81-087f-4ecc-9c73-c88fb4a23110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::div[3]</value>
+      <webElementGuid>73c1c779-dab8-4194-9a9a-15d88ee30b3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scoreboards'])[1]/following::div[3]</value>
+      <webElementGuid>099646b7-36b0-4507-aee8-2a041a07e931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player A'])[1]/preceding::div[1]</value>
+      <webElementGuid>7c0aeb9d-cb2d-4e62-894a-3e8010ebf652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Bisca'])[1]/preceding::div[1]</value>
+      <webElementGuid>e6713791-4640-4ce8-b84e-ac4f4a75f9b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='🪙 11']/parent::*</value>
+      <webElementGuid>c2bcd24a-a10a-4f07-979d-5c64c7b58bbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div</value>
+      <webElementGuid>667dd175-96c1-49ab-a812-d3247631b487</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 🪙 11' or . = ' 🪙 11')]</value>
+      <webElementGuid>fa027656-2da6-426d-badc-4abf0a2f42dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
