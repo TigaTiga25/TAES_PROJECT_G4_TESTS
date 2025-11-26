@@ -21,24 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'teste@mail.pt')
-
-WebUI.click(findTestObject('Object Repository/Page_Vite App/div'))
-
-WebUI.click(findTestObject('Object Repository/Page_Vite App/div'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/img_Orus_aspect-square size-full'))
+WebUI.click(findTestObject('Object Repository/Page_Vite App/div_About_inline-flex items-center justify-_4ac8e6'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/div_Perfil_focusbg-accent data-variantdestr_03e255'), 
-    0)
+WebUI.click(findTestObject('Object Repository/Page_Vite App/button__bg-slate-900 hoverbg-slate-800 text_77c431'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Vite App/div_Perfil_focusbg-accent data-variantdestr_03e255'))
-
-WebUI.click(findTestObject('Object Repository/Page_Vite App/div_Perfil_focusbg-accent data-variantdestr_03e255'))
+WebUI.click(findTestObject('Object Repository/Page_Vite App/div__border-2 border-slate-100 rounded-xl p_4e19f2'))
 

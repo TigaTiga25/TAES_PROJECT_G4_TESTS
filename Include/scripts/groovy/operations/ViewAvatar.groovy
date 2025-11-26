@@ -1,4 +1,4 @@
-package common
+package operations
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,53 +44,21 @@ import cucumber.api.java.en.When
 
 
 
-class Common {
+class ViewAvatar {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I open the browser")
-	def I_open_the_browser() {
-		WebUI.openBrowser('http://localhost:5173/')
-		println "Given->I have the browser open"
-	}
-
-	@And("I enter as an annonymous user")
-	def I_enter_as_an_anonymous_user() {
-		WebUI.click(findTestObject('Object Repository/LoginPage/AnonymousButton'))
-		println "And->I enter as an annonymous user"
-	}
-
-	@And("I start a practice game")
-	def I_start_a_practice_game() {
-		WebUI.click(findTestObject('Object Repository/HomePage/practiceMatchButton'))
-		println "And->I start a practice game"
-	}
-
-	@When("I navigate to the URL (.*)")
-	def I_navigate_to_the_URL(String name) {
-		//WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-		WebUI.navigateToUrl(name)
-
-		println "When->I navigate to the URL" + name
-	}
-
-	@And("I close the browser")
-	def I_close_the_browser() {
-		WebUI.closeBrowser()
-		println "And -> I close the browser"
-	}
-
-
-	@Then("I click on the (.*) button to login")
-	def I_click_on_the_button_to_login(String string) {
+	@And("I click on the (.*) button avatar")
+	def I_click_on_the_button_avatar(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
-	@When("I insert (.*) on the email field")
-	def I_insert_on_the_email_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), string)
+
+	@Then("I click on the (.*) avatarButton")
+	def I_click_on_the_avatarButton(String string) {
+		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
-	@And("I insert (.*) in the pass field")
-	def I_insert_in_the_pass_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), string)
+	@And("I click on the (.*) closeButtonAvatar")
+	def I_click_on_the_closeButtonAvatar(String string) {
+		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
 }

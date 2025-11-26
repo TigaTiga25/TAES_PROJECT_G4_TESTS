@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Your Avatar_text-slate-400 hovertext_0615ae</name>
+   <tag></tag>
+   <elementGuidId>afa97491-492e-450e-8d68-92bc6fcfac5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bdb971d9-ad0c-4b4d-b514-81f989ee6042</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-slate-400 hover:text-red-500 transition px-2 text-xl font-bold</value>
+      <webElementGuid>932d8389-610e-48db-922c-d42d8d705dc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> × </value>
+      <webElementGuid>fbc30c62-6bf0-4275-afbc-f785a412dc99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 animate-in fade-in duration-200&quot;]/div[@class=&quot;bg-white p-2 rounded-xl shadow-2xl max-w-sm w-full relative&quot;]/div[@class=&quot;flex justify-between items-center p-2 border-b mb-2&quot;]/button[@class=&quot;text-slate-400 hover:text-red-500 transition px-2 text-xl font-bold&quot;]</value>
+      <webElementGuid>79a6c3dd-1b90-4ddc-aa7e-eedfd1450ef9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/button</value>
+      <webElementGuid>7dbfbdd9-8969-44a5-a06c-c3f891bdef83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Avatar'])[1]/following::button[1]</value>
+      <webElementGuid>ba7b6987-28a0-4813-aa49-98a7e5c89270</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orus'])[1]/following::button[1]</value>
+      <webElementGuid>b6d8bf16-6a43-4087-8540-a83f97ec7209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Bisca'])[1]/preceding::button[1]</value>
+      <webElementGuid>7d1813e2-cfa5-43f1-acfd-3cf7ba69fc86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='×']/parent::*</value>
+      <webElementGuid>873851aa-4739-40be-ae64-e19aaa4a477f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button</value>
+      <webElementGuid>2c5af061-e142-468e-ac65-05d440a0fe1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' × ' or . = ' × ')]</value>
+      <webElementGuid>d59067c7-76de-4ec4-9625-dea0a9a76ff7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

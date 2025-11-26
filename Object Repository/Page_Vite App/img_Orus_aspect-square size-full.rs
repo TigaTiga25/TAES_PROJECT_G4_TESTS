@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='reka-dropdown-menu-trigger-v-4']/span[2]/img</value>
+         <value>//button[@id='reka-dropdown-menu-trigger-v-5']/span[2]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>79cbb322-8ad1-4208-9166-0678d0e98212</webElementGuid>
+      <webElementGuid>ac22c646-6322-457b-bb0e-84c7bbaa9505</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>68db3a8e-be9e-4ad9-b656-f1d306a25ebd</webElementGuid>
+      <webElementGuid>1385985b-c81f-4598-91e4-b1043375a35a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://api.dicebear.com/7.x/avataaars/svg?seed=Orus</value>
-      <webElementGuid>77731d64-f342-49d2-935a-3872e0f02b33</webElementGuid>
+      <webElementGuid>a4197f5b-c1bf-4199-9014-564b3df77e15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>avatar-image</value>
-      <webElementGuid>893bf1d4-1021-4392-b8cc-5a586a46d822</webElementGuid>
+      <webElementGuid>6668ea3e-afc5-42af-8492-61e3b957ea3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,23 +55,23 @@
       <name>class</name>
       <type>Main</type>
       <value>aspect-square size-full</value>
-      <webElementGuid>d09f7d32-ae6e-4ad8-bfd3-c3e781b3f65d</webElementGuid>
+      <webElementGuid>33803724-3862-4fa2-a39c-a720e796897b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;reka-dropdown-menu-trigger-v-4&quot;)/span[@class=&quot;relative flex size-8 shrink-0 overflow-hidden rounded-full cursor-pointer bg-slate-100 group-hover:ring-2 group-hover:ring-slate-200 transition&quot;]/img[@class=&quot;aspect-square size-full&quot;]</value>
-      <webElementGuid>651e5565-959a-4ee1-acdc-7c12c4ec53eb</webElementGuid>
+      <value>id(&quot;reka-dropdown-menu-trigger-v-5&quot;)/span[@class=&quot;relative flex size-8 shrink-0 overflow-hidden rounded-full cursor-pointer bg-slate-100 group-hover:ring-2 group-hover:ring-slate-200 transition&quot;]/img[@class=&quot;aspect-square size-full&quot;]</value>
+      <webElementGuid>a84a6c0e-5d86-4d04-b9ce-171f7dad5cb1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='reka-dropdown-menu-trigger-v-4']/span[2]/img</value>
-      <webElementGuid>f91c312b-56df-4aa8-86b2-214fb0852848</webElementGuid>
+      <value>//button[@id='reka-dropdown-menu-trigger-v-5']/span[2]/img</value>
+      <webElementGuid>38642bef-7a2b-499f-9b30-fecc4dcb7296</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'https://api.dicebear.com/7.x/avataaars/svg?seed=Orus')]</value>
-      <webElementGuid>0f498f77-df92-4474-8190-cfe44121d422</webElementGuid>
+      <webElementGuid>13188efa-73e7-4961-a251-45a804c4ca9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>0dbbdfad-d025-449a-b426-2277ffdc8834</webElementGuid>
+      <webElementGuid>89d922f6-eee5-4fb2-ae09-d124a5f37e8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://api.dicebear.com/7.x/avataaars/svg?seed=Orus']</value>
-      <webElementGuid>40c367cf-4578-47b6-bbf3-03d5bdc601e8</webElementGuid>
+      <webElementGuid>fdd573e0-7f59-4429-aa8a-446fa566f4c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='reka-dropdown-menu-trigger-v-4']/span[2]/img</value>
+      <webElementGuid>f91c312b-56df-4aa8-86b2-214fb0852848</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

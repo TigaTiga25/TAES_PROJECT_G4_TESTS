@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_X_border-2 border-slate-100 rounded-xl _febcc2</name>
+   <tag></tag>
+   <elementGuidId>8b54a647-0aaf-43af-b095-43f0c2e884b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>116cd312-3c0e-4321-b9ae-e6e6c25de421</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-2 border-slate-100 rounded-xl p-4 text-center cursor-pointer transition-all duration-200 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-1 group relative overflow-hidden</value>
+      <webElementGuid>f58efffc-ab60-4990-a0dc-496d9fe7a723</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>💰10 CoinsPacote Básico1€ </value>
+      <webElementGuid>e576ca70-cbf0-468a-b8a6-928289e05e3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-50 py-10 px-4&quot;]/div[@class=&quot;max-w-5xl mx-auto&quot;]/div[@class=&quot;fixed inset-0 z-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden transform transition-all&quot;]/div[@class=&quot;p-6 bg-white&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-4&quot;]/div[@class=&quot;border-2 border-slate-100 rounded-xl p-4 text-center cursor-pointer transition-all duration-200 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-1 group relative overflow-hidden&quot;]</value>
+      <webElementGuid>4f80e599-1237-45e9-befa-941e878f97bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/div</value>
+      <webElementGuid>674df6d9-3685-4a36-bdc7-4b8ba1002e53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[1]/following::div[3]</value>
+      <webElementGuid>86e1cfd5-b8f5-438c-ba92-0ed94cffffbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coin Store'])[1]/following::div[3]</value>
+      <webElementGuid>1518a0c3-1eca-4399-ba22-9ab5e992d481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🪙'])[2]/preceding::div[4]</value>
+      <webElementGuid>df3c49f4-e784-4237-bc53-831d21f134a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>f05bda64-ebb2-40e0-af80-1778e17b8314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '💰10 CoinsPacote Básico1€ ' or . = '💰10 CoinsPacote Básico1€ ')]</value>
+      <webElementGuid>6d66d3a0-01eb-4d2f-8bc9-4ebfd23b0917</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
