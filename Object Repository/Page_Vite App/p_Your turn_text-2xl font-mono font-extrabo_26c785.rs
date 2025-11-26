@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Your turn_text-2xl font-mono font-extrabo_26c785</name>
+   <tag></tag>
+   <elementGuidId>805b002f-2c09-4826-9851-5f5a47cac559</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[5]/div/button/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-2xl.font-mono.font-extrabold.text-green-400</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>46a91a88-9e2e-46de-bcd1-18f85fe0a56e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-2xl font-mono font-extrabold text-green-400</value>
+      <webElementGuid>fb24c804-b8c0-43ce-b026-551a53fff1d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>963c8544-442a-4b91-9f29-981e3bdf06c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;w-full max-w-5xl flex justify-between items-center mt-4&quot;]/div[@class=&quot;text-left text-white p-3 bg-gray-900 bg-opacity-60 rounded-lg shadow-sm border border-white/10&quot;]/button[1]/p[@class=&quot;text-2xl font-mono font-extrabold text-green-400&quot;]</value>
+      <webElementGuid>76158b89-c463-4360-9914-eb3f6fd3726c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[5]/div/button/p</value>
+      <webElementGuid>a7e3522c-e610-42b4-8706-963260952056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your turn!'])[1]/following::p[2]</value>
+      <webElementGuid>78f33d20-5b2c-4a74-a9d3-3dbed5cdf709</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trump'])[1]/following::p[2]</value>
+      <webElementGuid>7364f032-1680-4e59-99a2-3acd87ee7714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/p</value>
+      <webElementGuid>60d0a5c2-ab55-43aa-817f-08793d5672ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '0' or . = '0')]</value>
+      <webElementGuid>3f827129-5390-4487-957b-98e6431c158b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

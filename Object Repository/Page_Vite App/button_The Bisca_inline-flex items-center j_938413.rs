@@ -6,12 +6,12 @@
    <elementGuidId>9cceab3c-fa97-4ab9-8d2c-9fff4502841e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/main/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6a430870-3837-40d0-90bd-9a5a69d867e0</webElementGuid>
+      <webElementGuid>77909559-bed6-4a41-86f2-1b0600bfb137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ec59eaa8-5d0f-4b3b-a81f-516f162aeb7d</webElementGuid>
+      <webElementGuid>6e8b1e16-38f3-40ed-b8a1-db40442bf64a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive h-10 has-[>svg]:px-4 px-12 py-6 text-2xl font-semibold bg-white hover:bg-emerald-50 text-emerald-900 rounded-2xl shadow-md border border-emerald-200 transition transform hover:-translate-y-1 hover:shadow-xl</value>
-      <webElementGuid>84782f17-da38-4ab0-b9c6-5df67713b97e</webElementGuid>
+      <webElementGuid>a715a7a9-5f91-45bd-9e14-b3fd5dc548ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New Match</value>
-      <webElementGuid>89dbc6e9-92c0-4819-b325-1511d8430831</webElementGuid>
+      <webElementGuid>c493e0bf-4b8c-474c-bd28-de3c3f8d6599</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/main[@class=&quot;flex-grow flex flex-col items-center justify-start px-4 py-16 text-center&quot;]/div[@class=&quot;flex flex-wrap gap-8 justify-center mb-14&quot;]/button[@class=&quot;inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive h-10 has-[>svg]:px-4 px-12 py-6 text-2xl font-semibold bg-white hover:bg-emerald-50 text-emerald-900 rounded-2xl shadow-md border border-emerald-200 transition transform hover:-translate-y-1 hover:shadow-xl&quot;]</value>
-      <webElementGuid>9fda1436-8cff-4bce-9eb9-c319a6892925</webElementGuid>
+      <webElementGuid>fdb553ad-c8e7-4c46-9022-1d779f4110a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/main/div/button</value>
-      <webElementGuid>634488a5-b09e-4ba3-9130-82df3d5b74f8</webElementGuid>
+      <webElementGuid>30822f36-8860-40d1-841e-7717b7fd2e18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The Bisca'])[1]/following::button[1]</value>
-      <webElementGuid>a10622dc-652c-4508-a5a9-6cf59bbf047d</webElementGuid>
+      <webElementGuid>ddac2a71-c7fd-4aab-ae98-6a1b3a7a499d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Player A'])[1]/following::button[1]</value>
-      <webElementGuid>978a046e-1ef3-4739-b6be-92217f7c5cf4</webElementGuid>
+      <webElementGuid>30991114-e3b2-4fdb-aed5-e8a5d5e31120</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unfinished Matches'])[1]/preceding::button[2]</value>
-      <webElementGuid>378f7dca-3dda-4d8d-9708-56354ebdc7cf</webElementGuid>
+      <webElementGuid>d75e45a1-d207-44e5-93c6-c21431306200</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New Match']/parent::*</value>
-      <webElementGuid>e4390379-3c6c-4c4c-9e5f-de83058c85d8</webElementGuid>
+      <webElementGuid>de0f21ff-3af8-4ea8-8c2f-3e8abd5177e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div/button</value>
-      <webElementGuid>aa6c3110-0619-420b-aee4-55340261bc97</webElementGuid>
+      <webElementGuid>687ae260-31a7-4515-b13a-d59bb6b9d662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'New Match' or . = 'New Match')]</value>
-      <webElementGuid>e8879d41-02f8-4d60-b157-9117e743e38d</webElementGuid>
+      <webElementGuid>d937268a-9346-4ee3-bbcf-9f2e4190c9a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

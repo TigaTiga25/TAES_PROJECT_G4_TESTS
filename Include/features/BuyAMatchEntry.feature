@@ -3,7 +3,7 @@
 #Have a user without coins (pb@mail.pt)
 
 @tag
-Feature: Title of your feature
+Feature: Buy a match entry
   As a logged user
 	I want to spend 5 coins from my wallet
 	So that I can play a new match
