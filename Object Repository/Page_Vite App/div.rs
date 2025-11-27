@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>form.space-y-4 > div:nth-of-type(2)</value>
+         <value>div:nth-of-type(2) > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div[2]/form/div[2]</value>
+         <value>//div[@id='app']/section/ol/li/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,26 +23,74 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>499a6b2b-7f4d-42b5-adf5-85eddeba53bc</webElementGuid>
+      <webElementGuid>226ab17c-8c4b-4e16-9e10-f5dc1cee8426</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Password </value>
-      <webElementGuid>7725c53e-0771-4abd-9eb2-da7d609449bc</webElementGuid>
+      <value>ERROR: Insufficient balance</value>
+      <webElementGuid>007860e8-228e-4992-ba8b-ce1e735a6117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-100 flex items-center justify-center p-4&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-md&quot;]/div[@class=&quot;px-6 space-y-4&quot;]/form[@class=&quot;space-y-4&quot;]/div[2]</value>
-      <webElementGuid>55c934e9-dec9-45f2-9da0-494038050459</webElementGuid>
+      <value>id(&quot;app&quot;)/section[1]/ol[@class=&quot;toaster group&quot;]/li[1]/div[2]/div[1]</value>
+      <webElementGuid>e8701e93-9852-4912-a64c-d50d394da7e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/section/ol/li/div[2]/div</value>
+      <webElementGuid>950c2ad8-3739-4491-856b-8ede4999fbba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BISCA'])[1]/preceding::div[1]</value>
+      <webElementGuid>523c3e42-ae17-4e6a-8d4e-53cc0a4f3deb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Single Player'])[1]/preceding::div[1]</value>
+      <webElementGuid>0ca2d292-5ce7-4f6d-82e2-2a034589c331</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ERROR: Insufficient balance']/parent::*</value>
+      <webElementGuid>bd5c97d5-2752-4147-8608-e216eefe9998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div</value>
+      <webElementGuid>dce618a4-83f8-4698-a96f-6ae832cd7eaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ERROR: Insufficient balance' or . = 'ERROR: Insufficient balance')]</value>
+      <webElementGuid>51f05a3c-6539-4af3-b07e-0e0964d79cc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

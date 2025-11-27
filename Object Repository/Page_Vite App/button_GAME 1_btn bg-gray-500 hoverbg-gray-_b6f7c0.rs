@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_GAME 1_btn bg-gray-500 hoverbg-gray-_b6f7c0</name>
+   <tag></tag>
+   <elementGuidId>88b13603-92c1-40db-8de4-a3eed0948507</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[3]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ecb47179-73c1-496e-9b14-0b589879c0b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn bg-gray-500 hover:bg-gray-600 text-white font-bold px-4 py-2 rounded</value>
+      <webElementGuid>debb0dab-b654-4ea6-a558-f5aaf4c90076</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Exit</value>
+      <webElementGuid>269a8638-1dc1-4d0f-9390-ef3fef2148e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;fixed inset-0 bg-green-700 bg-opacity-90 flex items-center justify-center z-50&quot;]/div[@class=&quot;bg-white p-8 rounded-lg shadow-2xl text-center w-full max-w-2xl animate-fade-in border-4 border-yellow-400 max-h-[90vh] overflow-y-auto&quot;]/div[@class=&quot;flex justify-center mt-6 gap-4&quot;]/button[@class=&quot;btn bg-gray-500 hover:bg-gray-600 text-white font-bold px-4 py-2 rounded&quot;]</value>
+      <webElementGuid>f825781d-289b-433f-89b6-3458048b49dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[3]/button</value>
+      <webElementGuid>6215f2fd-6238-4625-8522-9f75a8ff9b6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GAME 1'])[1]/following::button[1]</value>
+      <webElementGuid>504c6a0d-9713-4141-a310-ca78423c6429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YOU WIN'])[1]/following::button[1]</value>
+      <webElementGuid>f13458a5-2e5c-4ac3-8eac-949d27192be8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Classic Bisca'])[1]/preceding::button[1]</value>
+      <webElementGuid>f11895f1-e608-4f1d-805f-6db79ae48a37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trump'])[1]/preceding::button[1]</value>
+      <webElementGuid>c0218321-51cb-49d9-a93e-bcecdc5ece8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Exit']/parent::*</value>
+      <webElementGuid>0aa5bb4f-e9c2-48e0-b3e1-32ddd5605f46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>da0d33d0-e3a4-44e9-8d9e-58753641981d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Exit' or . = 'Exit')]</value>
+      <webElementGuid>21d1ba02-b6f1-439f-9364-564b846d39bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
