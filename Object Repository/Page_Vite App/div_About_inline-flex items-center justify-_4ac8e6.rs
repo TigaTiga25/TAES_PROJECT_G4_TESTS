@@ -119,30 +119,54 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div</value>
-      <webElementGuid>137cded6-bd85-4c29-ba2c-ca8d61b5ecd6</webElementGuid>
+      <webElementGuid>c70af0dc-156a-4b17-b0eb-0ed634ba4128</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' 🪙 61' or . = ' 🪙 61')]</value>
-      <webElementGuid>9e739c2e-7da4-4d62-8748-76b912a76069</webElementGuid>
+      <value>//div[(text() = ' 🪙 80' or . = ' 🪙 80')]</value>
+      <webElementGuid>fe5c9b99-613f-4d45-bcad-597e5373959a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='🪙 11']/parent::*</value>
-      <webElementGuid>c2bcd24a-a10a-4f07-979d-5c64c7b58bbc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player A'])[1]/preceding::div[1]</value>
+      <webElementGuid>eb9969c5-6b1f-42f4-bc57-c638d340c199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='🪙 107']/parent::*</value>
+      <webElementGuid>f4cbfef6-36b9-4034-b20c-cea2c29a6eb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' 🪙 11' or . = ' 🪙 11')]</value>
-      <webElementGuid>fa027656-2da6-426d-badc-4abf0a2f42dc</webElementGuid>
+      <value>//div[(text() = ' 🪙 107' or . = ' 🪙 107')]</value>
+      <webElementGuid>fb0034cd-50c2-4b5c-a4eb-a3fa36c6f478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='🪙 20']/parent::*</value>
+      <webElementGuid>e158cbba-ce1d-4178-bbf0-3f72fda80789</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 🪙 20' or . = ' 🪙 20')]</value>
+      <webElementGuid>f15d9e91-a41a-42e5-9e3f-d13f5252940a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

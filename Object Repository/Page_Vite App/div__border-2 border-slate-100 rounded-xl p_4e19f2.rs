@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__border-2 border-slate-100 rounded-xl p_4e19f2</name>
+   <tag></tag>
+   <elementGuidId>1ec7ab34-acae-4f98-b3e6-d163e8746f03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>db121d60-1461-4287-b37a-e8ab8ee3ae7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-2 border-slate-100 rounded-xl p-4 text-center cursor-pointer transition-all duration-200 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-1 group relative overflow-hidden</value>
+      <webElementGuid>bbabecf6-5480-4c8b-8987-d2c82a64c06b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>💎50 CoinsSaco de Moedas5€ </value>
+      <webElementGuid>5606e206-905d-4114-9005-b23883af2a50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-50 py-10 px-4&quot;]/div[@class=&quot;max-w-5xl mx-auto&quot;]/div[@class=&quot;fixed inset-0 z-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden transform transition-all&quot;]/div[@class=&quot;p-6 bg-white&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-4&quot;]/div[@class=&quot;border-2 border-slate-100 rounded-xl p-4 text-center cursor-pointer transition-all duration-200 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-1 group relative overflow-hidden&quot;]</value>
+      <webElementGuid>f1257a7c-6da9-4b91-873c-7dcf493c08c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/div[3]</value>
+      <webElementGuid>588754f7-17a7-4c0e-bcf6-67da9f3f10f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🪙'])[2]/following::div[2]</value>
+      <webElementGuid>d17cba8b-4bde-4565-a255-6c2b5db9ed4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='💰'])[1]/following::div[6]</value>
+      <webElementGuid>adeea90b-2893-4584-b42d-8a5ee9cd37c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='👑'])[1]/preceding::div[4]</value>
+      <webElementGuid>dbf445b0-0258-4704-9bf5-c7fb8cd57462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]</value>
+      <webElementGuid>f93d313c-d3ff-4f47-a196-18e9c30227d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '💎50 CoinsSaco de Moedas5€ ' or . = '💎50 CoinsSaco de Moedas5€ ')]</value>
+      <webElementGuid>60c0a64e-c958-4bef-8fb0-a73df60c9715</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

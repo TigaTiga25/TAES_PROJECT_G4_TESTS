@@ -48,13 +48,6 @@ class Logout {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@When("I insert (.*) on the email field")
-	def I_insert_on_the_email_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), string)
-	}
-	@And("I insert (.*) in the pass field")
-	def I_insert_in_the_pass_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), string)
-	}
+
 
 }

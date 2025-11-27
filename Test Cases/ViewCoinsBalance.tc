@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>ViewCoinsBalance</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>96951820-6851-433b-987c-ced4a7012233</testCaseGuid>
+   <testCaseGuid>06ede3d8-7395-4093-a445-0bcc8310cdc1</testCaseGuid>
 </TestCaseEntity>

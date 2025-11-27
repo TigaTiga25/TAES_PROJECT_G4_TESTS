@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Coin Store_text-slate-400 hovertext-_87ce59</name>
+   <tag></tag>
+   <elementGuidId>7774698b-b708-471a-8e0f-6586e0e402df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[3]/div[2]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b28dbc3d-996b-4c71-bef8-36938b7513c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-slate-400 hover:text-slate-600 transition</value>
+      <webElementGuid>ce17ed50-f599-4399-bf9f-8fad989493c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> X </value>
+      <webElementGuid>5c5c32f6-8417-4552-931c-492ff3018d7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-50 py-10 px-4&quot;]/div[@class=&quot;max-w-5xl mx-auto&quot;]/div[@class=&quot;fixed inset-0 z-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden transform transition-all&quot;]/div[@class=&quot;bg-slate-50 px-6 py-4 border-b border-slate-100 flex justify-between items-center&quot;]/button[@class=&quot;text-slate-400 hover:text-slate-600 transition&quot;]</value>
+      <webElementGuid>31b6cae8-da8b-4804-aa17-f31a5a0cb10b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[3]/div[2]/div/button</value>
+      <webElementGuid>91e7141e-a2a2-4dd7-9e33-43acf887b631</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coin Store'])[1]/following::button[1]</value>
+      <webElementGuid>2962d6ee-347e-40cb-a34b-3da263052964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coin purchase'])[1]/following::button[1]</value>
+      <webElementGuid>1ef185e3-62ac-4da1-aeb6-ba88e99acfa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='💰'])[1]/preceding::button[1]</value>
+      <webElementGuid>9c9ea3f5-1e34-4ff1-bb51-06e90903c0d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🪙'])[2]/preceding::button[1]</value>
+      <webElementGuid>6cdabf99-c89c-44a1-8b9d-67a44fb2c296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='X']/parent::*</value>
+      <webElementGuid>71bd8e35-5d40-44be-9279-d4376bb2772c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/button</value>
+      <webElementGuid>bce8869a-e3bd-4429-a787-2a5b83cd93df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' X ' or . = ' X ')]</value>
+      <webElementGuid>0dc094ba-b8f1-4042-b897-6c53acc1327d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

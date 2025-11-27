@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Password_inline-flex items-center ju_559f66</name>
    <tag></tag>
-   <elementGuidId>992afe22-9cd7-474c-94ff-d0702e67f9f6</elementGuidId>
+   <elementGuidId>cefdb0ec-4318-4455-a5b7-99b78e516563</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
