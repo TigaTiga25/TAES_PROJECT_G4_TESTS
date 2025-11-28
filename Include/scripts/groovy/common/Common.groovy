@@ -53,13 +53,19 @@ class Common {
 		WebUI.openBrowser('http://localhost:5173/')
 		println "Given->I have the browser open"
 	}
+	
+	@Given("I navigate to the bisca platform")
+	def I_navigate_to_the_bisca_platform() {
+		WebUI.openBrowser('http://localhost:5173/')
+		println "Given->I have the browser open"
+	}
 
 	@And("I enter as an annonymous user")
 	def I_enter_as_an_anonymous_user() {
 		WebUI.click(findTestObject('Object Repository/LoginPage/AnonymousButton'))
 		println "And->I enter as an annonymous user"
 	}
-	
+
 	@And("I login as a player")
 	def I_login_as_player() {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'pa@mail.pt')
@@ -72,7 +78,7 @@ class Common {
 		WebUI.click(findTestObject('Object Repository/HomePage/practiceMatchButton'))
 		println "And->I start a practice game"
 	}
-	
+
 	@And("I start a new match")
 	def I_start_a_new_match() {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_The Bisca_inline-flex items-center j_938413'))

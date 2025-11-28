@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstMatchGames</name>
+   <tag></tag>
+   <elementGuidId>cefa5efa-744b-43c5-947a-70f61366916b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.bg-card.text-card-foreground.flex.flex-col.gap-6.py-6.shadow-sm.relative.w-full.mb-4.max-w-4xl.mt-4.border-2.border-gray-800.rounded-lg.bg-radial.from-blue-300.to-indigo-600</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='app']/div/div/div)[1]//div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;28/11/2025 03:28:35120 - 04 - 00m 02s&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>934899d5-4ebb-4cf9-91d8-abe66b563b7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>card</value>
+      <webElementGuid>b313c773-ce9e-43d1-acce-e131e654bc0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-card text-card-foreground flex flex-col gap-6 py-6 shadow-sm relative w-full mb-4 max-w-4xl mt-4 border-2 border-gray-800 rounded-lg bg-radial from-blue-300 to-indigo-600</value>
+      <webElementGuid>cbc18070-6f10-4b22-89b4-bce99ade74ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>28/11/2025 03:28:35120 - 04 - 00m 02s</value>
+      <webElementGuid>64ef64f8-f7d5-4422-81d0-688c795a7a2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/div[@class=&quot;flex flex-col justify-center items-center gap-5 mt-10 p-4&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 border py-6 shadow-sm w-full max-w-4xl rounded-lg relative hover:scale-105 transition-transform duration-300 ease-in-out bg-radial from-blue-400 to-blue-500 mb-6 mt-6&quot;]/div[@class=&quot;@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6&quot;]/div[@class=&quot;px-4 pb-6 pt-2 transition-all duration-300 ease-in-out&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 py-6 shadow-sm relative w-full mb-4 max-w-4xl mt-4 border-2 border-gray-800 rounded-lg bg-radial from-blue-300 to-indigo-600&quot;]</value>
+      <webElementGuid>1765cfd8-bf56-468b-8d22-95e552fed5e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div</value>
+      <webElementGuid>190532eb-02ac-4e3f-b6c4-9d287d24ea04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CPU'])[1]/following::div[2]</value>
+      <webElementGuid>7f859a39-8a0d-4ff9-bb8d-bd98af35b5be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='vs'])[1]/following::div[2]</value>
+      <webElementGuid>819b17ef-bcaa-4e0a-93c8-f1cdd332b4b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(4 - 0)'])[2]/preceding::div[6]</value>
+      <webElementGuid>fde57f1b-2c73-4817-8dab-a406eb2c345c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player A'])[3]/preceding::div[7]</value>
+      <webElementGuid>1db42f8a-3694-472c-bce1-6cd35358875f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div</value>
+      <webElementGuid>f41893f5-a257-4d94-a624-5697cbede9a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '28/11/2025 03:28:35120 - 04 - 00m 02s' or . = '28/11/2025 03:28:35120 - 04 - 00m 02s')]</value>
+      <webElementGuid>40345b62-6278-4628-be5e-c4e466c46364</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

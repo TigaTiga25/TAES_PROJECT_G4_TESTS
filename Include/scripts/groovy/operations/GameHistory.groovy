@@ -17,6 +17,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.exception.StepErrorException
 
 import internal.GlobalVariable
 
@@ -42,26 +43,33 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter;
 
 class GameHistory {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I enter as an user with no matches")
+	@And("I login as an user with no matches")
 	def I_enter_as_an_user_with_no_matches() {
 		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'rafael.vaz@mail.pt')
 		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
 		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
-		println "And -> I enter as an user with no matches"
+		println "And -> I login as an user with no matches"
 	}
 
-	@And("I enter as an user with matches")
+	@And("I login as an user with matches")
 	def I_enter_as_an_user_with_matches() {
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'pa@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'pc@mail.pt')
 		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
 		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
-		println "And -> I enter as an user with no matches"
+		println "And -> I login as an user with no matches"
+	}
+
+	@And("I select a match")
+	def I_select_a_match() {
+		WebUI.click(findTestObject('Object Repository/GameHistory/firstMatchCard'))
+		println "And -> I select a match"
 	}
 
 	@When("I check my game history")
@@ -76,15 +84,38 @@ class GameHistory {
 		println "Then -> I shouldn't see any history while logged out"
 	}
 
-	@Then("I shouldn't see any games")
-	def I_shouldnt_see_any_games() {
+	@Then("I shouldn't see any matches")
+	def I_shouldnt_see_any_matches() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/noMatchesText'), 0)
-		println "Then -> I shouldn't see any games"
+		println "Then -> I shouldn't see any matches"
 	}
 
-	@Then("I should see all my games")
-	def I_should_see_all_my_games() {
+	@Then("I should see all my matches")
+	def I_should_see_all_my_matches() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/matchCards'), 0)
-		println "Then -> I should see all my games"
+		println "Then -> I should see all my matches"
+	}
+
+	@Then("I should see all games from that match")
+	def I_should_see_all_games_from_that_match() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/firstMatchGames'), 0)
+		println "Then -> I should see all games from that match"
+	}
+	
+	@Then("I should see a new match in my history")
+	def I_should_see_a_new_match_in_my_history() {
+		String matchDate = WebUI.getText(findTestObject('Object Repository/GameHistory/firstMatchDate'))
+		
+		LocalDate date = LocalDate.now()
+		
+		String currentDate = date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))
+		WebUI.comment("New match date: " + matchDate)
+		WebUI.comment("Current date: " + currentDate)
+		
+		if (matchDate != currentDate) {
+			WebUI.comment("New match date doesn't match current date")
+			throw new StepErrorException("Match not created")
+		}
+		println "Then -> I should see a new match in my history"
 	}
 }
