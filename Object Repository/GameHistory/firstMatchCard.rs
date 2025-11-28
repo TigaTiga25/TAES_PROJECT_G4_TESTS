@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstMatchCard</name>
+   <tag></tag>
+   <elementGuidId>dee4fc0e-f949-4688-9212-eb55a6990a25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='app']/div/div/div)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;28/11/2025 120 - 0 (4 - 0) Player AvsCPU28/11/2025 03:28:35120 - 04 - 00m 02s&quot;i >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>779eb313-5d10-4fcc-a7f0-f4bf43e3aba7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>card</value>
+      <webElementGuid>e8ee187c-c6b0-4054-adc3-b0c0c4d214c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-card text-card-foreground flex flex-col gap-6 border py-6 shadow-sm w-full max-w-4xl rounded-lg relative hover:scale-105 transition-transform duration-300 ease-in-out bg-radial from-blue-400 to-blue-500</value>
+      <webElementGuid>a3c15e7d-728b-45f5-9df1-be7c197d7794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>28/11/2025 120 - 0 (4 - 0) Player AvsCPU28/11/2025 03:28:35120 - 04 - 00m 02s</value>
+      <webElementGuid>1213637c-4f91-450e-94aa-c50a950ccfe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/div[@class=&quot;flex flex-col justify-center items-center gap-5 mt-10 p-4&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 border py-6 shadow-sm w-full max-w-4xl rounded-lg relative hover:scale-105 transition-transform duration-300 ease-in-out bg-radial from-blue-400 to-blue-500&quot;]</value>
+      <webElementGuid>5b9e4379-ade9-45c6-acfe-6f1a05865f83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div</value>
+      <webElementGuid>3a949acd-c9da-4cce-a2a7-1871243db625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Game History'])[2]/following::div[1]</value>
+      <webElementGuid>93328b7a-617f-469c-b58b-a86943945be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player A'])[1]/following::div[3]</value>
+      <webElementGuid>afe8e9da-ddf4-4ceb-9f93-9a5accdd6a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>19a5e68c-040c-405d-bf8d-81965aaf7835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '28/11/2025 120 - 0 (4 - 0) Player AvsCPU28/11/2025 03:28:35120 - 04 - 00m 02s' or . = '28/11/2025 120 - 0 (4 - 0) Player AvsCPU28/11/2025 03:28:35120 - 04 - 00m 02s')]</value>
+      <webElementGuid>7a5f9d29-1942-4820-91a3-57191690abc4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
