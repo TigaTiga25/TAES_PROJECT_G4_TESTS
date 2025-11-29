@@ -59,6 +59,27 @@ class Common {
 		WebUI.openBrowser('http://localhost:5173/')
 		println "Given->I have the browser open"
 	}
+	
+	@When("I click on the button to Sign Up")
+    def click_sign_up() {
+        WebUI.click(findTestObject('Object Repository/RegisterPage/button_Registrar'))
+    }
+	
+	@And("I click on the button to create account")
+	def click_create_account() {
+		WebUI.click(findTestObject('Object Repository/RegisterPage/button_Criar_Conta'))
+	}
+	
+	@And("I fill the registration form with a unique email")
+	def fill_registration_form() {
+		String uniqueEmail = "teste" + System.currentTimeMillis() + "@mail.pt"
+		
+		println "Email generated for the test: " + uniqueEmail
+
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Email'), uniqueEmail)		
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Nickname'), "Teste")
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Password'), "12345678")
+	}
 
 	@And("I enter as an annonymous user")
 	def I_enter_as_an_anonymous_user() {
