@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ViewPersonalScoreboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea70a634-0ecb-4de7-9079-ba91c5dfb45a</testCaseGuid>
+</TestCaseEntity>
