@@ -50,22 +50,6 @@ class GameHistory {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I login as an user with no matches")
-	def I_enter_as_an_user_with_no_matches() {
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'rafael.vaz@mail.pt')
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
-		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
-		println "And -> I login as an user with no matches"
-	}
-
-	@And("I login as an user with matches")
-	def I_enter_as_an_user_with_matches() {
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'pc@mail.pt')
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
-		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
-		println "And -> I login as an user with no matches"
-	}
-
 	@And("I select a match")
 	def I_select_a_match() {
 		WebUI.click(findTestObject('Object Repository/GameHistory/firstMatchCard'))
@@ -101,17 +85,17 @@ class GameHistory {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/firstMatchGames'), 0)
 		println "Then -> I should see all games from that match"
 	}
-	
+
 	@Then("I should see a new match in my history")
 	def I_should_see_a_new_match_in_my_history() {
 		String matchDate = WebUI.getText(findTestObject('Object Repository/GameHistory/firstMatchDate'))
-		
+
 		LocalDate date = LocalDate.now()
-		
+
 		String currentDate = date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))
 		WebUI.comment("New match date: " + matchDate)
 		WebUI.comment("Current date: " + currentDate)
-		
+
 		if (matchDate != currentDate) {
 			WebUI.comment("New match date doesn't match current date")
 			throw new StepErrorException("Match not created")

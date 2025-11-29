@@ -5,7 +5,7 @@ Feature: Receive Email
 	So that I can confirm that I own that email.
 
   @tag1
-  Scenario: Registar uma nova conta com sucesso
+  Scenario: Register a new account successfully
     Given I open the browser
     And I navigate to the URL http://localhost:5173/
     When I click on the button to register

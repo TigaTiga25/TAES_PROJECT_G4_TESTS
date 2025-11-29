@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_TimePlayed</name>
+   <tag></tag>
+   <elementGuidId>29f96df9-9370-421b-9b75-077f037ed65c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.stat-value.time-value</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div/div[8]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7b62a321-4c65-4cfc-8bc0-442ffb41ce7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>stat-value time-value</value>
+      <webElementGuid>ba2b3bb6-fcc7-4739-8fa5-414d68452f5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>12h 31m</value>
+      <webElementGuid>e42b7590-260a-4c17-87f3-3fcff9d90998</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;scoreboard-container&quot;]/div[2]/div[@class=&quot;stats-grid&quot;]/div[@class=&quot;stat-card highlight-purple&quot;]/p[@class=&quot;stat-value time-value&quot;]</value>
+      <webElementGuid>b148e0f7-754f-4e27-9918-cb36f0a4b39e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div[8]/p</value>
+      <webElementGuid>a70d0c48-15fb-42d8-b54b-d406559ec908</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time Played'])[1]/following::p[1]</value>
+      <webElementGuid>24250870-cffd-415c-8fe6-99e274ec8b62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Points'])[1]/following::p[2]</value>
+      <webElementGuid>0b874684-9a53-4d5f-b77c-c63b6da92470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draws (60 pts)'])[1]/preceding::p[1]</value>
+      <webElementGuid>4f87a4cd-cf2b-4554-89fa-d242286f4d1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Riscas'])[1]/preceding::p[2]</value>
+      <webElementGuid>96597991-1e42-4070-a153-d90b1410be18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='12h 31m']/parent::*</value>
+      <webElementGuid>61935993-c67f-4c40-ae4e-421b6128bbe8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/p</value>
+      <webElementGuid>b865cdca-bbd7-4044-91c4-d630353587d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '12h 31m' or . = '12h 31m')]</value>
+      <webElementGuid>f3da77bd-4c69-4316-8561-ea90eb77ea47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

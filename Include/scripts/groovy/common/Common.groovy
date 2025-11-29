@@ -53,7 +53,7 @@ class Common {
 		WebUI.openBrowser('http://localhost:5173/')
 		println "Given->I have the browser open"
 	}
-	
+
 	@Given("I navigate to the bisca platform")
 	def I_navigate_to_the_bisca_platform() {
 		WebUI.openBrowser('http://localhost:5173/')
@@ -110,5 +110,21 @@ class Common {
 	@And("I insert (.*) in the pass field")
 	def I_insert_in_the_pass_field(String string) {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), string)
+	}
+	
+	@And("I login as an user with no matches")
+	def I_enter_as_an_user_with_no_matches() {
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'a1@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
+		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
+		println "And -> I login as an user with no matches"
+	}
+
+	@And("I login as an user with matches")
+	def I_enter_as_an_user_with_matches() {
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'pc@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
+		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
+		println "And -> I login as an user with no matches"
 	}
 }
