@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>77909559-bed6-4a41-86f2-1b0600bfb137</webElementGuid>
+      <webElementGuid>bb1fe7b7-0da7-4124-b576-df29e5b0b5c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6e8b1e16-38f3-40ed-b8a1-db40442bf64a</webElementGuid>
+      <webElementGuid>f39552f7-a2bb-48b3-9441-579f8671a793</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,15 +39,15 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive h-10 has-[>svg]:px-4 px-12 py-6 text-2xl font-semibold bg-white hover:bg-emerald-50 text-emerald-900 rounded-2xl shadow-md border border-emerald-200 transition transform hover:-translate-y-1 hover:shadow-xl</value>
-      <webElementGuid>a715a7a9-5f91-45bd-9e14-b3fd5dc548ee</webElementGuid>
+      <webElementGuid>f4fa2d0b-93b8-4119-9d4c-020d3f9f56b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>New Match</value>
-      <webElementGuid>c493e0bf-4b8c-474c-bd28-de3c3f8d6599</webElementGuid>
+      <value>Practice Game</value>
+      <webElementGuid>0c63af2d-4365-4bbe-a08a-08e220e91518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/main[@class=&quot;flex-grow flex flex-col items-center justify-start px-4 py-16 text-center&quot;]/div[@class=&quot;flex flex-wrap gap-8 justify-center mb-14&quot;]/button[@class=&quot;inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive h-10 has-[>svg]:px-4 px-12 py-6 text-2xl font-semibold bg-white hover:bg-emerald-50 text-emerald-900 rounded-2xl shadow-md border border-emerald-200 transition transform hover:-translate-y-1 hover:shadow-xl&quot;]</value>
-      <webElementGuid>fdb553ad-c8e7-4c46-9022-1d779f4110a2</webElementGuid>
+      <webElementGuid>e6d4613c-3154-4187-86f5-5ed074f1fa41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/main/div/button</value>
-      <webElementGuid>30822f36-8860-40d1-841e-7717b7fd2e18</webElementGuid>
+      <webElementGuid>5e4ffc5f-f92d-4104-b8b7-3f60662ceadd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,39 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The Bisca'])[1]/following::button[1]</value>
-      <webElementGuid>ddac2a71-c7fd-4aab-ae98-6a1b3a7a499d</webElementGuid>
+      <webElementGuid>49d0b0b0-ac5b-409e-87b0-499c01b5944e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::button[1]</value>
+      <webElementGuid>904d44f8-397b-436c-92da-51ab1b24e761</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Practice Game']/parent::*</value>
+      <webElementGuid>0cfc7760-8a4b-47d9-8f0e-582e28cf0415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>3ba9bd0a-948b-4a06-bd7a-958c5fd7b629</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Practice Game' or . = 'Practice Game')]</value>
+      <webElementGuid>adf5705a-f123-417a-91d0-a35cb9fccbd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

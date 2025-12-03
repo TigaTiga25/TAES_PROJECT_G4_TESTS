@@ -83,16 +83,4 @@ class StartPracticeGame {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_7'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_8'))
 	}
-
-	@And("I see the face down deck")
-	def I_see_the_face_down_deck(){
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_9'))
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/span_Practice Game_deck-label text-white mt-1'),'21 cards left')
-	}
-
-	@And("I see the face up trump")
-	def I_see_the_face_up_trump(){
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_10'))
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/span_Practice Game_deck-label text-white mt-1_1'), 'Trump')
-	}
 }

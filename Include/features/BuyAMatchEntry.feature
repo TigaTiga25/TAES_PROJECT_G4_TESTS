@@ -16,6 +16,7 @@ Feature: Buy a match entry
     And I login as a player
     And I see that I have a sufficient coins balance
     And I start a new match
+    And I choose for a bisca9
     When I navigate to the URL http://localhost:5173/home
     Then I see my balance updated
     
@@ -26,4 +27,5 @@ Feature: Buy a match entry
     And I navigate to the URL http://localhost:5173/
     And I login as player with unsufficient coins
     When I start a new match
+    And I choose for a bisca9
     Then I see the error message

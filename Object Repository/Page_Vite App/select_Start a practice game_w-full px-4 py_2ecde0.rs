@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Start a practice game_w-full px-4 py_2ecde0</name>
+   <tag></tag>
+   <elementGuidId>962a1ff8-8dc2-4625-92d3-0a217492dcd2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0f626b62-8ec4-467a-88cf-8a8bdb4b10a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full px-4 py-2 rounded-xl border border-emerald-300 text-emerald-900 font-semibold focus:outline-none focus:ring focus:ring-emerald-300</value>
+      <webElementGuid>81bf8e76-03a8-40ba-a212-6f79759cd19a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bisca of 9Bisca of 3</value>
+      <webElementGuid>95dc25aa-a03b-494a-b5f8-50fb1daaef5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/div[@class=&quot;fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm&quot;]/div[@class=&quot;bg-white p-8 rounded-2xl shadow-xl w-96 text-center border border-emerald-200&quot;]/div[@class=&quot;mb-6&quot;]/select[@class=&quot;w-full px-4 py-2 rounded-xl border border-emerald-300 text-emerald-900 font-semibold focus:outline-none focus:ring focus:ring-emerald-300&quot;]</value>
+      <webElementGuid>aed3c412-f52c-4cae-b9f9-89dd1406c464</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/select</value>
+      <webElementGuid>526338a6-7946-40c2-b78b-0509dbaf85dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start a practice game'])[1]/following::select[1]</value>
+      <webElementGuid>6f1f1c4e-a36b-40d4-8a78-9e2d0b8a1731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::select[1]</value>
+      <webElementGuid>5c382664-6a9d-4012-916d-840946d35b70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::select[1]</value>
+      <webElementGuid>e824f6b9-7397-4bd6-9fa9-160b53471fb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>83927a42-cfc9-4483-910e-743091afaa33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Bisca of 9Bisca of 3' or . = 'Bisca of 9Bisca of 3')]</value>
+      <webElementGuid>e99bb93a-398f-43fc-bfa2-16ed7489d506</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

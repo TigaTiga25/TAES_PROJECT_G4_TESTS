@@ -10,5 +10,6 @@ Feature: PlayACard
     And I navigate to the URL http://localhost:5173/
     And I enter as an annonymous user
     And I start a practice game
+    And I choose for a bisca9
     When I play a card on my turn
     Then I should see it in the board
