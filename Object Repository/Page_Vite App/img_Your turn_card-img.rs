@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Practice Game_card-img_3</name>
+   <name>img_Your turn_card-img</name>
    <tag></tag>
-   <elementGuidId>3fb5f2a9-1386-4d04-98e7-4aa4b9c07bbe</elementGuidId>
+   <elementGuidId>068e7061-776b-446f-bf90-019f6a9c7b74</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/div/div/div/div/div[4]/img</value>
+         <value>//div[@id='app']/div/div[4]/div[2]/div[3]/div/img</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.card.w-28.h-40.relative.z-10.shadow-lg > img.card-img</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2ac82c8c-b264-475e-a6ad-5689bcfbb66d</webElementGuid>
+      <webElementGuid>188fa024-53d8-46dd-acaa-fce26405ebd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/src/assets/cards/semFace.png</value>
-      <webElementGuid>11f36360-93e2-470a-bd2e-1e69f18ee039</webElementGuid>
+      <value>/src/assets/cards/c2.png</value>
+      <webElementGuid>5ded18a8-0019-49df-bce1-e956c0d4238e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>carta</value>
-      <webElementGuid>8941a962-9e05-4b36-bc2b-819148e08f77</webElementGuid>
+      <webElementGuid>01e95adf-e4e4-4c9b-9dc6-e5b8d7b5aef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,54 +47,46 @@
       <name>class</name>
       <type>Main</type>
       <value>card-img</value>
-      <webElementGuid>68494f9f-57e6-459b-a1bc-8f453738e171</webElementGuid>
+      <webElementGuid>3e9ebbc7-e333-4b7b-9ae5-56ad0cc63086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;table-row flex items-center justify-between w-full max-w-5xl mb-8&quot;]/div[@class=&quot;deck-area flex items-center&quot;]/div[@class=&quot;deck-and-trump flex items-end gap-6&quot;]/div[@class=&quot;deck-stack flex flex-col items-center relative&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;card w-28 h-40 relative z-10 shadow-lg&quot;]/img[@class=&quot;card-img&quot;]</value>
-      <webElementGuid>2fdd0f12-c6ad-45a5-8739-82a9a255a418</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;player-hand flex justify-center mb-8 relative&quot;]/div[@class=&quot;player-hand w-28 h-40&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card&quot;]/img[@class=&quot;card-img&quot;]</value>
+      <webElementGuid>bd91eafd-bb7f-453d-973c-3989553eeab4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[3]/div/div/div/div/div[4]/img</value>
-      <webElementGuid>1d6fd954-7eea-4555-8e6f-2faf08237663</webElementGuid>
+      <value>//div[@id='app']/div/div[4]/div[2]/div[3]/div/img</value>
+      <webElementGuid>1157617e-9c63-49da-8564-17b5fe74d9b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>(//img[@alt='carta'])[4]</value>
-      <webElementGuid>30b13b5c-3c59-4a09-92f5-9436fc663b98</webElementGuid>
+      <value>(//img[@alt='carta'])[8]</value>
+      <webElementGuid>b3f36006-83e3-4a92-b4af-d2c30f6373ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/img</value>
-      <webElementGuid>e0300e95-39bb-4b6d-83da-1c838e426caa</webElementGuid>
+      <value>//div[3]/div/img</value>
+      <webElementGuid>18458a58-14e5-4110-b4df-579b64e97344</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = '/src/assets/cards/semFace.png' and @alt = 'carta']</value>
-      <webElementGuid>fc60d733-8404-434c-a7e5-8817b118618b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[4]/img</value>
-      <webElementGuid>e36eb6d9-697f-4d71-b67b-3a79a388acf6</webElementGuid>
+      <value>//img[@src = '/src/assets/cards/c2.png' and @alt = 'carta']</value>
+      <webElementGuid>ffd41526-b510-4754-b640-935a107b650f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
