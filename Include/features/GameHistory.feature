@@ -9,8 +9,8 @@ Feature: GameHistory
   Scenario: Anonymous User
     Given I navigate to the bisca platform
     And I enter as an annonymous user
-    When I check my game history
-    Then I shouldn't see any history while logged out
+    When I try to check my game history
+    Then I shouldn't be able to check my history
   
   Scenario: User with no matches
     Given I navigate to the bisca platform
@@ -35,6 +35,7 @@ Feature: GameHistory
 		Given I navigate to the bisca platform
     And I login as an user with matches
     And I start a new match
+    And I choose for a bisca9
     And I win the match
     And I return to home page
     When I check my game history
