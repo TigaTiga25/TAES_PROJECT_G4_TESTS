@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Need 500_p-3 border-t border-slate-100 _c61b6c</name>
+   <tag></tag>
+   <elementGuidId>3f4eefa6-b3aa-4415-a4aa-3aa1235062bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div[5]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c8c68273-5a42-45e5-8ca5-e5674fb5f566</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-3 border-t border-slate-100 text-center bg-white space-y-2</value>
+      <webElementGuid>0db4408d-2785-4cf0-b605-8e7031439a10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ZombieNeed 500 💰</value>
+      <webElementGuid>61fa9dfa-b64a-44e4-9a84-1675b1a7eea9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-2 sm:grid-cols-3 gap-4&quot;]/div[@class=&quot;border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group bg-white flex flex-col&quot;]/div[@class=&quot;p-3 border-t border-slate-100 text-center bg-white space-y-2&quot;]</value>
+      <webElementGuid>41783825-dde8-4317-b6e9-827f1fee5da2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div[5]/div[2]</value>
+      <webElementGuid>97cd64c3-68d4-4764-96c9-ac54eaebf6b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Need 500 💰'])[1]/following::div[3]</value>
+      <webElementGuid>0f91eacf-2417-4b06-99ae-a4e6514c5914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alien'])[1]/following::div[3]</value>
+      <webElementGuid>2133948e-1765-4f57-a5b0-8eddbb5ed40d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]</value>
+      <webElementGuid>23b96447-3d8f-46d7-ae18-3429e67ecd62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ZombieNeed 500 💰' or . = 'ZombieNeed 500 💰')]</value>
+      <webElementGuid>02d69e27-cfda-4de0-aa37-ba19d975b62f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

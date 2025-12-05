@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Start a practice game_px-5 py-2 bg-e_67c576</name>
+   <tag></tag>
+   <elementGuidId>24d513be-c0b1-423c-91be-6556925f58f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>82cc0fc7-c962-411b-909e-cf3adacbedf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-semibold</value>
+      <webElementGuid>6f097f1c-88a3-4a24-96eb-f6fe63606b41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirm</value>
+      <webElementGuid>4c49fce3-988d-420f-921d-848c37f975a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-b from-emerald-10 to-emerald-100 flex flex-col font-sans select-none&quot;]/div[@class=&quot;fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm&quot;]/div[@class=&quot;bg-white p-8 rounded-2xl shadow-xl w-96 text-center border border-emerald-200&quot;]/div[@class=&quot;flex gap-4 justify-center&quot;]/button[@class=&quot;px-5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-semibold&quot;]</value>
+      <webElementGuid>605b2be8-a186-42b1-894a-b54815583584</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[2]/button</value>
+      <webElementGuid>7557c22f-dd31-4bef-9975-1f9ee6332e33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start a practice game'])[1]/following::button[1]</value>
+      <webElementGuid>71bcd4d1-ee60-4f40-8b4d-92da49ccb4a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>d1692dae-9f6b-44f6-a84e-8724d56acce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
+      <webElementGuid>9a09eece-ab7d-4878-a97a-959fc63a2dc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>9e670435-29f5-4a2f-b97b-e180ac75181b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Confirm' or . = 'Confirm')]</value>
+      <webElementGuid>92d3cd34-151d-4d6a-8a9c-3f34d1352b81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

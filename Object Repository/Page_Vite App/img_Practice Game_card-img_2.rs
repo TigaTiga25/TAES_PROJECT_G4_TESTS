@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div[3]/img</value>
+         <value>//div[@id='app']/div/div[2]/div/div[3]/img</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2278666e-0907-404a-b35e-a4c192f36134</webElementGuid>
+      <webElementGuid>76be51aa-fea9-4468-9984-b47c6351c5cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/src/assets/cards/semFace.png</value>
-      <webElementGuid>cdca28bc-01ba-4a70-80e9-15bd49282e42</webElementGuid>
+      <webElementGuid>306bf49f-c2d9-4a83-aced-0f2fc291c1f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>carta</value>
-      <webElementGuid>dc538e96-ded2-4531-826d-239f03f33ac9</webElementGuid>
+      <webElementGuid>b82b1714-f0c4-420e-9e0d-b41e2e2aa266</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,23 +47,23 @@
       <name>class</name>
       <type>Main</type>
       <value>card-img</value>
-      <webElementGuid>1fab8333-486a-42a1-a772-93a6e0acf7ad</webElementGuid>
+      <webElementGuid>74a0aa5c-3b45-46ea-89f3-70ef8a02924f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4&quot;]/div[@class=&quot;bot-hand flex justify-center mb-8&quot;]/div[@class=&quot;bot-hand&quot;]/div[@class=&quot;card&quot;]/img[@class=&quot;card-img&quot;]</value>
-      <webElementGuid>9de2486e-4234-4c39-85bf-5dd32c4a7da6</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;bot-hand flex justify-center mb-8&quot;]/div[@class=&quot;bot-hand&quot;]/div[@class=&quot;card&quot;]/img[@class=&quot;card-img&quot;]</value>
+      <webElementGuid>d80b9e79-7e64-436f-8f64-e5d006c32b20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[3]/img</value>
-      <webElementGuid>fc0ce65e-651a-4b03-8fb1-f62fcf3b7c19</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div/div[3]/img</value>
+      <webElementGuid>0584327e-4975-49c2-8452-9e4d20d4239f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>(//img[@alt='carta'])[3]</value>
-      <webElementGuid>768b0fae-b5ca-4e42-9190-6e43bbebad9b</webElementGuid>
+      <webElementGuid>fdce30e4-bba1-4714-ac69-f07c0b6dc16f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/img</value>
-      <webElementGuid>c3564869-a055-4978-afc5-b102aafd1432</webElementGuid>
+      <webElementGuid>f89a2c72-7689-4b97-bb66-a33e80cf8058</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/src/assets/cards/semFace.png' and @alt = 'carta']</value>
-      <webElementGuid>3370d9af-04dd-4226-9585-55abc4adc5c7</webElementGuid>
+      <webElementGuid>818b6061-be6f-4867-b7d2-b244fb717cff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[3]/img</value>
+      <webElementGuid>fc0ce65e-651a-4b03-8fb1-f62fcf3b7c19</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

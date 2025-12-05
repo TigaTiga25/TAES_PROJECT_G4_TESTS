@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Practice Game_card-img</name>
+   <name>img_Orus_aspect-square size-full object-cover</name>
    <tag></tag>
-   <elementGuidId>b6749c29-cc8f-4158-b5db-52f85f5e3599</elementGuidId>
+   <elementGuidId>0282c75e-70f6-4148-877d-b82136ca98dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div/div/img</value>
+         <value>//button[@id='reka-dropdown-menu-trigger-v-5']/span[2]/img</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>img.card-img</value>
+         <value>img.aspect-square.size-full.object-cover</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,55 +23,63 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>49a0be1c-3e2d-4125-911e-cde745e7e809</webElementGuid>
+      <webElementGuid>cedff57f-2024-4d6a-bda4-e105c330e217</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>70a15aa0-bab2-40f2-bf08-b36805288479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/src/assets/cards/semFace.png</value>
-      <webElementGuid>0ad5d570-b548-438f-8652-187240a5d3ad</webElementGuid>
+      <value>https://api.dicebear.com/7.x/avataaars/svg?seed=Orus</value>
+      <webElementGuid>aa0db1d5-8a5d-48c8-a81e-a12e528979da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>data-slot</name>
       <type>Main</type>
-      <value>carta</value>
-      <webElementGuid>359e9787-1b69-4d94-99d5-2e5343cdf18f</webElementGuid>
+      <value>avatar-image</value>
+      <webElementGuid>f061dabc-111c-4405-a8b2-455c126b1be0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>card-img</value>
-      <webElementGuid>05f04d3b-0f7f-4e86-836a-58148fa98756</webElementGuid>
+      <value>aspect-square size-full object-cover</value>
+      <webElementGuid>bf250eef-2070-4c3e-9878-f1a2e2a583d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;bot-hand flex justify-center mb-8&quot;]/div[@class=&quot;bot-hand&quot;]/div[@class=&quot;card&quot;]/img[@class=&quot;card-img&quot;]</value>
-      <webElementGuid>0e8370ad-6150-41b3-9c87-89d58b280902</webElementGuid>
+      <value>id(&quot;reka-dropdown-menu-trigger-v-5&quot;)/span[@class=&quot;relative flex size-8 shrink-0 overflow-hidden rounded-full cursor-pointer bg-slate-100 group-hover:ring-2 group-hover:ring-slate-200 transition&quot;]/img[@class=&quot;aspect-square size-full object-cover&quot;]</value>
+      <webElementGuid>6f4469f1-2768-4eea-b419-aa213e5e179d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div/div/img</value>
-      <webElementGuid>e693df95-5a9b-4bdc-99cd-ddd1fcdfc373</webElementGuid>
+      <value>//button[@id='reka-dropdown-menu-trigger-v-5']/span[2]/img</value>
+      <webElementGuid>837fc391-7ae4-4c20-b3dd-e885c4abd8a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>//img[@alt='carta']</value>
-      <webElementGuid>53055477-1b66-4ac5-93f5-84ebc48ace6e</webElementGuid>
+      <value>//img[contains(@src,'https://api.dicebear.com/7.x/avataaars/svg?seed=Orus')]</value>
+      <webElementGuid>c1666c38-0e91-4105-9aeb-40b8a6cd651b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,22 +87,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>7709ea51-cad0-45a0-9d99-8b3e7c7e4336</webElementGuid>
+      <webElementGuid>9f0e2ca9-15f9-4918-b91e-d5e9b37defc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = '/src/assets/cards/semFace.png' and @alt = 'carta']</value>
-      <webElementGuid>ec8bca74-8f92-48ab-8c5f-c2fa6838ed96</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/img</value>
-      <webElementGuid>c9164f6f-8cc4-4514-9386-0797b1b1de33</webElementGuid>
+      <value>//img[@src = 'https://api.dicebear.com/7.x/avataaars/svg?seed=Orus']</value>
+      <webElementGuid>70bb0632-9ee7-4265-ba24-c9d786a816ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

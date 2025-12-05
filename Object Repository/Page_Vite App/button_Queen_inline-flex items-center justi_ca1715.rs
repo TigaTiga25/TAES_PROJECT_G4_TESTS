@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Queen_inline-flex items-center justi_ca1715</name>
+   <tag></tag>
+   <elementGuidId>7457c320-8033-46fc-a63d-517ef9798bae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div[2]/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dc9a5134-59c5-4004-a920-ffc94cead2a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>549aa83b-0aa2-4cac-a432-5b69e2dc8229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5 w-full text-xs font-bold border-emerald-500 text-emerald-600 hover:bg-emerald-50</value>
+      <webElementGuid>a642bbdf-9f10-43c7-9b35-774c7e808b55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buy 100 💰</value>
+      <webElementGuid>8a66014d-9bec-4851-8a85-3a7c280526e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-2 sm:grid-cols-3 gap-4&quot;]/div[@class=&quot;border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group bg-white flex flex-col&quot;]/div[@class=&quot;p-3 border-t border-slate-100 text-center bg-white space-y-2&quot;]/button[@class=&quot;inline-flex items-center justify-center whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5 w-full text-xs font-bold border-emerald-500 text-emerald-600 hover:bg-emerald-50&quot;]</value>
+      <webElementGuid>52a817ee-9929-436e-b986-9836cca983ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div[2]/div[2]/button</value>
+      <webElementGuid>eb486aa5-cc13-4d44-b9e9-cafb47a17b63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Queen'])[1]/following::button[1]</value>
+      <webElementGuid>99da4365-d2d8-4df0-87a6-a6c6ca0d487c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Owned'])[1]/following::button[1]</value>
+      <webElementGuid>79572c8a-0d90-48cd-87cc-527aa8fd7e58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Robot'])[1]/preceding::button[1]</value>
+      <webElementGuid>442a231b-724c-4530-9548-3abac9a48196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>b622f06b-700b-49ed-bf14-4f853067b5f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Buy 100 💰' or . = 'Buy 100 💰')]</value>
+      <webElementGuid>9b4ec15b-0dab-4985-b02e-ee51b7561f60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

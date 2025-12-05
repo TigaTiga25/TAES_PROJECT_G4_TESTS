@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select</name>
+   <tag></tag>
+   <elementGuidId>9144db72-e9d3-4449-b1c1-bd58da853dc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>3922e3ae-4ae8-428f-9ebf-8a3a5b03d29e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>🏆 Matches Won💰 Coins Earned🧹 Capotes🚩 Bandeiras</value>
+      <webElementGuid>5126bd75-af8e-4313-8235-fa3bbef42096</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;scoreboard-container&quot;]/div[2]/div[@class=&quot;global-wrapper&quot;]/div[@class=&quot;filter-card&quot;]/div[@class=&quot;filter-group&quot;]/select[1]</value>
+      <webElementGuid>0fbd96d6-7276-4c7a-9415-473145be6061</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div/div/select</value>
+      <webElementGuid>4e04706d-1f66-4b73-ad08-e5fe16d3617e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ranking Category'])[1]/following::select[1]</value>
+      <webElementGuid>0ec349e7-4864-4d96-8650-8c766c64088b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Global Rankings'])[1]/following::select[1]</value>
+      <webElementGuid>69957a64-4d1a-4115-ae7e-923f74fe2616</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Nickname'])[1]/preceding::select[1]</value>
+      <webElementGuid>736948c3-1108-40d1-93f3-ba3d9446ca51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::select[1]</value>
+      <webElementGuid>ffc0e113-6cdb-4405-99e4-c895108e4637</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>60f887a4-be01-4576-819c-a9be7b9f3d04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = '🏆 Matches Won💰 Coins Earned🧹 Capotes🚩 Bandeiras' or . = '🏆 Matches Won💰 Coins Earned🧹 Capotes🚩 Bandeiras')]</value>
+      <webElementGuid>98fa914e-d4cf-4a20-8d5b-8e0747ebd899</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

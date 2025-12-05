@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BuyAvatar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e32c3e9b-ba28-4d43-b42a-549cd5e83f5a</testCaseGuid>
+</TestCaseEntity>

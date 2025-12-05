@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button</name>
+   <name>button_Low</name>
    <tag></tag>
-   <elementGuidId>66a99f56-eab2-42a4-81ce-88ffa74c174b</elementGuidId>
+   <elementGuidId>64bd4bb9-8bac-41e8-9faa-5baf038264f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button:nth-of-type(2)</value>
+         <value>button[title=&quot;Lowest First&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/button[2]</value>
+         <value>//div[@id='app']/div/div[2]/div/div/div[3]/div/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,86 +23,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a0743686-872e-49f2-a8c5-096e1e18ba78</webElementGuid>
+      <webElementGuid>00fd205e-f184-4f88-a09e-2a3f981e565b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Lowest First</value>
+      <webElementGuid>bb85e9dd-6dea-4d8c-9e70-627e93d38dc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Global Rankings </value>
-      <webElementGuid>7ed24468-2093-4314-a883-37587ec9c263</webElementGuid>
+      <value>⬆️ Low</value>
+      <webElementGuid>241e8606-c1a6-47ac-9f44-ccf41d803728</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;scoreboard-container&quot;]/div[@class=&quot;toggle-buttons&quot;]/button[2]</value>
-      <webElementGuid>9bff1019-e6e5-45b1-991d-d42e6e1e14ab</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;scoreboard-container&quot;]/div[2]/div[@class=&quot;global-wrapper&quot;]/div[@class=&quot;filter-card&quot;]/div[@class=&quot;filter-group&quot;]/div[@class=&quot;toggle-sort&quot;]/button[2]</value>
+      <webElementGuid>06887aa4-90df-4c35-980a-93f011930825</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/button[2]</value>
-      <webElementGuid>88e9718f-e713-4691-89be-05058e3ff686</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div/div/div[3]/div/button[2]</value>
+      <webElementGuid>04cb3ff4-e873-424f-a24e-c7d5931d592d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Best'])[1]/following::button[1]</value>
-      <webElementGuid>2f41d9df-d65e-4ca8-8352-e582246ab1a7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='⬇️ High'])[1]/following::button[1]</value>
+      <webElementGuid>74a7647e-b2b8-4347-a554-7c1eade3181b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scoreboards'])[2]/following::button[2]</value>
-      <webElementGuid>44a90799-95a1-4ce8-baa9-b3ea76e32ce5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/following::button[2]</value>
+      <webElementGuid>fb8e13a3-04ae-493a-b26c-17cd8f020abf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Matches'])[1]/preceding::button[1]</value>
-      <webElementGuid>7360b203-3216-494d-b212-8f850a925438</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#'])[1]/preceding::button[1]</value>
+      <webElementGuid>63477d22-e011-4ffd-813d-c4d34196a6b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Matches Won'])[1]/preceding::button[1]</value>
-      <webElementGuid>112734da-90cd-46e7-868a-0bd75de952aa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player'])[1]/preceding::button[1]</value>
+      <webElementGuid>d913018c-7c91-4481-9a25-8cbf56bf4f82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Global Rankings']/parent::*</value>
-      <webElementGuid>d8c97fb0-2cbd-48ea-98e4-f8e7d5be4cec</webElementGuid>
+      <value>//*/text()[normalize-space(.)='⬆️ Low']/parent::*</value>
+      <webElementGuid>2e23f36f-ced2-4f6f-ba65-1ace2d8afe91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>05511c59-8d53-4e12-bac6-a99765b72376</webElementGuid>
+      <value>//div[3]/div/button[2]</value>
+      <webElementGuid>85e5003b-61d2-4398-8c16-7fd25561bee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = ' Global Rankings ' or . = ' Global Rankings ')]</value>
-      <webElementGuid>5d80b0e0-2751-4611-a2f7-806a9c9ece41</webElementGuid>
+      <value>//button[@title = 'Lowest First' and (text() = '⬆️ Low' or . = '⬆️ Low')]</value>
+      <webElementGuid>2f8b8e45-c1de-4937-8b64-ee80d7e17dbf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
