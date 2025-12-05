@@ -62,9 +62,15 @@ class GameHistory {
 		println "When -> I check my game history"
 	}
 
-	@Then("I shouldn't see any history while logged out")
-	def I_shouldnt_see_any_history_while_logged_out() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/GameHistory/loggedOutText'), 0)
+	@When("I try to check my game history")
+	def I_try_to_check_my_game_history() {
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/HomePage/historyNav'), 0)
+		println "When -> I try to check my game history"
+	}
+
+	@Then("I shouldn't be able to check my history")
+	def I_shouldnt_be_able_to_check_my_history() {
+		WebUI.verifyEqual(WebUI.getUrl(), 'http://localhost:5173/home')
 		println "Then -> I shouldn't see any history while logged out"
 	}
 

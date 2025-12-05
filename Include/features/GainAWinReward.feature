@@ -10,6 +10,7 @@ Feature: Gain a win reward
     And I navigate to the URL http://localhost:5173/
     And I login as a player
     And I start a new match
+    And I choose for a bisca9
     When I win the match
     And I verify that the game is over
     And I return to home page
