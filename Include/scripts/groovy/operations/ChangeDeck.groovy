@@ -44,17 +44,16 @@ import cucumber.api.java.en.When
 
 
 
-class ViewProfileDetails {
+class ChangeDeck {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Then("I click on the (.*) buttonImage")
-	def I_click_on_the_buttonImage(String string) {
+	@And("I click on the (.*) chosen deck")
+	def I_click_on_the_chosen_deck(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
-
-	@And("I click on the (.*) buttonProfile to see details")
-	def I_click_on_the_buttonProfile_to_see_details(String string) {
+	@And("I click on the (.*) to equip deck")
+	def I_click_on_the_to_equip_deck(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
 }

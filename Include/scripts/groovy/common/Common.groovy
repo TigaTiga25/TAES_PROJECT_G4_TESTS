@@ -148,7 +148,7 @@ class Common {
 		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
 		println "And -> I login as an user with no matches"
 	}
-	
+
 	@And("I see the face down deck")
 	def I_see_the_face_down_deck(){
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_9'))
@@ -159,12 +159,20 @@ class Common {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_10'))
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/span_Practice Game_deck-label text-white mt-1_1'), 'Trump')
 	}
-	
+
 	@And("I choose for a bisca9")
 	def I_choose_for_a_bisca3() {
 		WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Vite App/select_Start a practice game_w-full px-4 py_2ecde0'),
-			'9', true)
-		
+				'9', true)
+
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Start a practice game_px-5 py-2 bg-e_67c576'))
+	}
+	@Then("I click on the (.*) customizationsButton")
+	def I_click_on_the_customizationsButton(String string) {
+		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	}
+	@And("I click on the (.*) decksButton")
+	def I_click_on_the_decksButton(String string) {
+		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
 }
