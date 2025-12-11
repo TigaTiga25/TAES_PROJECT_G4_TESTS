@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Your turn_text-xl font-mono font-extrabol_acfe38</name>
+   <tag></tag>
+   <elementGuidId>43a30acf-d135-4cfe-9fe7-1407292c00a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[5]/div/div/button/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-xl.font-mono.font-extrabold.text-green-400</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>98f7546f-1034-421a-9baf-2e0b484506fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl font-mono font-extrabold text-green-400</value>
+      <webElementGuid>54e8ff7b-6382-40f1-8921-41a14f56ae20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>69dbeac6-a7e9-4342-958f-4b67f65491a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;w-full max-w-5xl flex justify-between items-center mt-4&quot;]/div[@class=&quot;flex items-center gap-3 text-left text-white p-3 bg-gray-900 bg-opacity-60 rounded-lg shadow-sm border border-white/10&quot;]/div[@class=&quot;flex flex-col leading-tight&quot;]/button[1]/p[@class=&quot;text-xl font-mono font-extrabold text-green-400&quot;]</value>
+      <webElementGuid>eefb2d8b-2e62-4f18-99a0-0d29bb415117</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[5]/div/div/button/p</value>
+      <webElementGuid>afaa78fc-5408-45ad-b0e4-8a8444e3011f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your turn!'])[1]/following::p[2]</value>
+      <webElementGuid>f43793b1-4557-460a-9b5f-dee7fab349f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trump'])[1]/following::p[2]</value>
+      <webElementGuid>cc9924e4-fc68-4a44-8551-62094e18331e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/p</value>
+      <webElementGuid>f5818ac8-712e-464b-b5f7-7aff801941ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '0' or . = '0')]</value>
+      <webElementGuid>e4eb7411-366d-4d46-bc18-80dd156d6c13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
