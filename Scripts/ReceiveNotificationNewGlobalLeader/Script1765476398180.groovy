@@ -21,17 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'pa@mail.pt')
+WebUI.setText(findTestObject('LoginPage/inputEmail'), 'pa@mail.pt')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('LoginPage/inputPassword'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
+WebUI.click(findTestObject('LoginPage/loginButton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/a_Single Player_nav-link'))
+WS.sendRequest(findTestObject('Debug_Notify_Leaderboard'))
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Avatars_px-6 py-2 rounded-lg font-bo_f70d48'))
+WebUI.delay(16)
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/button_My Collection (2)_flex-1 py-4 text-s_e41c63'))
+WebUI.verifyElementPresent(findTestObject('NavBar/span_New_Notifications'), 5)
 
-WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Pixel_inline-flex items-center justi_9c7e8c'))
+WebUI.click(findTestObject('Object Repository/NavBar/button_Notifications'))
+
+WebUI.click(findTestObject('NavBar/div_New_Notification'))
+
+WebUI.verifyTextPresent('Global Rankings', false)
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 
