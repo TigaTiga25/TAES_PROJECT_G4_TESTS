@@ -1,3 +1,7 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+# Have a registered user (Profiles/default - defaultUser)
 
 @tag
 Feature: Login
@@ -7,11 +11,8 @@ Feature: Login
 
   @tag1
   Scenario: Login
-    Given I open the browser
-    And I navigate to the URL http://localhost:5173/
-    When I insert teste@mail.pt in the email field
-    Then I click on the button_Password_inline-flex items-center ju_b44d9a button to login
-    
+    Given I navigate to the bisca platform
+    When I insert my credentials
+    And I click on the button to login
+    Then I should be redirected to the home page
   	
-
-    

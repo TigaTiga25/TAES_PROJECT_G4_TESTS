@@ -1,3 +1,8 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+# Have a registered user (Profiles/default - defaultUser)
+
 @tag
 Feature: Gain a win reward
   As a logged user
@@ -6,8 +11,7 @@ Feature: Gain a win reward
 
   @tag1
   Scenario: Gain a reward by capote
-    Given I open the browser
-    And I navigate to the URL http://localhost:5173/
+    Given I navigate to the bisca platform
     And I login as a player
     And I start a new match
     And I choose for a bisca9

@@ -1,3 +1,8 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+# Have a registered user (Profiles/default - defaultUser)
+
 @tag
 Feature: View coins balance
   As a logged user 
@@ -6,12 +11,9 @@ Feature: View coins balance
 
   @tag1
   Scenario: View coins balance
-    Given I open the browser
-    And I navigate to the URL http://localhost:5173/
-    When I insert pa@mail.pt on the email field
-   	And I insert 123 in the pass field
-   	Then I click on the button_Password_inline-flex items-center ju_559f66 button to login
+    Given I navigate to the bisca platform
+    When I login as a player
    	And I click on the div_About_inline-flex items-center justify-_4ac8e6 button to see coins balance
-   
+   	Then I should be redirected to the transactions page
 
     

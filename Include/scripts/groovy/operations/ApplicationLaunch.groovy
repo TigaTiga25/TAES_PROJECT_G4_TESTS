@@ -48,9 +48,21 @@ class ApplicationLaunch {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
+	@Given("I want to play bisca games")
+	def I_want_to_play_bisca_games() {
+		println "Given -> I want to play bisca games"
+	}
+
 	@Then("I should see the login page")
 	def I_should_see_the_login_page() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/LoginPage/Title'), 0)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/LoginPage/Title'))
+		println "Then -> I should see the login page"
+	}
+
+	@Then("I should be able to login or continue as an anonymous user")
+	def verifyElementVisible() {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/LoginPage/loginButton'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/LoginPage/AnonymousButton'))
 		println "Then -> I should see the login page"
 	}
 }

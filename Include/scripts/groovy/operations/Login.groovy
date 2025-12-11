@@ -48,9 +48,16 @@ class Login {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@When("I insert (.*) in the email field")
-	def I_insert_in_the_email_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'teste@mail.pt')
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '12345678')
+	@When("I insert my credentials")
+	def I_insert_in_the_email_field() {
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), GlobalVariable.defaultUser)
+		WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/inputPassword'), 'tzH6RvlfSTg=')
 	}
+	
+	@And("I click on the button to login")
+	def I_click_on_the_button_to_login() {
+		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
+	}
+	
+	
 }

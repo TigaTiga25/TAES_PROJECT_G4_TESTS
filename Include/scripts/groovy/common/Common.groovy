@@ -17,6 +17,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.exception.StepErrorException
 
 import internal.GlobalVariable
 
@@ -56,7 +57,7 @@ class Common {
 
 	@Given("I navigate to the bisca platform")
 	def I_navigate_to_the_bisca_platform() {
-		WebUI.openBrowser('http://localhost:5173/')
+		WebUI.openBrowser(GlobalVariable.url)
 		println "Given->I have the browser open"
 	}
 
@@ -81,7 +82,7 @@ class Common {
 		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Password'), "12345678")
 	}
 
-	@And("I enter as an annonymous user")
+	@And("I enter as an anonymous user")
 	def I_enter_as_an_anonymous_user() {
 		WebUI.click(findTestObject('Object Repository/LoginPage/AnonymousButton'))
 		println "And->I enter as an annonymous user"
@@ -89,9 +90,9 @@ class Common {
 
 	@And("I login as a player")
 	def I_login_as_player() {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'pa@mail.pt')
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), 'tzH6RvlfSTg=')
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), GlobalVariable.defaultUser)
+		WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/inputPassword'), 'tzH6RvlfSTg=')
+		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
 	}
 
 	@And("I start a practice game")
@@ -111,6 +112,40 @@ class Common {
 		WebUI.navigateToUrl(name)
 
 		println "When->I navigate to the URL" + name
+	}
+
+	@When("I navigate to the (.*) page")
+	def I_navigate_to_the_page(String name) {
+		String url = GlobalVariable.url
+		if (!url.endsWith("/")) {
+			url += "/"
+		}
+		WebUI.navigateToUrl(url + name)
+		WebUI.comment(url + name)
+
+		println "When->I navigate to the " + name + " page"
+	}
+
+	@And ("I should be redirected to the (.*) page")
+	def I_should_be_redirected_to_page(String name) {
+		String url = GlobalVariable.url
+		if (!url.endsWith("/")) {
+			url += "/"
+		}
+		url += name
+
+		WebUI.delay(3)
+
+		// Verify current URL
+		if (url == WebUI.getUrl()) {
+			WebUI.comment("Redirected Successfully to " + url)
+		} else {
+			WebUI.comment("Current URL: " + WebUI.getUrl())
+			WebUI.comment("Expected URL: " + url)
+			throw new StepErrorException("Redirect Unsuccessful")
+		}
+
+		println "And->I should be redirected to the " + name + " page"
 	}
 
 	@And("I close the browser")
@@ -135,16 +170,8 @@ class Common {
 
 	@And("I login as an user with no matches")
 	def I_enter_as_an_user_with_no_matches() {
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'a1@mail.pt')
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
-		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
-		println "And -> I login as an user with no matches"
-	}
-
-	@And("I login as an user with matches")
-	def I_enter_as_an_user_with_matches() {
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), 'pc@mail.pt')
-		WebUI.setText(findTestObject('Object Repository/LoginPage/inputPassword'), '123')
+		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), GlobalVariable.userWithoutMatches)
+		WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/inputPassword'), 'tzH6RvlfSTg=')
 		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
 		println "And -> I login as an user with no matches"
 	}

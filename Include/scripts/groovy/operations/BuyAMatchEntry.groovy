@@ -58,7 +58,7 @@ class BuyAMatchEntry {
 
 	@And("I login as player with unsufficient coins")
 	def I_login_as_player_with_unsufficient_coins() {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'pb@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), GlobalVariable.userWithoutCoins)
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), 'tzH6RvlfSTg=')
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
 	}

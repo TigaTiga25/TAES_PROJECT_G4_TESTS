@@ -1,3 +1,7 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+
 @tag
 Feature: Register
   As a new player,  
@@ -6,8 +10,7 @@ Feature: Register
 
   @tag1
   Scenario: Register
-    Given I open the browser
-    And I navigate to the URL http://localhost:5173/
+    Given I navigate to the bisca platform
     When I click on the button_Entrar_inline-flex items-center just_5a503c button to register
     And I insert teste@mail.pt in the mail field
     And I insert input_Nickname_filetext-foreground placehol_cc48e9 in the nickname field

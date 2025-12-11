@@ -1,3 +1,7 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+
 @tag
 Feature: StartPracticeGame
   As a player, 
@@ -7,9 +11,8 @@ Feature: StartPracticeGame
 
   @tag1
   Scenario: Start a practice game
-    Given I open the browser
-    And I navigate to the URL http://localhost:5173/
-    And I enter as an annonymous user
+    Given I navigate to the bisca platform
+    And I enter as an anonymous user
     When I start a practice game
     And I choose for a bisca9
     Then I see the bot nine cards
