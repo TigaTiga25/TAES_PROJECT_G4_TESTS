@@ -55,11 +55,11 @@ class ChangeAvatar {
 	
 	@And("I click on the (.*) chosen avatar")
 	def I_click_on_the_chosen_avatar(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/' + string))
 	}
 	
-	@And("I click on the (.*) equipAvatarButton to equip avatar")
+	@And("I click on the (.*) to equip avatar")
 	def I_click_on_the_equipAvatarButton_to_equip_avatar(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/' + string))
 	}
 }

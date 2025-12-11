@@ -15,5 +15,5 @@ Feature: View Personal Scoreboard
   Scenario: View Personal Stats (Account with NO games - Zero State)
   	Given I navigate to the bisca platform
     And I login as an user with no matches
-    When I click on the Scoreboards link
+    When I click on the Scoreboards link	
     Then I should see all stats initialized to zero

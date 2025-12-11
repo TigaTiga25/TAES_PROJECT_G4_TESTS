@@ -1,6 +1,8 @@
 @tag
 Feature: SkipLogin
-  Colocar aqui a User Story
+  As an unregistered player, 
+	I want to skip login,  
+	So that I can play practice games. 
 
   @tag1
   Scenario: SkipLogin

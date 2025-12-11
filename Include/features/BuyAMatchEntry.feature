@@ -1,4 +1,4 @@
-#requisits
+#Requirements
 #Have a user with sufficient coins (pa@mail.pt)
 #Have a user without coins (pb@mail.pt)
 

@@ -58,8 +58,8 @@ class Register {
 	def I_insert_in_the_mail_field(String string) {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_filetext-foreground placeholder_5402ca'), 'teste@mail.pt')
 	}
-	
-	
+
+
 	@And("I insert (.*) in the nickname field")
 	def I_insert_in_the_nickname_field(String string) {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Nickname_filetext-foreground placehol_cc48e9'),'teste')
@@ -68,11 +68,10 @@ class Register {
 	def I_insert_in_the_password_field(String string) {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Password_filetext-foreground placehol_5a2319'),'12345678')
 	}
-	
-	
+
+
 	@Then("I click on the (.*) button to create account")
 	def I_click_on_the_button_to_create_account(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
-
 }
