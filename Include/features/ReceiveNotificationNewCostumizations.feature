@@ -1,0 +1,27 @@
+@tag
+Feature: Received notification by new available customizations
+  As a logged user
+	I want to receive a notification when there are new available customizations
+	So that I can see those customizations
+
+  @deck
+  Scenario: Admin announces a new Deck
+    Given I open the browser
+    And I login as a player
+    When the Admin announces a new "DECK" named "Matrix" via API
+    And I wait for the notification polling
+    Then I should see the red badge on the bell icon
+    When I click on the notification bell
+    And I click on the New Item notification
+    Then the "Decks" category should be selected
+    
+  @avatar
+  Scenario: Admin announces a new Avatar
+    Given I open the browser
+    And I login as a player
+    When the Admin announces a new "AVATAR" named "Sonic" via API
+    And I wait for the notification polling
+    Then I should see the red badge on the bell icon
+    When I click on the notification bell
+    And I click on the New Item notification
+    Then the "Avatars" category should be selected

@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>85bac8ab-8740-48d4-89b0-e617d9b8f404</webElementGuid>
+      <webElementGuid>78f6695a-02ba-4ab1-af68-e321b6aa4d70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2392add4-d3cf-498b-9cb6-7837f31e91db</webElementGuid>
+      <webElementGuid>34fb9c18-0783-43f0-9b1e-a1934c35a6fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive w-full</value>
-      <webElementGuid>9aa16548-65dd-4e10-8731-f101b681ca3e</webElementGuid>
+      <webElementGuid>47e1442f-8e7e-4cae-97b6-34e4924e4c52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>loginId</value>
-      <webElementGuid>737dcfab-e327-4a98-a9bd-d6104f24e220</webElementGuid>
+      <webElementGuid>ce31c684-38c9-4afe-b313-bf5e705a2c31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>4c68aa11-83a2-415a-92b7-57346e639741</webElementGuid>
+      <webElementGuid>ec87b896-ef28-4305-887b-2b5949854cfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>o.teu@email.com</value>
-      <webElementGuid>5c4c2bbc-c836-4de7-be10-934570567976</webElementGuid>
+      <webElementGuid>eab70294-874f-452f-8042-69a39ced7f48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loginId&quot;)</value>
-      <webElementGuid>bede6982-62d6-4603-a84f-17428a65f66d</webElementGuid>
+      <webElementGuid>b6fc9f6a-2c04-468c-814f-29fabd091c6d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='loginId']</value>
-      <webElementGuid>8e0f1f20-28c6-4aec-9fc0-f0f0d5af245a</webElementGuid>
+      <webElementGuid>c60c1f81-b86b-4321-ae15-bf4e39ab5e49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div[2]/form/div/input</value>
-      <webElementGuid>697bc89c-4c3d-4829-bed6-bf752de68958</webElementGuid>
+      <webElementGuid>f41c36b4-0f2c-4af1-b660-0b7ea04ad4a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>f0af1822-50a3-4bcb-97fe-bac19cef394f</webElementGuid>
+      <webElementGuid>0f038d70-152b-45fd-9740-095fbff79f45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'loginId' and @type = 'text' and @placeholder = 'o.teu@email.com']</value>
-      <webElementGuid>04693d68-472c-4acf-a34e-2f2e4705f513</webElementGuid>
+      <webElementGuid>d0d5fb3e-40f8-49cf-9318-1005faa89a28</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
