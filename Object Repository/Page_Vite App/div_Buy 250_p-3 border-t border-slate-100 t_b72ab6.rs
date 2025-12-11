@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8609fe73-aae4-4365-98fc-4121ad07e5c4</webElementGuid>
+      <webElementGuid>9daee1c3-7cde-445c-a27a-e5e3d926877f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-3 border-t border-slate-100 text-center bg-white space-y-2</value>
-      <webElementGuid>94883940-2826-4e65-a189-f67c7f59f583</webElementGuid>
+      <webElementGuid>88cb9b35-ec33-443b-990f-8dd5a6d87ba3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AlienNeed 500 💰</value>
-      <webElementGuid>43e94b18-d7f8-4280-996f-194cbbc1d53d</webElementGuid>
+      <webElementGuid>84fde9b4-fdb1-41cf-956b-b5e4fd220821</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-2 sm:grid-cols-3 gap-4&quot;]/div[@class=&quot;border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group bg-white flex flex-col&quot;]/div[@class=&quot;p-3 border-t border-slate-100 text-center bg-white space-y-2&quot;]</value>
-      <webElementGuid>fcac62a7-813f-4e34-9297-e7931267d39a</webElementGuid>
+      <webElementGuid>96848aa6-d63f-4e1b-b560-1763a63dd3c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div[4]/div[2]</value>
-      <webElementGuid>4fe50991-5c0a-49d1-9b80-ca0951c9019e</webElementGuid>
+      <webElementGuid>06ca2c92-0b7c-406a-88dd-3e3864965b2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Buy 250 💰'])[1]/following::div[3]</value>
-      <webElementGuid>b11a929c-15f2-4eeb-816a-33edeb22eb2c</webElementGuid>
+      <webElementGuid>9f7e7b87-857c-40b6-b7ee-26c3973f0f61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Robot'])[1]/following::div[3]</value>
-      <webElementGuid>1913a802-51f4-41e7-89b4-11f9d7423303</webElementGuid>
+      <webElementGuid>8632aa2c-53e5-4388-ad89-4e81e86a2960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]</value>
-      <webElementGuid>895415b5-1fe8-43ab-9147-e85c26fc69eb</webElementGuid>
+      <webElementGuid>ae955cea-2691-40af-9550-f579e95ac92e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'AlienNeed 500 💰' or . = 'AlienNeed 500 💰')]</value>
-      <webElementGuid>21bff15a-1a3b-47f2-83c8-df8d7317786a</webElementGuid>
+      <webElementGuid>84f97b83-67a3-400b-a9db-bd78f2f3e03a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

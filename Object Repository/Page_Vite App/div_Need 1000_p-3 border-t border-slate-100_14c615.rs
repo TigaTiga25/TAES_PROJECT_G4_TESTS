@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_My Wardrobe (5)_flex-1 py-4 text-sm _09f274</name>
+   <name>div_Need 1000_p-3 border-t border-slate-100_14c615</name>
    <tag></tag>
-   <elementGuidId>4df240ea-a12f-429e-8d52-3e8d78842320</elementGuidId>
+   <elementGuidId>877575af-9947-4fa3-8bea-73364c925a11</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/button[2]</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div[7]/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,71 +22,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f1c1de8f-d74b-4fff-91bc-09b49a06bb72</webElementGuid>
+      <value>div</value>
+      <webElementGuid>c2854225-89a3-4022-9b13-8dcb5c87a7c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex-1 py-4 text-sm font-semibold transition-colors border-b-2 border-transparent text-slate-500 hover:bg-slate-50</value>
-      <webElementGuid>66a86347-fd18-4806-aae5-c79b6eb9cba8</webElementGuid>
+      <value>p-3 border-t border-slate-100 text-center bg-white space-y-2</value>
+      <webElementGuid>1e5a00e1-86a2-4528-a1cb-c743d9e0fa85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Avatar Shop (7) </value>
-      <webElementGuid>3e7ba282-d884-4ef7-89f3-bba6f8d8da5f</webElementGuid>
+      <value>SonicNeed 1000 💰</value>
+      <webElementGuid>867af0aa-1694-4aa6-912b-7e6abf28faf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;flex border-b border-slate-100&quot;]/button[@class=&quot;flex-1 py-4 text-sm font-semibold transition-colors border-b-2 border-transparent text-slate-500 hover:bg-slate-50&quot;]</value>
-      <webElementGuid>326bfb99-9be1-4ce7-84fc-745b8fbcdb44</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-2 sm:grid-cols-3 gap-4&quot;]/div[@class=&quot;border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group bg-white flex flex-col&quot;]/div[@class=&quot;p-3 border-t border-slate-100 text-center bg-white space-y-2&quot;]</value>
+      <webElementGuid>b87a6d84-f04e-4988-b821-86ef9c5da44c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/button[2]</value>
-      <webElementGuid>262be67d-e66b-42ca-bad2-70605fb6dcc5</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div[7]/div[2]</value>
+      <webElementGuid>51722336-1adc-4439-ae08-e6a0903f3695</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Wardrobe (5)'])[1]/following::button[1]</value>
-      <webElementGuid>9fa38c49-092e-4f0b-a01b-5cc9db0d4cc6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Need 1000 💰'])[1]/following::div[3]</value>
+      <webElementGuid>20f28132-52f0-4d90-8de0-2e854681965b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Avatar Shop (7)']/parent::*</value>
-      <webElementGuid>7f673d8b-d388-4dd2-82ac-08ad0fe6df9e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mario'])[1]/following::div[3]</value>
+      <webElementGuid>decb330f-c127-40c3-b11a-ecb6e71381f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>d1d9a984-53df-4aa7-8370-de425bbaaeaa</webElementGuid>
+      <value>//div[7]/div[2]</value>
+      <webElementGuid>17cc36fa-e0b5-4a8d-b624-7561538a74ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = ' Avatar Shop (7) ' or . = ' Avatar Shop (7) ')]</value>
-      <webElementGuid>cdd602cc-19ad-40d2-9a62-a6d3e8c8e786</webElementGuid>
+      <value>//div[(text() = 'SonicNeed 1000 💰' or . = 'SonicNeed 1000 💰')]</value>
+      <webElementGuid>423d9d26-f36f-48b5-94f9-e163df93a9dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

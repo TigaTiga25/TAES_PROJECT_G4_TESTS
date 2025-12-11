@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d85f3ca1-c3be-4722-8c9b-dc6204081648</webElementGuid>
+      <webElementGuid>d5be5423-3946-415b-8429-8cb93885c8c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>86f457f9-0810-4ff3-b93c-9de0532ab6f1</webElementGuid>
+      <webElementGuid>7ccf8f5f-5355-4abd-8e53-1ce23ebc93a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5 w-full text-xs font-bold border-emerald-500 text-emerald-600 hover:bg-emerald-50</value>
-      <webElementGuid>400ced8b-c0e3-48ab-ad53-db81db8457bf</webElementGuid>
+      <webElementGuid>d9f661d1-52d8-4e2f-8a58-a18c46f5880e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Buy 100 💰</value>
-      <webElementGuid>ef339827-4edb-441a-a025-294552561f9f</webElementGuid>
+      <webElementGuid>f31e82ce-1fdc-4c18-8b3a-fb9be9a14034</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-2 sm:grid-cols-3 gap-4&quot;]/div[@class=&quot;border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group bg-white flex flex-col&quot;]/div[@class=&quot;p-3 border-t border-slate-100 text-center bg-white space-y-2&quot;]/button[@class=&quot;inline-flex items-center justify-center whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5 w-full text-xs font-bold border-emerald-500 text-emerald-600 hover:bg-emerald-50&quot;]</value>
-      <webElementGuid>dad3377d-7646-4446-a12b-9a8cb8a0b9d8</webElementGuid>
+      <webElementGuid>fa4766fd-1a57-4396-ae88-11f1c6e50e99</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/div/div[2]/button</value>
-      <webElementGuid>eb26a669-2c97-446d-ac31-2de20aa19774</webElementGuid>
+      <webElementGuid>5d94f69c-59d9-4af9-b145-e37e313a7379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='King'])[1]/following::button[1]</value>
-      <webElementGuid>98ea6dba-274a-4186-8454-d681ce04f5c5</webElementGuid>
+      <webElementGuid>3267be31-a15b-4c91-99e6-6fefbf36064e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Avatar Shop (7)'])[1]/following::button[1]</value>
-      <webElementGuid>b37fdcc0-5855-4751-955a-314cef01dd05</webElementGuid>
+      <webElementGuid>cda0123b-7b2f-40eb-b55b-587f0a700404</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Queen'])[1]/preceding::button[1]</value>
-      <webElementGuid>ec553e72-6e62-464b-8938-b22c9c236dbe</webElementGuid>
+      <webElementGuid>df5b6a59-358f-4ec9-9686-54490ba8e9eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[2]/button</value>
-      <webElementGuid>e1b12547-298a-439b-9347-0fd840028db2</webElementGuid>
+      <webElementGuid>8d3506ba-c068-4ef4-88b3-e2e677b8319b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Buy 100 💰' or . = 'Buy 100 💰')]</value>
-      <webElementGuid>e236d122-fd33-4e28-a911-80f8893636c1</webElementGuid>
+      <webElementGuid>7f3e5e38-3ad1-4526-a354-89ef760d21fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
