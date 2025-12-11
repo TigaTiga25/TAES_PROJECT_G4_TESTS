@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Your turn_text-xs uppercase tracking-wide_5bd355_1</name>
+   <tag></tag>
+   <elementGuidId>be4311bc-d51e-4bf6-b8e4-ca6e359ee587</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[5]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-col.leading-tight > p.text-xs.uppercase.tracking-wider.opacity-80</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7809bb90-ba0e-4581-8675-49c819804e33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs uppercase tracking-wider opacity-80</value>
+      <webElementGuid>bb0be00f-2b34-42e5-9471-ff6ee6c66c29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Guest</value>
+      <webElementGuid>63c45ea7-1614-479b-979f-fb668693c95c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;w-full max-w-5xl flex justify-between items-center mt-4&quot;]/div[@class=&quot;flex items-center gap-3 text-left text-white p-3 bg-gray-900 bg-opacity-60 rounded-lg shadow-sm border border-white/10&quot;]/div[@class=&quot;flex flex-col leading-tight&quot;]/p[@class=&quot;text-xs uppercase tracking-wider opacity-80&quot;]</value>
+      <webElementGuid>2b1795c4-e749-49af-ad0f-4fdb91fbd68f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[5]/div/div/p</value>
+      <webElementGuid>7157a209-8261-45e0-b90c-55ca3ff80f57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your turn!'])[1]/following::p[1]</value>
+      <webElementGuid>5b90192b-759e-4327-8be5-a2ee745b392c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trump'])[1]/following::p[1]</value>
+      <webElementGuid>169529f8-eae9-4ab6-96f2-5b3a8d5e963b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Guest']/parent::*</value>
+      <webElementGuid>1c2955cc-8e36-426b-9ec7-3c8331096a69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/p</value>
+      <webElementGuid>ee6723f4-9b87-4dba-a233-123240f3661f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Guest' or . = 'Guest')]</value>
+      <webElementGuid>ca8959e3-d18e-4c51-a6fa-85718f33b452</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
