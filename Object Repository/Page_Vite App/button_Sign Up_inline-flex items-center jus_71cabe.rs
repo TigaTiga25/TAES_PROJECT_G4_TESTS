@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8cd9acde-9d12-4c31-9c31-1c4c6014581f</webElementGuid>
+      <webElementGuid>6c8eef60-4e2d-4a76-a047-ceacd0fafba5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>450ce5a8-982a-4c72-93f6-5e6182dacecb</webElementGuid>
+      <webElementGuid>94ebc439-565e-4e4f-ab76-c8adea7ca3b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80 h-9 px-4 py-2 has-[>svg]:px-3 w-full</value>
-      <webElementGuid>1a2a99e4-414a-41f5-ae0c-1a7134acbe84</webElementGuid>
+      <webElementGuid>d51a79cd-ed6e-4429-9273-f53b8a13bca0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Continue as Guest </value>
-      <webElementGuid>7719f464-d35b-496e-8068-55548a9a864e</webElementGuid>
+      <webElementGuid>84557626-ce8a-475f-94fc-e74a590271d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-100 flex items-center justify-center p-4&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm w-full max-w-md&quot;]/div[@class=&quot;items-center px-6 [.border-t]:pt-6 flex flex-col&quot;]/button[@class=&quot;inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80 h-9 px-4 py-2 has-[>svg]:px-3 w-full&quot;]</value>
-      <webElementGuid>9ce31345-40ea-4213-a6d3-6fd1d7e98666</webElementGuid>
+      <webElementGuid>6233e352-e88e-4ba0-a78f-407fc72fdb4a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div[3]/button</value>
-      <webElementGuid>ccff32a8-6f1e-4eca-9a0a-eaf3687c0024</webElementGuid>
+      <webElementGuid>16c2a3b0-2161-45f1-87f9-a6727a3aaa04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continue as Guest']/parent::*</value>
-      <webElementGuid>98f43865-e113-4f26-b15d-b23a13875314</webElementGuid>
+      <webElementGuid>2ac23e28-93f8-4bd7-a287-fa16652f6037</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>916dbf4e-69fd-426d-989d-4ed75295a25d</webElementGuid>
+      <webElementGuid>e1017ecf-94b9-4c3f-a257-540f72621ea6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Continue as Guest ' or . = ' Continue as Guest ')]</value>
-      <webElementGuid>87bdc6ff-938e-477a-97e5-427afcf477fe</webElementGuid>
+      <webElementGuid>9f85b329-bb3e-4b21-9c36-bad952873ea7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

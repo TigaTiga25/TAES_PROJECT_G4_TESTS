@@ -44,17 +44,21 @@ import cucumber.api.java.en.When
 
 
 
-class BuyDeck {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@And("I click on the (.*) shopButton")
-	def I_click_on_the_shopButton(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+class ViewAvatarAndNameWhilePlaying {
+	@Then("I should see my avatar")
+	def I_should_see_my_avatar() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/img_Your turn_aspect-square size-full object-cover'),0)
+	}
+	
+	@And("I should see my username")
+	def I_should_see_my_username() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/p_Your turn_text-xs uppercase tracking-wide_5bd355'),0)
+		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/p_Your turn_text-xs uppercase tracking-wide_5bd355'),'PLAYER A')
 	}
 
-	@And("I click on the (.*) to purchase the chosen deck")
-	def I_click_on_the_to_purchase_the_chosen_deck(String objectName) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + objectName))
+	@Then("I should see that my username is (.*)")
+	def I_should_see_that_my_username_is(String name) {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/p_Your turn_text-xs uppercase tracking-wide_5bd355_1'),0)
+		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/p_Your turn_text-xs uppercase tracking-wide_5bd355_1'),name)
 	}
 }

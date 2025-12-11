@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:5173/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'teste@mail.pt')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
+
+WebUI.click(findTestObject('Object Repository/Page_Vite App/a_Single Player_nav-link'))
+
+WebUI.click(findTestObject('Object Repository/Page_Vite App/button_My Collection (7)_flex-1 py-4 text-s_47a8b5'))
+
+WebUI.click(findTestObject('Object Repository/Page_Vite App/span'))
+
