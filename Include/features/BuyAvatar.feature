@@ -17,21 +17,20 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Buy Deck
-  I want to use this template for buy deck
+Feature: Buy Avatar
+  I want to use this template for buy avatar
 
   @tag1
-  Scenario: Buy deck
+  Scenario: Buy Avatar
     Given I open the browser
     And I navigate to the URL http://localhost:5173/
     When I insert teste@mail.pt on the email field
    	And I insert 12345678 in the pass field
    	And I click on the button_Password_inline-flex items-center ju_559f66 button to login
    	Then I click on the a_Single Player_nav-link customizationsButton
-   	And I click on the button_Avatars_px-6 py-2 rounded-lg font-bo_f70d48 decksButton
-   	And I click on the button_My Collection (2)_flex-1 py-4 text-s_e41c63 shopButton
-
- 
+   	And I click on the button_My Collection (7)_flex-1 py-4 text-s_47a8b5 avatarsButton
+   	And I click on the span chosenAvatar
 
 
-   
+
+    

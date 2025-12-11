@@ -44,17 +44,17 @@ import cucumber.api.java.en.When
 
 
 
-class BuyDeck {
+class BuyAvatar {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I click on the (.*) shopButton")
-	def I_click_on_the_shopButton(String string) {
+	@And("I click on the (.*) avatarsButton")
+	def I_click_on_the_avatarsButton(String string) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
-
-	@And("I click on the (.*) to purchase the chosen deck")
-	def I_click_on_the_to_purchase_the_chosen_deck(String objectName) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + objectName))
+	
+	@And("I click on the (.*) chosenAvatar")
+	def I_click_on_the_chosenAvatar(String string) {
+		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
 	}
 }
