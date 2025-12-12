@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[2]</value>
+         <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fe92058f-594b-4c28-86f8-1db7e07d3146</webElementGuid>
+      <webElementGuid>a38cda8d-70e9-4d31-9b01-b739ba5faaf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cursor-pointer relative rounded-xl p-2 border-2 transition-all hover:bg-slate-50 flex flex-col items-center border-slate-100</value>
-      <webElementGuid>2fd2f0eb-b81f-4789-8eb8-992a01f7fa93</webElementGuid>
+      <webElementGuid>ef582dca-497b-4c34-9061-903c0d05576d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>minimalist</value>
-      <webElementGuid>2b2e9400-52f2-4494-901d-885fae6a7bf2</webElementGuid>
+      <webElementGuid>2587faff-c38e-462b-903c-533807744712</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-3 sm:grid-cols-4 gap-4&quot;]/div[@class=&quot;cursor-pointer relative rounded-xl p-2 border-2 transition-all hover:bg-slate-50 flex flex-col items-center border-slate-100&quot;]</value>
-      <webElementGuid>0dacb1aa-ad8a-418a-89d6-22031ff86563</webElementGuid>
+      <webElementGuid>5470df08-b409-4c3e-a927-183d026de205</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[2]</value>
-      <webElementGuid>bb2b94e4-58ad-4b91-b6b7-ea4617efffc2</webElementGuid>
+      <webElementGuid>d24b2ac8-afd1-4efb-9403-6414a79b3c90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='default'])[1]/following::div[2]</value>
-      <webElementGuid>92125b60-32d5-4faf-b319-6865313df4b3</webElementGuid>
+      <webElementGuid>4e7413cb-8329-4634-bc79-85f48b886b89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop (10)'])[1]/following::div[5]</value>
-      <webElementGuid>3a040372-d22d-4a4e-9e9a-b24c330cb92d</webElementGuid>
+      <webElementGuid>06e6fc9a-d05b-4e5e-aff4-81c97026bc97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]</value>
-      <webElementGuid>ca7e3b83-0201-4a17-8467-b21da2243eaf</webElementGuid>
+      <webElementGuid>49ecb362-89d1-4800-9641-ac5f69a52b34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'minimalist' or . = 'minimalist')]</value>
-      <webElementGuid>f40dc534-5712-4988-832b-51232076cb07</webElementGuid>
+      <webElementGuid>a8a279ac-56f3-4404-8f51-1b031ad8adb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

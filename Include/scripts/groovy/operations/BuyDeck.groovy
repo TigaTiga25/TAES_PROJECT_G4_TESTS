@@ -48,13 +48,25 @@ class BuyDeck {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I click on the (.*) shopButton")
-	def I_click_on_the_shopButton(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@And("I check my owned decks")
+	def I_check_my_owned_decks() {
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/buttonDecks'))
 	}
-
-	@And("I click on the (.*) to purchase the chosen deck")
-	def I_click_on_the_to_purchase_the_chosen_deck(String objectName) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + objectName))
+	
+	@And("I check the decks on the shop")
+	def I_check_the_decks_on_the_shop() {
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/buttonDecks'))
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/buttonShop'))
+	}
+	
+	@When("I buy a deck")
+	def I_buy_a_deck() {
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/buyDeckMinimalist'))
+		WebUI.acceptAlert()
+	}
+	
+	@When("I should see that I now own it")
+	def I_now_own_the_deck() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/CustomizationsPage/minimalistDeckOwned'), 0)
 	}
 }
