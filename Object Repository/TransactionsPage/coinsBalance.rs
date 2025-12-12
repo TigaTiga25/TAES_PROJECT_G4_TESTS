@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>coinsBalance</name>
+   <tag></tag>
+   <elementGuidId>2f0ce40d-f14a-4a95-a1e6-4c2bc0d6a0b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[2]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-xs.font-semibold.text-slate-400.uppercase.tracking-wider</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4ee50fbe-ab50-4682-833b-7a08edf49cc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs font-semibold text-slate-400 uppercase tracking-wider</value>
+      <webElementGuid>44aef71e-77d0-44a4-b4da-9d797c3b8374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Current Balance</value>
+      <webElementGuid>9999e519-5def-4c8e-8fa7-b26ac8a0e196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-50 py-10 px-4&quot;]/div[@class=&quot;max-w-5xl mx-auto&quot;]/div[@class=&quot;flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4&quot;]/div[@class=&quot;bg-white px-6 py-3 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4&quot;]/div[1]/p[@class=&quot;text-xs font-semibold text-slate-400 uppercase tracking-wider&quot;]</value>
+      <webElementGuid>853b35a2-11e4-4dd5-945e-8580043e4e07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[2]/div/p</value>
+      <webElementGuid>cf37cadb-5533-44be-a1e1-4a7a8a5fb314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Wallet'])[1]/following::p[2]</value>
+      <webElementGuid>a0e22628-ccc6-4945-8d3f-391fff68c160</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player A'])[1]/following::p[2]</value>
+      <webElementGuid>a658ad29-c5f0-4af5-a602-f39b3f5ac88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🪙'])[1]/preceding::p[1]</value>
+      <webElementGuid>eee2b74e-35ec-4ad6-9514-6625d623575d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Current Balance']/parent::*</value>
+      <webElementGuid>09f7f7e7-6736-4a55-8fa4-85606332661f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p</value>
+      <webElementGuid>4fbb4a82-80fa-4d25-8403-2e106de9e900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Current Balance' or . = 'Current Balance')]</value>
+      <webElementGuid>d1e7d0c0-458b-49d1-9d87-05634c81eeb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -60,27 +60,27 @@ class StartPracticeGame {
 
 	@Then("I see the bot nine cards")
 	def I_see_the_bot_nine_cards() {
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_1'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_2'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_3'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_4'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_5'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_6'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_7'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_8'))
+		// If bot plays card first there will only be 8 cards on its hand
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card1'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card2'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card3'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card4'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card5'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card6'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card7'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card8'))
 	}
 
 	@And("I see my nine cards")
 	def I_see_my_nine_cards() {
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_1'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_2'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_3'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_4'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_5'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_6'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_7'))
-		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/img_Trump_card-img_8'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card1'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card2'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card3'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card4'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card5'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card6'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card7'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card8'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card9'))
 	}
 }

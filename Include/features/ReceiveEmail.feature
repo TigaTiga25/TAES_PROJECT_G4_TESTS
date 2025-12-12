@@ -1,3 +1,7 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+
 @tag
 Feature: Receive Email
   As a new player, 

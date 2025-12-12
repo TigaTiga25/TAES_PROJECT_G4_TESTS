@@ -1,10 +1,15 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+
 @tag
 Feature: SkipLogin
-  Colocar aqui a User Story
+  As an unregistered player, 
+	I want to skip login,  
+	So that I can play practice games. 
 
   @tag1
   Scenario: SkipLogin
-    Given I open the browser
-    When I navigate to the URL http://localhost:5173/
-    Then I click on the button_Entrar_inline-flex items-center just_5a503c button
-    And I close the browser
+    Given I navigate to the bisca platform
+    When I enter as an anonymous user
+    Then I should be redirected to the home page

@@ -50,29 +50,44 @@ class Register {
 	 */
 
 
-	@When("I click on the (.*) button to register")
-	def I_click_on_the_button_to_register(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
-	}
-	@And("I insert (.*) in the mail field")
-	def I_insert_in_the_mail_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_filetext-foreground placeholder_5402ca'), 'teste@mail.pt')
+	@And("I try to register as a new user")
+	def I_try_to_register_as_a_new_user() {
+		WebUI.click(findTestObject('Object Repository/LoginPage/button_SignUp'))
 	}
 	
-	
-	@And("I insert (.*) in the nickname field")
-	def I_insert_in_the_nickname_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Nickname_filetext-foreground placehol_cc48e9'),'teste')
-	}
-	@And("I insert (.*) in the password field")
-	def I_insert_in_the_password_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Password_filetext-foreground placehol_5a2319'),'12345678')
+	@When("I place in brand new credentials")
+	def I_place_in_brand_new_credentials() {
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Email'), "TestEmail_" + System.currentTimeMillis() + "@mail.pt")
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Nickname'), "TestUser_" + System.currentTimeMillis())
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Password'), System.currentTimeMillis().toString())
+		WebUI.waitForPageLoad(5)
 	}
 	
-	
-	@Then("I click on the (.*) button to create account")
-	def I_click_on_the_button_to_create_account(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@When("I place in existing credentials")
+	def I_place_in_existing_credentials() {
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Email'), GlobalVariable.defaultUser)
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Nickname'), "TestUser_" + System.currentTimeMillis())
+		WebUI.setText(findTestObject('Object Repository/RegisterPage/input_Password'), System.currentTimeMillis().toString())
+		WebUI.waitForPageLoad(5)
 	}
 
+	@And("I press the register button")
+	def I_press_the_register_button() {
+		WebUI.click(findTestObject('Object Repository/RegisterPage/button_Criar_Conta'))
+	}
+
+	@Then("I should see that my account was successfully created")
+	def I_should_see_that_my_account_was_successfully_created() {
+		WebUI.waitForAlert(15)
+	}
+	
+	@Then("I should see an email required error")
+	def I_should_see_an_email_required_error() {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterPage/error_email_required'))
+	}
+	
+	@Then("I should see an email taken error")
+	def I_should_see_an_email_taken_error() {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterPage/error_email_taken'))
+	}
 }

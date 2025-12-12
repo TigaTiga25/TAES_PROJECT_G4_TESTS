@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>avatarEquippedMessage</name>
+   <tag></tag>
+   <elementGuidId>98214d8e-7055-4fc7-9825-ce549f4c8bb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.bg-slate-800.text-white.px-4.py-2.rounded-lg.animate-pulse.shadow-lg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Avatar equipped! 😎&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>04be6fa7-15b0-4acc-95c8-12a486ec7204</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-slate-800 text-white px-4 py-2 rounded-lg animate-pulse shadow-lg</value>
+      <webElementGuid>3b46bce4-c26c-4495-a7a7-a3bfed6bd419</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Avatar equipped! 😎</value>
+      <webElementGuid>10d37672-f156-4ede-972d-f216679d4594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;flex justify-between items-end&quot;]/div[@class=&quot;bg-slate-800 text-white px-4 py-2 rounded-lg animate-pulse shadow-lg&quot;]</value>
+      <webElementGuid>5ca197ac-2cae-455b-b502-bb8c587d4ba0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]</value>
+      <webElementGuid>b47ad3bb-7417-48b8-b0a9-a3203e082ed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customizations'])[2]/following::div[1]</value>
+      <webElementGuid>8ba285d7-cfe5-489e-b860-b2587fa62e1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Player A'])[1]/following::div[4]</value>
+      <webElementGuid>76134751-2128-40d4-abcd-8c2650c4cb49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='👤 Avatars'])[1]/preceding::div[1]</value>
+      <webElementGuid>7a84eb28-296f-4f1c-9583-add2c6c60767</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🃏 Decks'])[1]/preceding::div[1]</value>
+      <webElementGuid>11f234d9-e55e-41e1-ba36-9ff61c85ff33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Avatar equipped! 😎']/parent::*</value>
+      <webElementGuid>20eec1a1-c74e-401a-ba17-75d03f18c6f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]</value>
+      <webElementGuid>030afe2a-1fbc-403f-b39f-693a0f8050bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Avatar equipped! 😎' or . = 'Avatar equipped! 😎')]</value>
+      <webElementGuid>5ef66d7d-beef-497c-afcb-3c32b6a93be7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

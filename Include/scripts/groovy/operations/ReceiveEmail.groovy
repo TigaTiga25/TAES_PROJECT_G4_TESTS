@@ -49,20 +49,19 @@ class ReceiveEmail {
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
 	@Then("I should see an alert asking to verify my email")
-    def verifyAndAcceptAlert() {
-        if (WebUI.waitForAlert(15)) {
-			
-            String alertText = WebUI.getAlertText()
-            println "Text found in the alert: " + alertText
+	def verifyAndAcceptAlert() {
+		if (WebUI.waitForAlert(15)) {
 
-            WebUI.verifyMatch(alertText, "Registration successful! Please check your email.", false, FailureHandling.OPTIONAL)
-			
+			String alertText = WebUI.getAlertText()
+			println "Text found in the alert: " + alertText
+
+			WebUI.verifyMatch(alertText, "Registration successful! Please check your email.", false, FailureHandling.OPTIONAL)
+
 			WebUI.delay(5)
-            WebUI.acceptAlert()
-            println "Alert verified and accepted successfully."
-            
-        } else {
-            KeywordUtil.markFailed("Alert did not show!!")
-        }
-    }
+			WebUI.acceptAlert()
+			println "Alert verified and accepted successfully."
+		} else {
+			KeywordUtil.markFailed("Alert did not show!!")
+		}
+	}
 }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>profileAvatar_fullAvatar_popup</name>
+   <tag></tag>
+   <elementGuidId>4970e826-61d2-4fcf-91cc-922354c14088</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.w-64.h-64.object-cover.rounded-full.border-4.border-white.shadow-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>2b08f307-f817-4371-b99c-7e4bbce4cac0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://api.dicebear.com/7.x/avataaars/svg?seed=Felix</value>
+      <webElementGuid>cfb680dc-0dd7-4980-955f-c18d56ce0e2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>User Avatar</value>
+      <webElementGuid>5538f0f0-4278-4a27-90af-7f596f50d402</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-64 h-64 object-cover rounded-full border-4 border-white shadow-md</value>
+      <webElementGuid>01e36614-1ba3-435a-a541-e887025d1d00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 animate-in fade-in duration-200&quot;]/div[@class=&quot;bg-white p-2 rounded-xl shadow-2xl max-w-sm w-full relative&quot;]/div[@class=&quot;flex justify-center bg-slate-50 rounded-lg p-6&quot;]/img[@class=&quot;w-64 h-64 object-cover rounded-full border-4 border-white shadow-md&quot;]</value>
+      <webElementGuid>28393c64-7798-4a9f-a584-829a6b824744</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/img</value>
+      <webElementGuid>25ea32e1-a429-45cc-961f-b2d0dc9618c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='User Avatar']</value>
+      <webElementGuid>a32b5d40-10e3-49c0-a9a6-6185403d69d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+      <webElementGuid>b00a84cd-bb67-4fe9-8a36-786bfaacd0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://api.dicebear.com/7.x/avataaars/svg?seed=Felix' and @alt = 'User Avatar']</value>
+      <webElementGuid>6047ed95-46a7-4b5e-86b6-59e765720e60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

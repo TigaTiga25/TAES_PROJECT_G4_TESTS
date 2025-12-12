@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>firstCardInHand</name>
+   <name>card4</name>
    <tag></tag>
-   <elementGuidId>5175b44c-8368-42c6-ab58-daddfa583863</elementGuidId>
+   <elementGuidId>c7a32d84-64ae-4e31-bec5-bcd24637d82e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='app']/div/div[4]/div/div/div/img)[1]</value>
+         <value>(//div[@id='app']/div/div[4]/div/div/div/img)[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>d1d8e19a-c9c5-4954-9d47-75e460c19cf5</webElementGuid>
+      <webElementGuid>af1dbc2e-40d2-40cb-8c56-0ab66fae878f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/src/assets/cards/c7.png</value>
-      <webElementGuid>b8dfb9a1-6a3c-4556-862a-aad7da6386c4</webElementGuid>
+      <webElementGuid>565b1fa9-2641-4bdf-b01e-67698f6ec45b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>carta</value>
-      <webElementGuid>f1edcb23-e1e3-4a31-a949-63fe9af6d527</webElementGuid>
+      <webElementGuid>56f10e1c-2630-47ed-881a-a303beeeeee8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-img</value>
-      <webElementGuid>55bcbc00-cd28-44e0-8756-7a959887841e</webElementGuid>
+      <webElementGuid>7485e7a7-af8b-48d6-86b5-9bbe51d616d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4&quot;]/div[@class=&quot;player-hand flex justify-center mb-8&quot;]/div[@class=&quot;player-hand w-28 h-40&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card&quot;]/img[@class=&quot;card-img&quot;]</value>
-      <webElementGuid>6977b53f-6442-4b27-8189-34fc6cd51731</webElementGuid>
+      <webElementGuid>c4dc2cdd-93b1-4234-a809-1e6af2b218c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div/div/div/img</value>
-      <webElementGuid>19273266-1e68-4c2b-a9d9-aa4067bac230</webElementGuid>
+      <webElementGuid>8a549a52-ba82-47f2-b17a-e7ce1a121da6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>(//img[@alt='carta'])[12]</value>
-      <webElementGuid>c508f125-daa6-495a-a884-e28685656bee</webElementGuid>
+      <webElementGuid>52456035-cdfc-4e12-baf6-6b11f11cb19a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/img</value>
-      <webElementGuid>aeeae45e-03f8-4dc3-a51a-0fdc921df931</webElementGuid>
+      <webElementGuid>698685e9-b247-4266-bd36-bc9303cd65e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/src/assets/cards/c7.png' and @alt = 'carta']</value>
-      <webElementGuid>6017b375-b008-4ac3-a98d-60fa37ba4cbc</webElementGuid>
+      <webElementGuid>d4c8db5c-1310-4186-b5c6-fd5ba3909e7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

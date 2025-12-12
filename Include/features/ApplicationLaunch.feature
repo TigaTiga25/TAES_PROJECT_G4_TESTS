@@ -1,3 +1,7 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+
 @tag
 Feature: ApplicationLaunch
   As a player opening the app,  
@@ -6,7 +10,7 @@ Feature: ApplicationLaunch
 
   @tag1
   Scenario: ApplicationLaunch
-    Given I open the browser
-    When I navigate to the URL http://localhost:5173/
+    Given I want to play bisca games
+    When I navigate to the bisca platform
     Then I should see the login page
-		And I close the browser
+    And I should be able to login or continue as an anonymous user

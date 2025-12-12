@@ -52,7 +52,7 @@ class PlayACard {
 	@When("I play a card on my turn")
 	def I_play_a_card_on_my_turn() {
 		WebUI.delay(2)
-		WebUI.click(findTestObject('Object Repository/GameBoardPage/firstCardInHand'))
+		WebUI.click(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card1'))
 		println "When->I play a card on my turn"
 	}
 

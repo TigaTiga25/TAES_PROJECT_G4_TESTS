@@ -48,13 +48,8 @@ class ViewProfileDetails {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Then("I click on the (.*) buttonImage")
-	def I_click_on_the_buttonImage(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
-	}
-
-	@And("I click on the (.*) buttonProfile to see details")
-	def I_click_on_the_buttonProfile_to_see_details(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@And("I click on the Profile option")
+	def I_click_on_the_profile_option() {
+		WebUI.click(findTestObject('Object Repository/NavBar/profileAvatar_Profile'))
 	}
 }

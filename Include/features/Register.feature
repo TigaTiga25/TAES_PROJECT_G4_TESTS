@@ -1,36 +1,30 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+
 @tag
 Feature: Register
-  I want to register a user
+  As a new player,  
+	I want to submit a form,  
+	So that an account is made. 
 
   @tag1
-  Scenario: Register
-    Given I open the browser
-    And I navigate to the URL http://localhost:5173/
-    When I click on the button_Entrar_inline-flex items-center just_5a503c button to register
-    And I insert teste@mail.pt in the mail field
-    And I insert input_Nickname_filetext-foreground placehol_cc48e9 in the nickname field
-    And I insert input_Password_filetext-foreground placehol_5a2319 in the password field
-    Then I click on the button_Password_inline-flex items-center ju_b44d9a button to create account
-    
-
-    
-
-  
+  Scenario: Register Successful
+    Given I navigate to the bisca platform
+    And I try to register as a new user
+    When I place in brand new credentials
+    And I press the register button
+		Then I should see that my account was successfully created
+	
+	Scenario: Register With Blank Credentials
+		Given I navigate to the bisca platform
+    And I try to register as a new user
+    When I press the register button
+		Then I should see an email required error
+		
+	Scenario: Register With Taken Email
+		Given I navigate to the bisca platform
+    And I try to register as a new user
+    When I place in existing credentials
+    And I press the register button
+		Then I should see an email taken error

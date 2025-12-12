@@ -6,6 +6,34 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'http://localhost:5173/'</initValue>
+      <name>url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pa@mail.pt'</initValue>
+      <name>defaultUser</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'a1@mail.pt'</initValue>
+      <name>userWithoutCoins</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'a1@mail.pt'</initValue>
+      <name>userWithoutMatches</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>''</initValue>
       <name>currentTestEmail</name>
       <protected>false</protected>

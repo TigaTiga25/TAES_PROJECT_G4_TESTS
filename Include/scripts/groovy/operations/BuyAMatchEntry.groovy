@@ -50,22 +50,22 @@ class BuyAMatchEntry {
 	def I_see_that_I_have_a_sufficient_coins_balance() {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/div_About_inline-flex items-center justify-_4ac8e6'))
 	}
-	
+
 	@And("I see my balance updated")
 	def I_see_my_balance_updated() {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite App/div_About_inline-flex items-center justify-_4ac8e6'))
 	}
-	
+
 	@And("I login as player with unsufficient coins")
 	def I_login_as_player_with_unsufficient_coins() {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), 'pb@mail.pt')
+		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email_loginId'), GlobalVariable.userWithoutCoins)
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), 'tzH6RvlfSTg=')
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
 	}
-	
+
 	@Then("I see the error message")
 	def I_see_the_error_message() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/li'), 0)		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/li'), 0)
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite App/div_1'), 'ERROR: Insufficient balance')
 	}
 }

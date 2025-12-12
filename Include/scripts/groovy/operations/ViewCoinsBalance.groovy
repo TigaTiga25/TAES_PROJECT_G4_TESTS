@@ -48,8 +48,8 @@ class ViewCoinsBalance {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I click on the (.*) button to see coins balance")
-	def I_click_on_the_button_to_see_coins_balance(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@And("I should be able to see my coins balance")
+	def I_should_be_able_to_see_my_coins_balance() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TransactionsPage/coinsBalance'), 0)
 	}
 }
