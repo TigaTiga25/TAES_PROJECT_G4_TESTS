@@ -93,6 +93,7 @@ class Common {
 		WebUI.setText(findTestObject('Object Repository/LoginPage/inputEmail'), GlobalVariable.defaultUser)
 		WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/inputPassword'), 'tzH6RvlfSTg=')
 		WebUI.click(findTestObject('Object Repository/LoginPage/loginButton'))
+		WebUI.waitForPageLoad(5)
 	}
 
 	@And("I start a practice game")
@@ -135,6 +136,11 @@ class Common {
 		url += name
 
 		WebUI.delay(3)
+
+		// Login page edge case
+		if (name.toLowerCase() == "login") {
+			url = GlobalVariable.url
+		}
 
 		// Verify current URL
 		if (url == WebUI.getUrl()) {
@@ -192,5 +198,15 @@ class Common {
 				'9', true)
 
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Start a practice game_px-5 py-2 bg-e_67c576'))
+	}
+
+	@When("I click on my avatar to open the dropdown menu")
+	def I_click_on_my_avatar_to_open_dropdown_menu() {
+		WebUI.click(findTestObject('Object Repository/NavBar/profileAvatar'))
+	}
+
+	@When("I click on my coins balance")
+	def I_click_on_my_coins_balance() {
+		WebUI.click(findTestObject('Object Repository/NavBar/coinsButton'))
 	}
 }

@@ -9,15 +9,22 @@ Feature: Register
 	So that an account is made. 
 
   @tag1
-  Scenario: Register
+  Scenario: Register Successful
     Given I navigate to the bisca platform
-    When I click on the button_Entrar_inline-flex items-center just_5a503c button to register
-    And I insert teste@mail.pt in the mail field
-    And I insert input_Nickname_filetext-foreground placehol_cc48e9 in the nickname field
-    And I insert input_Password_filetext-foreground placehol_5a2319 in the password field
-    Then I click on the button_Password_inline-flex items-center ju_b44d9a button to create account
-    
-
-    
-
-  
+    And I try to register as a new user
+    When I place in brand new credentials
+    And I press the register button
+		Then I should see that my account was successfully created
+	
+	Scenario: Register With Blank Credentials
+		Given I navigate to the bisca platform
+    And I try to register as a new user
+    When I press the register button
+		Then I should see an email required error
+		
+	Scenario: Register With Taken Email
+		Given I navigate to the bisca platform
+    And I try to register as a new user
+    When I place in existing credentials
+    And I press the register button
+		Then I should see an email taken error

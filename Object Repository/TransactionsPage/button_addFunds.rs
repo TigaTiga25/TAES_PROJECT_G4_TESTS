@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_addFunds</name>
+   <tag></tag>
+   <elementGuidId>d21e934d-61c1-4f1b-a6a7-d85684d5cc2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1004c8a7-0c9c-4c3c-8e37-c7bfb6dcbc2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-slate-900 hover:bg-slate-800 text-white font-medium py-2 px-4 rounded-lg transition shadow-md flex items-center gap-2 text-sm</value>
+      <webElementGuid>3a26c7a8-1235-40ef-a137-dfd4e1dac037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+ Add Funds </value>
+      <webElementGuid>e20c3224-b290-4932-8226-a4054d4746c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-50 py-10 px-4&quot;]/div[@class=&quot;max-w-5xl mx-auto&quot;]/div[@class=&quot;flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4&quot;]/div[@class=&quot;bg-white px-6 py-3 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4&quot;]/button[@class=&quot;bg-slate-900 hover:bg-slate-800 text-white font-medium py-2 px-4 rounded-lg transition shadow-md flex items-center gap-2 text-sm&quot;]</value>
+      <webElementGuid>a8d5704e-b8fc-4f62-bc76-ba1151e6f85f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[2]/button</value>
+      <webElementGuid>2710d5ee-1a9b-43a9-8cc2-118f70f702a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🪙'])[1]/following::button[1]</value>
+      <webElementGuid>fd179cab-68aa-4bd9-a25b-4fee36016d74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Wallet'])[1]/following::button[1]</value>
+      <webElementGuid>4750802a-ab8f-43b8-b2bf-8acd920f2fd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/preceding::button[1]</value>
+      <webElementGuid>0d42f3c5-90a9-4194-be4a-b0eba9a8d31c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Funds']/parent::*</value>
+      <webElementGuid>51a9a731-1fee-4b53-928e-91b3e7750428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/button</value>
+      <webElementGuid>da40545c-473d-4d72-8160-d8a31f6ad082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '+ Add Funds ' or . = '+ Add Funds ')]</value>
+      <webElementGuid>5437b8b3-7162-4b7e-9062-dd84457ab9d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -48,18 +48,20 @@ class ChangeAvatar {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Then("I click on the (.*) customizationsButton")
-	def I_click_on_the_customizationsButton(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@And("I check my customizations")
+	def I_check_my_customizations() {
+		WebUI.click(findTestObject('Object Repository/NavBar/a_Customizations_nav-link'))
 	}
-	
-	@And("I click on the (.*) chosen avatar")
-	def I_click_on_the_chosen_avatar(String string) {
-		WebUI.click(findTestObject('Object Repository/CustomizationsPage/' + string))
+
+
+	@And("I equip an avatar")
+	def I_equip_an_avatar() {
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/avatarFromUserCollection'))
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/buttonEquipAvatar'))
 	}
-	
-	@And("I click on the (.*) to equip avatar")
-	def I_click_on_the_equipAvatarButton_to_equip_avatar(String string) {
-		WebUI.click(findTestObject('Object Repository/CustomizationsPage/' + string))
+
+	@Then("I should be able to see that my avatar was equipped")
+	def I_should_be_able_to_see_that_my_avatar_was_equipped() {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/CustomizationsPage/avatarEquippedMessage'))
 	}
 }

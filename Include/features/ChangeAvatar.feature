@@ -12,9 +12,9 @@ Feature: Change Avatar
   @tag1
   Scenario: Change Avatar
     Given I navigate to the bisca platform
-    When I login as a player
-   	Then I click on the a_Single Player_nav-link customizationsButton
-    And I click on the avatarFromUserCollection chosen avatar
-    And I click on the buttonEquipAvatar to equip avatar
+    And I login as a player
+    When I check my customizations
+    And I equip an avatar
+    Then I should be able to see that my avatar was equipped
 
    

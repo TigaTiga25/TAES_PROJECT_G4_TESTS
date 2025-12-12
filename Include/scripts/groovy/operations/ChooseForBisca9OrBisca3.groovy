@@ -51,17 +51,14 @@ class ChooseForBisca9OrBisca3 {
 	@And("I choose for a bisca3")
 	def I_choose_for_a_bisca3() {
 		WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Vite App/select_Start a practice game_w-full px-4 py_2ecde0'),
-			'3', true)
-		
+				'3', true)
+
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Start a practice game_px-5 py-2 bg-e_67c576'))
 	}
-	
+
 	@Then("I see only three cards per player")
 	def I_see_only_three_cards_per_player() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img'), 0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/img_Practice Game_card-img_1'), 0)
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/GameBoardPage/cardsPlayer/card4'), 0)
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/GameBoardPage/cardsOpponent/card4'), 0)
 	}
-	
-
 }

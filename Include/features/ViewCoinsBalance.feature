@@ -12,8 +12,7 @@ Feature: View coins balance
   @tag1
   Scenario: View coins balance
     Given I navigate to the bisca platform
-    When I login as a player
-   	And I click on the div_About_inline-flex items-center justify-_4ac8e6 button to see coins balance
+    And I login as a player
+   	When I click on my coins balance
    	Then I should be redirected to the transactions page
-
-    
+		And I should be able to see my coins balance

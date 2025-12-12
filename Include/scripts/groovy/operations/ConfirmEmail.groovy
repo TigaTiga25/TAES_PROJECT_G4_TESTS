@@ -53,7 +53,7 @@ class ConfirmEmail {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 
-		WebUI.navigateToUrl("http://localhost:5173/")
+		WebUI.navigateToUrl(GlobalVariable.url)
 		WebUI.click(findTestObject('Object Repository/RegisterPage/button_Registrar'))
 
 		GlobalVariable.currentTestEmail = "non_verified_" + System.currentTimeMillis() + "@mail.pt"
@@ -87,28 +87,28 @@ class ConfirmEmail {
 
 		WebUI.closeBrowser()
 	}
-	
+
 	@And("I pause the test to manually confirm the email link")
 	def pause_for_manual_action() {
 		String message = "O teste está em PAUSA.\n\n" +
-						 "1. Vai ao Mailtrap.\n" +
-						 "2. Confirma o email: " + GlobalVariable.currentTestEmail + "\n" +
-						 "3. Depois clica em OK nesta janela para continuar."
-		
+				"1. Vai ao Mailtrap.\n" +
+				"2. Confirma o email: " + GlobalVariable.currentTestEmail + "\n" +
+				"3. Depois clica em OK nesta janela para continuar."
+
 		JOptionPane.showMessageDialog(null, message, "Ação Manual Necessária", JOptionPane.INFORMATION_MESSAGE)
-		
+
 		println "Utilizador confirmou manualmente. A continuar teste..."
 	}
-	
+
 	@Then("I should be redirected to the Game Menu")
-    def verify_success_redirect() {
-        WebUI.waitForPageLoad(3)
-        
-        String currentUrl = WebUI.getUrl()
-        println "URL Atual: " + currentUrl
-        
-        WebUI.verifyMatch(currentUrl, "http://localhost:5173/home", false)
-        
-        WebUI.closeBrowser()
-    }
+	def verify_success_redirect() {
+		WebUI.waitForPageLoad(3)
+
+		String currentUrl = WebUI.getUrl()
+		println "URL Atual: " + currentUrl
+
+		WebUI.verifyMatch(currentUrl, "http://localhost:5173/home", false)
+
+		WebUI.closeBrowser()
+	}
 }

@@ -15,6 +15,4 @@ Feature: Logout
     And I login as a player
     When I click on the img_Orus_aspect-square size-full button to login
     Then I click on the div_View Avatar_focusbg-accent data-variantdestructivetext-destructive data-variantdestructivefocusbg button to login
-  
-
-   
+  	And I should be redirected to the login page

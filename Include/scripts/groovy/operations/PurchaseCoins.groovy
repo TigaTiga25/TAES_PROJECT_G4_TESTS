@@ -48,16 +48,12 @@ class PurchaseCoins {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Then("I click on the (.*) button coins")
-	def I_click_on_the_button_coins(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@Then("I click on the button to add funds")
+	def I_click_on_the_button_to_add_funds() {
+		WebUI.click(findTestObject('Object Repository/TransactionsPage/button_addFunds'))
 	}
-	@And("I click on the (.*) button to buy coins")
-	def I_click_on_the_button_to_buy_coins(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
-	}
-	@And("I click on the (.*) button to select a package")
-	def I_click_on_the_button_to_select_a_package(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@And("I select one of the coins package")
+	def I_select_one_of_the_coins_package() {
+		WebUI.click(findTestObject('Object Repository/TransactionsPage/button_coinPackage'))
 	}
 }
