@@ -54,7 +54,7 @@ class GainAWinReward {
 	
 	@When("I win the match")
 	def I_win_the_match() {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/p_Your turn_text-2xl font-mono font-extrabo_26c785'))
+		WebUI.click(findTestObject('Object Repository/GameBoardPage/winMatchEasterEgg'))
 	}
 	
 	@And("I verify that the game is over")

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>winMatchEasterEgg</name>
+   <tag></tag>
+   <elementGuidId>9f39f718-f5a0-482c-9e96-114b7cf03738</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[5]/div/div/button/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-xl.font-mono.font-extrabold.text-green-400</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>9dc16b7b-03b9-4704-897c-cf48156485a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl font-mono font-extrabold text-green-400</value>
+      <webElementGuid>de30936d-46ae-40f3-893d-3d2737d9f510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>7456091c-8c09-49a0-a99e-9e5c8ba86e04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;w-full max-w-5xl flex justify-between items-center mt-4&quot;]/div[@class=&quot;flex items-center gap-3 text-left text-white p-3 bg-gray-900 bg-opacity-60 rounded-lg shadow-sm border border-white/10&quot;]/div[@class=&quot;flex flex-col leading-tight&quot;]/button[1]/p[@class=&quot;text-xl font-mono font-extrabold text-green-400&quot;]</value>
+      <webElementGuid>c646c7f3-997d-4e8f-a021-01c80d02c4f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[5]/div/div/button/p</value>
+      <webElementGuid>dbf2535d-3ac4-400c-8fa7-e84ce44ae423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your turn!'])[1]/following::p[2]</value>
+      <webElementGuid>fc37b55d-88ca-40f7-81e3-3338d36cafbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trump'])[1]/following::p[2]</value>
+      <webElementGuid>6970e02b-3a7e-476a-9b37-57c983e44458</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/p</value>
+      <webElementGuid>a62896f2-78fc-4340-9396-64a325d438d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '0' or . = '0')]</value>
+      <webElementGuid>cdd8a5ea-abf7-4561-991e-b47e23d478fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
