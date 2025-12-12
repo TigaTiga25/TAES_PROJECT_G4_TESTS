@@ -246,9 +246,15 @@ class Common {
 	def system_triggers_event(String eventType) {
 		WS.sendRequest(findTestObject('Debug_Notify_Leaderboard'))
 	}
-	
+
 	@And("I check my customizations")
 	def I_check_my_customizations() {
 		WebUI.click(findTestObject('Object Repository/NavBar/a_Customizations_nav-link'))
+	}
+		
+	@When("I buy the second item on the shop")
+	def I_buy_a_deck() {
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/secondShopEntry'))
+		WebUI.acceptAlert()
 	}
 }

@@ -6,12 +6,15 @@
    <elementGuidId>645a183c-7634-4f94-91d2-ddd716752ee7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'minimalist' or . = 'minimalist')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8ef4059c-b9e8-4eff-8bde-d97158f37d7d</webElementGuid>
+      <webElementGuid>0fc14e08-8271-4d90-acae-b43812f1a2b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-xs font-bold text-slate-700 capitalize</value>
-      <webElementGuid>3b48e066-6839-43e6-b276-136906d5ae7b</webElementGuid>
+      <webElementGuid>d93ec96e-cbe7-485f-8f32-8f9e3f9298be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>minimalist</value>
-      <webElementGuid>5172ba8e-e5a0-4e73-ba7d-50898880de12</webElementGuid>
+      <webElementGuid>fbb2a0e5-5a15-428d-96af-01dbf6e3404d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8 min-h-screen bg-slate-50/50&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;text-card-foreground gap-6 rounded-xl border py-6 md:col-span-2 min-h-[500px] flex flex-col border-slate-200 shadow-sm bg-white&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-3 sm:grid-cols-4 gap-4&quot;]/div[@class=&quot;cursor-pointer relative rounded-xl p-3 border-2 transition-all hover:bg-slate-50 flex flex-col items-center hover:-translate-y-1 border-indigo-600 bg-indigo-50 ring-2 ring-indigo-200&quot;]/span[@class=&quot;text-xs font-bold text-slate-700 capitalize&quot;]</value>
-      <webElementGuid>056141c0-20ed-4b01-8941-2fdf2ba7349b</webElementGuid>
+      <webElementGuid>d6b3de41-e821-49ee-a44b-b7c1f608a994</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[2]/span</value>
-      <webElementGuid>a0848484-e9ea-476c-ae67-9fb30af6441a</webElementGuid>
+      <webElementGuid>5da269e2-a0c7-41a1-b276-4777f6873401</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='default'])[1]/following::span[1]</value>
-      <webElementGuid>d2c61a6a-d9a8-4575-bb1d-1791b2119adf</webElementGuid>
+      <webElementGuid>c6b180f4-badb-4db2-861a-a1a264a13d4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span</value>
-      <webElementGuid>303b1136-fdd4-472e-8a2d-cad25c5243d7</webElementGuid>
+      <webElementGuid>5d3f0628-c251-4a55-b5d8-972b4750fc9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'minimalist' or . = 'minimalist')]</value>
-      <webElementGuid>61246a95-4aab-499e-abfe-5739468a34ab</webElementGuid>
+      <webElementGuid>bc543bb6-4561-42f5-a2e6-ed9241878ef3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,5 +17,5 @@ Feature: Buy Deck
     And I login as a player
    	And I check my customizations
    	And I check the decks on the shop
-   	When I buy a deck
-   	Then I should see that I now own it
+   	When I buy the second item on the shop
+   	Then I should see that I now own the deck
