@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>profileAvatar_Profile</name>
+   <name>profileAvatar_Logout</name>
    <tag></tag>
-   <elementGuidId>1c6a611f-a4bb-4d78-b90c-5f470fe49345</elementGuidId>
+   <elementGuidId>24abb0e0-ad8d-48b6-abcb-188df21b87d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='reka-dropdown-menu-content-v-7']/div[1]</value>
+         <value>//div[@id='reka-dropdown-menu-content-v-7']/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7d9bf264-a13c-4f61-80ea-31faf1d83401</webElementGuid>
+      <webElementGuid>ca6e7465-a8ce-4276-a200-07b99ba56544</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>e78c1daa-8203-4414-b435-f917863f9226</webElementGuid>
+      <webElementGuid>6e5b965f-1b7c-4814-9f4d-75b6a74f76d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>e0d5dc90-7216-407a-8a9d-14cf4af90cc7</webElementGuid>
+      <webElementGuid>e00fd24b-23c5-4fac-bf35-ea2243a86be5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-item</value>
-      <webElementGuid>7d8f5ee2-1ffe-4e4d-907a-151273a22453</webElementGuid>
+      <webElementGuid>29178bdd-c284-4738-a3e0-64ef98490a96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>55f894e3-3f3a-4626-8df3-978c2d579bac</webElementGuid>
+      <webElementGuid>c3a3ea9c-c4ed-45c5-a655-f412d0c13565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>class</name>
       <type>Main</type>
       <value>focus:bg-accent focus:text-accent-foreground data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4</value>
-      <webElementGuid>f786a012-de7c-473e-9529-219f9cb228e1</webElementGuid>
+      <webElementGuid>01d763ec-81e9-4e49-b348-ae9f22a68652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>👤 Profile</value>
-      <webElementGuid>11ce037f-bd90-4eb5-af8c-e99619612d08</webElementGuid>
+      <webElementGuid>bde97405-aa71-44da-b349-213196457688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reka-dropdown-menu-content-v-7&quot;)/div[@class=&quot;focus:bg-accent focus:text-accent-foreground data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4&quot;]</value>
-      <webElementGuid>e825fb61-2288-40ee-9729-d695fd7e7769</webElementGuid>
+      <webElementGuid>395ef8e3-79e7-452c-8fb2-722620355a68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='reka-dropdown-menu-content-v-7']/div</value>
-      <webElementGuid>c8829a08-ee11-4236-b6bf-820cab58e43d</webElementGuid>
+      <webElementGuid>f240855a-2157-4802-84fb-08b6f0adcd93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[3]</value>
-      <webElementGuid>ad3d93c9-f3d3-4c19-8d2f-62843460653f</webElementGuid>
+      <webElementGuid>0210be15-bec1-4362-a8ce-31ae9e98a63d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='👤 Profile']/parent::*</value>
-      <webElementGuid>781f62a5-346f-4889-bba9-dc53274565c5</webElementGuid>
+      <webElementGuid>cee48197-b5fb-46bb-8235-560ebacdcc7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div</value>
-      <webElementGuid>ca1663af-cb63-4fe7-aac5-7fcf652145dd</webElementGuid>
+      <webElementGuid>0f91d8b4-94be-4b0c-a349-378a8abfef89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '👤 Profile' or . = '👤 Profile')]</value>
-      <webElementGuid>511c61cb-69d0-48b5-86b4-19634157e548</webElementGuid>
+      <webElementGuid>ed95bcf5-6654-49f5-b789-270d333aa4db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

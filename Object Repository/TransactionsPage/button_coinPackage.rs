@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/div[3]</value>
+         <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/button[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +22,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>db121d60-1461-4287-b37a-e8ab8ee3ae7c</webElementGuid>
+      <value>button</value>
+      <webElementGuid>895b9036-880c-48fa-81ff-3989cbf132f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>border-2 border-slate-100 rounded-xl p-4 text-center cursor-pointer transition-all duration-200 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-1 group relative overflow-hidden</value>
-      <webElementGuid>bbabecf6-5480-4c8b-8987-d2c82a64c06b</webElementGuid>
+      <value>border border-slate-200 rounded-xl p-4 text-center hover:border-emerald-500 hover:bg-emerald-50 hover:shadow-md transition-all group disabled:opacity-50</value>
+      <webElementGuid>da4b8b20-2cff-46ea-a841-8dfeafaa04f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>💎50 CoinsSaco de Moedas5€ </value>
-      <webElementGuid>5606e206-905d-4114-9005-b23883af2a50</webElementGuid>
+      <value>💎50 Coins4.50€ </value>
+      <webElementGuid>23e951c0-7f4d-40c8-90d0-6f6126f84a8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-50 py-10 px-4&quot;]/div[@class=&quot;max-w-5xl mx-auto&quot;]/div[@class=&quot;fixed inset-0 z-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden transform transition-all&quot;]/div[@class=&quot;p-6 bg-white&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-4&quot;]/div[@class=&quot;border-2 border-slate-100 rounded-xl p-4 text-center cursor-pointer transition-all duration-200 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-1 group relative overflow-hidden&quot;]</value>
-      <webElementGuid>f1257a7c-6da9-4b91-873c-7dcf493c08c9</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;min-h-screen bg-slate-50 py-10 px-4 font-sans&quot;]/div[@class=&quot;max-w-4xl mx-auto space-y-6&quot;]/div[@class=&quot;fixed inset-0 z-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;relative bg-white rounded-2xl shadow-2xl w-full max-w-xl overflow-hidden transform transition-all scale-100&quot;]/div[@class=&quot;p-8&quot;]/div[@class=&quot;grid grid-cols-2 gap-4&quot;]/button[@class=&quot;border border-slate-200 rounded-xl p-4 text-center hover:border-emerald-500 hover:bg-emerald-50 hover:shadow-md transition-all group disabled:opacity-50&quot;]</value>
+      <webElementGuid>8f744061-7100-4a92-ab9f-0850df077cb1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/div[3]</value>
-      <webElementGuid>588754f7-17a7-4c0e-bcf6-67da9f3f10f2</webElementGuid>
+      <value>//div[@id='app']/div/div/div[3]/div[2]/div[2]/div/button[2]</value>
+      <webElementGuid>7fe45e20-0f4d-4faf-ba4b-81c8cd50e3c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='🪙'])[2]/following::div[2]</value>
-      <webElementGuid>d17cba8b-4bde-4565-a255-6c2b5db9ed4a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='💰'])[1]/following::button[1]</value>
+      <webElementGuid>bf9c7c2a-fb17-46f7-a891-337637d4fcb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='💰'])[1]/following::div[6]</value>
-      <webElementGuid>adeea90b-2893-4584-b42d-8a5ee9cd37c6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[2]</value>
+      <webElementGuid>5425ce47-c021-497a-b117-b424d433454f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='👑'])[1]/preceding::div[4]</value>
-      <webElementGuid>dbf445b0-0258-4704-9bf5-c7fb8cd57462</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='👑'])[1]/preceding::button[1]</value>
+      <webElementGuid>745518e0-7149-4fba-95b4-d9258b57af94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[3]</value>
-      <webElementGuid>f93d313c-d3ff-4f47-a196-18e9c30227d3</webElementGuid>
+      <value>//div[2]/div/button[2]</value>
+      <webElementGuid>db54deb0-b28a-463e-bbe2-ff26cd88ddbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '💎50 CoinsSaco de Moedas5€ ' or . = '💎50 CoinsSaco de Moedas5€ ')]</value>
-      <webElementGuid>60c0a64e-c958-4bef-8fb0-a73df60c9715</webElementGuid>
+      <value>//button[(text() = '💎50 Coins4.50€ ' or . = '💎50 Coins4.50€ ')]</value>
+      <webElementGuid>8e0b0ac9-386a-4343-85d6-7ee1ae4feb3e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

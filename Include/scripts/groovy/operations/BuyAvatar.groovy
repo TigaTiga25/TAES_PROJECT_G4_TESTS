@@ -48,13 +48,13 @@ class BuyAvatar {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I click on the (.*) avatarsButton")
-	def I_click_on_the_avatarsButton(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	@And("I check the avatars on the shop")
+	def I_check_the_decks_on_the_shop() {
+		WebUI.click(findTestObject('Object Repository/CustomizationsPage/buttonShop'))
 	}
-	
-	@And("I click on the (.*) chosenAvatar")
-	def I_click_on_the_chosenAvatar(String string) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+
+	@When("I should see that I now own the avatar")
+	def I_now_own_the_avatar() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/CustomizationsPage/queenAvatarOwned'), 0)
 	}
 }

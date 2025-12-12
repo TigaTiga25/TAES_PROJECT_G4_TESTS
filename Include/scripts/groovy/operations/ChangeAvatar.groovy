@@ -48,11 +48,6 @@ class ChangeAvatar {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I check my customizations")
-	def I_check_my_customizations() {
-		WebUI.click(findTestObject('Object Repository/NavBar/a_Customizations_nav-link'))
-	}
-
 
 	@And("I equip an avatar")
 	def I_equip_an_avatar() {

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_default_cursor-pointer relative rounded_cc8d79</name>
+   <name>winMatchEasterEgg</name>
    <tag></tag>
-   <elementGuidId>32948b1f-37e6-409d-8af5-7fe7eb2635ca</elementGuidId>
+   <elementGuidId>9f39f718-f5a0-482c-9e96-114b7cf03738</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[1]</value>
+         <value>//div[@id='app']/div/div[5]/div/div/button/p</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>p.text-xl.font-mono.font-extrabold.text-green-400</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +22,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>a38cda8d-70e9-4d31-9b01-b739ba5faaf8</webElementGuid>
+      <value>p</value>
+      <webElementGuid>9dc16b7b-03b9-4704-897c-cf48156485a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cursor-pointer relative rounded-xl p-2 border-2 transition-all hover:bg-slate-50 flex flex-col items-center border-slate-100</value>
-      <webElementGuid>ef582dca-497b-4c34-9061-903c0d05576d</webElementGuid>
+      <value>text-xl font-mono font-extrabold text-green-400</value>
+      <webElementGuid>de30936d-46ae-40f3-893d-3d2737d9f510</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>minimalist</value>
-      <webElementGuid>2587faff-c38e-462b-903c-533807744712</webElementGuid>
+      <value>0</value>
+      <webElementGuid>7456091c-8c09-49a0-a99e-9e5c8ba86e04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-3 sm:grid-cols-4 gap-4&quot;]/div[@class=&quot;cursor-pointer relative rounded-xl p-2 border-2 transition-all hover:bg-slate-50 flex flex-col items-center border-slate-100&quot;]</value>
-      <webElementGuid>5470df08-b409-4c3e-a927-183d026de205</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;game-board flex flex-col items-center justify-between min-h-screen bg-green-700 p-4 relative&quot;]/div[@class=&quot;w-full max-w-5xl flex justify-between items-center mt-4&quot;]/div[@class=&quot;flex items-center gap-3 text-left text-white p-3 bg-gray-900 bg-opacity-60 rounded-lg shadow-sm border border-white/10&quot;]/div[@class=&quot;flex flex-col leading-tight&quot;]/button[1]/p[@class=&quot;text-xl font-mono font-extrabold text-green-400&quot;]</value>
+      <webElementGuid>c646c7f3-997d-4e8f-a021-01c80d02c4f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[2]</value>
-      <webElementGuid>d24b2ac8-afd1-4efb-9403-6414a79b3c90</webElementGuid>
+      <value>//div[@id='app']/div/div[5]/div/div/button/p</value>
+      <webElementGuid>dbf2535d-3ac4-400c-8fa7-e84ce44ae423</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='default'])[1]/following::div[2]</value>
-      <webElementGuid>4e7413cb-8329-4634-bc79-85f48b886b89</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your turn!'])[1]/following::p[2]</value>
+      <webElementGuid>fc37b55d-88ca-40f7-81e3-3338d36cafbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop (10)'])[1]/following::div[5]</value>
-      <webElementGuid>06e6fc9a-d05b-4e5e-aff4-81c97026bc97</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trump'])[1]/following::p[2]</value>
+      <webElementGuid>6970e02b-3a7e-476a-9b37-57c983e44458</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]</value>
-      <webElementGuid>49ecb362-89d1-4800-9641-ac5f69a52b34</webElementGuid>
+      <value>//button/p</value>
+      <webElementGuid>a62896f2-78fc-4340-9396-64a325d438d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'minimalist' or . = 'minimalist')]</value>
-      <webElementGuid>a8a279ac-56f3-4404-8f51-1b031ad8adb8</webElementGuid>
+      <value>//p[(text() = '0' or . = '0')]</value>
+      <webElementGuid>cdd8a5ea-abf7-4561-991e-b47e23d478fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -13,6 +13,7 @@ Feature: Purchase Coins
   Scenario: Purchase Coins
     Given I navigate to the bisca platform
     And I login as a player
-   	When I click on my coins balance
-   	Then I click on the button to add funds
+   	And I click on my coins balance
+   	When I click on the button to add funds
   	And I select one of the coins package
+  	Then I should see that my purchase was successful

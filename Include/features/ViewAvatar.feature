@@ -13,6 +13,5 @@ Feature: View Avatar
   Scenario: View Avatar
     Given I navigate to the bisca platform
     And I login as a player
-   	When I click on my avatar to open the dropdown menu
-   	And I click on the View Avatar option
+   	When I check my customizations
 		Then I should be able to see my avatar

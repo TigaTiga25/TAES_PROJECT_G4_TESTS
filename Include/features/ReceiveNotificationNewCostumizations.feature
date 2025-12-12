@@ -1,3 +1,9 @@
+# Requirements [Feature file won't run correctly if not met]
+# ----------------------------------------------------------
+# Correct bisca platform page URL (Profiles/default - url)
+# Have a registered user (Profiles/default - defaultUser)
+# For the test to run, you need to change the request token to a token that corresponds to an admin
+
 @tag
 Feature: Received notification by new available customizations
   As a logged user

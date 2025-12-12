@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonDecks</name>
+   <tag></tag>
+   <elementGuidId>5647fdb7-fc20-4934-b01c-4fae7d19d0cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>eef1de49-b80c-4d9e-ab13-dd97e33771c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-6 py-2 rounded-lg font-bold transition-all text-sm text-slate-500 hover:text-slate-700 hover:bg-slate-50</value>
+      <webElementGuid>c3985e35-e244-4dd9-8919-53ce74673eaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 🃏 Decks </value>
+      <webElementGuid>37d9dd5f-0aaf-4c23-8269-9e90330b2245</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8 min-h-screen bg-slate-50/50&quot;]/div[@class=&quot;flex gap-2 justify-center bg-white p-1.5 rounded-xl w-fit mx-auto shadow-sm border border-slate-200&quot;]/button[@class=&quot;px-6 py-2 rounded-lg font-bold transition-all text-sm text-slate-500 hover:text-slate-700 hover:bg-slate-50&quot;]</value>
+      <webElementGuid>9b6da9c9-23ff-4686-970b-9d70e46b8da0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/button[2]</value>
+      <webElementGuid>4a4f4f26-4f49-42a0-a99f-7fbbe033a07f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='👤 Avatars'])[1]/following::button[1]</value>
+      <webElementGuid>90835b3c-f17c-4ef8-aa64-61aa8da6bae3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customizations'])[2]/following::button[2]</value>
+      <webElementGuid>e0a0afb4-0ac2-433d-96b6-04db884dfc5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='🃏 Decks']/parent::*</value>
+      <webElementGuid>960a28ec-9242-4121-b670-570bceb8123d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/button[2]</value>
+      <webElementGuid>6c7e614d-b8e2-4363-9fd4-9ec1423a35d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' 🃏 Decks ' or . = ' 🃏 Decks ')]</value>
+      <webElementGuid>2aa2756a-38df-4f6d-bf31-b199f53dc029</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

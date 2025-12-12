@@ -48,12 +48,23 @@ class PurchaseCoins {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Then("I click on the button to add funds")
+	@When("I click on the button to add funds")
 	def I_click_on_the_button_to_add_funds() {
 		WebUI.click(findTestObject('Object Repository/TransactionsPage/button_addFunds'))
 	}
 	@And("I select one of the coins package")
 	def I_select_one_of_the_coins_package() {
 		WebUI.click(findTestObject('Object Repository/TransactionsPage/button_coinPackage'))
+		WebUI.acceptAlert()
 	}
+	
+	@Then("I should see that my purchase was successful")
+	def I_should_see_that_my_purchase_was_successful() {
+		WebUI.delay(2)
+		String alertText = WebUI.getAlertText()
+		WebUI.comment(alertText)
+		WebUI.verifyMatch(alertText, 'Compra realizada com sucesso!', false)
+	}
+	
+	
 }

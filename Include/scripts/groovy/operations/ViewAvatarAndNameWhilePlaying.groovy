@@ -49,7 +49,7 @@ class ViewAvatarAndNameWhilePlaying {
 	def I_should_see_my_avatar() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/img_Your turn_aspect-square size-full object-cover'),0)
 	}
-	
+
 	@And("I should see my username")
 	def I_should_see_my_username() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Vite App/p_Your turn_text-xs uppercase tracking-wide_5bd355'),0)

@@ -48,4 +48,9 @@ class Logout {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
+	
+	@And("I click on the Logout option")
+	def I_click_on_the_view_avatar_option() {
+		WebUI.click(findTestObject('Object Repository/NavBar/profileAvatar_Logout'))
+	}
 }

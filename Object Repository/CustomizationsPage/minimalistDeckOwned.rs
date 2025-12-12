@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>minimalistDeckOwned</name>
+   <tag></tag>
+   <elementGuidId>645a183c-7634-4f94-91d2-ddd716752ee7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'minimalist' or . = 'minimalist')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0fc14e08-8271-4d90-acae-b43812f1a2b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs font-bold text-slate-700 capitalize</value>
+      <webElementGuid>d93ec96e-cbe7-485f-8f32-8f9e3f9298be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>minimalist</value>
+      <webElementGuid>fbb2a0e5-5a15-428d-96af-01dbf6e3404d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8 min-h-screen bg-slate-50/50&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;text-card-foreground gap-6 rounded-xl border py-6 md:col-span-2 min-h-[500px] flex flex-col border-slate-200 shadow-sm bg-white&quot;]/div[@class=&quot;p-6&quot;]/div[@class=&quot;grid grid-cols-3 sm:grid-cols-4 gap-4&quot;]/div[@class=&quot;cursor-pointer relative rounded-xl p-3 border-2 transition-all hover:bg-slate-50 flex flex-col items-center hover:-translate-y-1 border-indigo-600 bg-indigo-50 ring-2 ring-indigo-200&quot;]/span[@class=&quot;text-xs font-bold text-slate-700 capitalize&quot;]</value>
+      <webElementGuid>d6b3de41-e821-49ee-a44b-b7c1f608a994</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[2]/span</value>
+      <webElementGuid>5da269e2-a0c7-41a1-b276-4777f6873401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='default'])[1]/following::span[1]</value>
+      <webElementGuid>c6b180f4-badb-4db2-861a-a1a264a13d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>5d3f0628-c251-4a55-b5d8-972b4750fc9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'minimalist' or . = 'minimalist')]</value>
+      <webElementGuid>bc543bb6-4561-42f5-a2e6-ed9241878ef3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,7 +1,6 @@
 # Requirements [Feature file won't run correctly if not met]
 # ----------------------------------------------------------
 # Correct bisca platform page URL (Profiles/default - url)
-# Error message in platform appearing in english
 
 @tag
 Feature: Confirm Email
@@ -14,7 +13,7 @@ Feature: Confirm Email
   Scenario: User cannot login without confirming email (Unverified Account)
     Given I have registered a new account
     When I try to login with my credentials
-    Then I should see an error message saying "Email Unverified."
+    Then I should see an error message saying "Email não verificado."
     
   @tag2
   Scenario: User can login AFTER confirming email (Manual Confirmation)
