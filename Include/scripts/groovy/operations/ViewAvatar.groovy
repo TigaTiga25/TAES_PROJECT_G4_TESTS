@@ -48,13 +48,8 @@ class ViewAvatar {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("I click on the View Avatar option")
-	def I_click_on_the_view_avatar_option() {
-		WebUI.click(findTestObject('Object Repository/NavBar/profileAvatar_ViewAvatar'))
-	}
-
 	@Then("I should be able to see my avatar")
 	def I_should_be_able_to_see_my_avatar() {
-		WebUI.verifyElementVisible(findTestObject('Object Repository/NavBar/profileAvatar_fullAvatar_popup'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/CustomizationsPage/avatarPreview'))
 	}
 }
