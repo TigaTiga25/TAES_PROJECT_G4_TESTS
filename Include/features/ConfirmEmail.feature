@@ -1,7 +1,6 @@
 # Requirements [Feature file won't run correctly if not met]
 # ----------------------------------------------------------
 # Correct bisca platform page URL (Profiles/default - url)
-# Error message in platform appearing in english
 
 @tag
 Feature: Confirm Email
