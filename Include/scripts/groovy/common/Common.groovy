@@ -208,5 +208,41 @@ class Common {
 	@When("I click on my coins balance")
 	def I_click_on_my_coins_balance() {
 		WebUI.click(findTestObject('Object Repository/NavBar/coinsButton'))
+
+	@Then("I click on the (.*) customizationsButton")
+	def I_click_on_the_customizationsButton(String string) {
+		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	}
+	@And("I click on the (.*) decksButton")
+	def I_click_on_the_decksButton(String string) {
+		WebUI.click(findTestObject('Object Repository/Page_Vite App/' + string))
+	}
+	
+	@And("I wait for the notification polling")
+	def wait_polling() {
+		WebUI.delay(16)
+	}
+
+	@Then("I should see the red badge on the bell icon")
+	def check_badge() {
+		WebUI.verifyElementPresent(findTestObject('NavBar/span_New_Notifications'), 5)
+	}
+
+	@When("I click on the notification bell")
+	def click_bell() {
+		WebUI.click(findTestObject('NavBar/button_Notifications'))
+		WebUI.waitForElementVisible(findTestObject('NavBar/div_New_Notification'), 5)
+	}
+	
+	@Then("the red badge should disappear")
+	def badge_should_disappear() {
+		WebUI.delay(2)
+		WebUI.verifyElementNotPresent(findTestObject('NavBar/span_New_Notifications'), 5)
+		WebUI.closeBrowser()
+	}
+	
+	@When("the system triggers a (.*) event via Debug API")
+	def system_triggers_event(String eventType) {
+		WS.sendRequest(findTestObject('Debug_Notify_Leaderboard'))
 	}
 }

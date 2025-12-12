@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReceiveNotificationNewGlobalLeader</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9baf1c51-57ae-458f-8df9-4185bf3214ca</testCaseGuid>
+</TestCaseEntity>

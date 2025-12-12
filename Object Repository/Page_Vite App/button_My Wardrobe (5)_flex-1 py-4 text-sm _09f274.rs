@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>49dc62fa-4bfc-40c6-84bb-f59652615ec8</webElementGuid>
+      <webElementGuid>f1c1de8f-d74b-4fff-91bc-09b49a06bb72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex-1 py-4 text-sm font-semibold transition-colors border-b-2 border-transparent text-slate-500 hover:bg-slate-50</value>
-      <webElementGuid>20ebcd71-c972-4487-80ef-d21603a98436</webElementGuid>
+      <webElementGuid>66a86347-fd18-4806-aae5-c79b6eb9cba8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Avatar Shop (7) </value>
-      <webElementGuid>52fd35a5-46ec-4ac7-9d42-bf8bb98f819a</webElementGuid>
+      <webElementGuid>3e7ba282-d884-4ef7-89f3-bba6f8d8da5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;]/div[@class=&quot;bg-card text-card-foreground gap-6 rounded-xl border py-6 shadow-sm md:col-span-2 min-h-[500px] flex flex-col&quot;]/div[@class=&quot;flex border-b border-slate-100&quot;]/button[@class=&quot;flex-1 py-4 text-sm font-semibold transition-colors border-b-2 border-transparent text-slate-500 hover:bg-slate-50&quot;]</value>
-      <webElementGuid>fb32b3f9-3ded-4979-8a94-842a1577d7ad</webElementGuid>
+      <webElementGuid>326bfb99-9be1-4ce7-84fc-745b8fbcdb44</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/button[2]</value>
-      <webElementGuid>a1fafed5-385c-4474-9647-00928efb8d07</webElementGuid>
+      <webElementGuid>262be67d-e66b-42ca-bad2-70605fb6dcc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Wardrobe (5)'])[1]/following::button[1]</value>
-      <webElementGuid>62a61b2d-02b7-4410-90a1-a49482042865</webElementGuid>
+      <webElementGuid>9fa38c49-092e-4f0b-a01b-5cc9db0d4cc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Avatar Shop (7)']/parent::*</value>
-      <webElementGuid>07f6db10-6f12-4771-a860-631889387d25</webElementGuid>
+      <webElementGuid>7f673d8b-d388-4dd2-82ac-08ad0fe6df9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>a13247f1-fc07-4390-9e25-583278703a56</webElementGuid>
+      <webElementGuid>d1d9a984-53df-4aa7-8370-de425bbaaeaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Avatar Shop (7) ' or . = ' Avatar Shop (7) ')]</value>
-      <webElementGuid>0dc86457-13b7-40fe-ade4-b8f6935efde3</webElementGuid>
+      <webElementGuid>cdd602cc-19ad-40d2-9a62-a6d3e8c8e786</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

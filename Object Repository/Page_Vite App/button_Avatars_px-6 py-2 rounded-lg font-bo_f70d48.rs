@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Avatars_px-6 py-2 rounded-lg font-bo_f70d48</name>
+   <tag></tag>
+   <elementGuidId>db138b94-3211-49a5-bd40-14a6b38f099d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2de3bd9c-bd25-4dd4-8d98-758e31f49484</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-6 py-2 rounded-lg font-bold transition-all text-slate-500 hover:text-slate-700</value>
+      <webElementGuid>8cfcd3ca-93d3-4731-a33b-1fece26fd26c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 🃏 Decks </value>
+      <webElementGuid>fcb26279-47d1-4023-ae7c-ce66c941ac77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;max-w-5xl mx-auto p-6 space-y-8&quot;]/div[@class=&quot;flex gap-4 justify-center bg-slate-100 p-2 rounded-xl w-fit mx-auto&quot;]/button[@class=&quot;px-6 py-2 rounded-lg font-bold transition-all text-slate-500 hover:text-slate-700&quot;]</value>
+      <webElementGuid>d674d818-ff53-45ce-93c6-3d907f49b835</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/button[2]</value>
+      <webElementGuid>42fd1816-1672-44a4-b71d-a37646a527f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='👤 Avatars'])[1]/following::button[1]</value>
+      <webElementGuid>7d427969-7c5e-4cda-aea1-fa6cfb0e0d59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customizations'])[2]/following::button[2]</value>
+      <webElementGuid>78fc113f-5ab8-4c46-a8c3-14324424958c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='🃏 Decks']/parent::*</value>
+      <webElementGuid>9ab6f721-cc71-4529-9a4a-006703e3cf27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>9d95b6b6-a021-4c3c-a7e0-05b45d7c2900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' 🃏 Decks ' or . = ' 🃏 Decks ')]</value>
+      <webElementGuid>084f70e1-dddf-4976-a205-e1be38b466b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
