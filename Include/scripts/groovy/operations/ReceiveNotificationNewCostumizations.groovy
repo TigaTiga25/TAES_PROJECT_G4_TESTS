@@ -45,40 +45,26 @@ import cucumber.api.java.en.When
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 
 class ReceiveNotificationNewCostumizations {
-    @When("the Admin announces a new \"(.*)\" named \"(.*)\" via API")
-    def admin_announces_item(String type, String name) {
-        
-        String dynamicJson = """
+	@When("the Admin announces a new \"(.*)\" named \"(.*)\" via API")
+	def admin_announces_item(String type, String name) {
+
+		String dynamicJson = """
         {
             "name": "${name}",
             "type": "${type}"
         }
         """
-        
-        RequestObject request = findTestObject('Admin_Announce_Item')
-        
-        request.setBodyContent(new HttpTextBodyContent(dynamicJson, "UTF-8", "application/json"))
-        
-        // Envia o pedido modificado
-        WS.sendRequest(request)
-    }
 
-    @And("I click on the New Item notification")
-    def click_notif() {
-        WebUI.click(findTestObject('NavBar/div_New_Notification'))
-    }
+		RequestObject request = findTestObject('Admin_Announce_Item')
 
-    @Then("the \"(.*)\" category should be selected")
-    def check_category(String categoryName) {
-        String activeClasses = "bg-white" 
+		request.setBodyContent(new HttpTextBodyContent(dynamicJson, "UTF-8", "application/json"))
 
-        String dynamicXPath = "//button[contains(., '${categoryName}') and contains(@class, '${activeClasses}')]"
-     
-        TestObject activeButton = new TestObject("dynamicActiveButton")
-        activeButton.addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, dynamicXPath)
+		// Envia o pedido modificado
+		WS.sendRequest(request)
+	}
 
-        WebUI.verifyElementVisible(activeButton)
-  
-        WebUI.closeBrowser()
-    }
+	@And("I click on the New Item notification")
+	def click_notif() {
+		WebUI.click(findTestObject('NavBar/div_New_Notification'))
+	}
 }

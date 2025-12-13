@@ -19,7 +19,7 @@ Feature: Received notification by new available customizations
     Then I should see the red badge on the bell icon
     When I click on the notification bell
     And I click on the New Item notification
-    Then the "Decks" category should be selected
+    Then I should be redirected to the customizations?tab=shop&category=decks page
     
   @avatar
   Scenario: Admin announces a new Avatar
@@ -30,4 +30,15 @@ Feature: Received notification by new available customizations
     Then I should see the red badge on the bell icon
     When I click on the notification bell
     And I click on the New Item notification
-    Then the "Avatars" category should be selected
+    Then I should be redirected to the customizations?tab=shop&category=avatars page
+    
+  @clear
+  Scenario: Notification count clears after reading
+    Given I open the browser
+    And I login as a player
+    When the Admin announces a new "AVATAR" named "Sonic" via API
+    And I wait for the notification polling
+    Then I should see the red badge on the bell icon
+    When I click on the notification bell
+    And I click on the New Item notification
+    Then the red badge should disappear

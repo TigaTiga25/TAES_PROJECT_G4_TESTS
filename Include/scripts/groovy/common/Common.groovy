@@ -251,7 +251,7 @@ class Common {
 	def I_check_my_customizations() {
 		WebUI.click(findTestObject('Object Repository/NavBar/a_Customizations_nav-link'))
 	}
-		
+
 	@When("I buy the second item on the shop")
 	def I_buy_a_deck() {
 		WebUI.click(findTestObject('Object Repository/CustomizationsPage/secondShopEntry'))

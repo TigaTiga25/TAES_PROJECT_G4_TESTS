@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>5|Y6WPztGwRSSbeFmemzzz7EwddJV83NCsdEHJn6Y721a59a97</value>
+            <value>31|e4h9SVIEBnzbuZ3zIfIkvBWwbNGPWoVicCZhujMBa05737d8</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -47,8 +47,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer 5|Y6WPztGwRSSbeFmemzzz7EwddJV83NCsdEHJn6Y721a59a97</value>
-      <webElementGuid>23a6c5d5-fdc1-4db8-85f3-352261b0b394</webElementGuid>
+      <value>Bearer 31|e4h9SVIEBnzbuZ3zIfIkvBWwbNGPWoVicCZhujMBa05737d8</value>
+      <webElementGuid>876c05e5-472c-4b93-8674-b4befd604336</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.3.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
